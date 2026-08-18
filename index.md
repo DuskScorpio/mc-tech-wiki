@@ -9,9 +9,15 @@
 - [[tree-farm-overview]] — what a tree farm is, its 5 modules, version scope
 - [[mc-timing-model]] — inter/intra-tick, gt phases (NU→TT→BE→TE), depth
 - [[updates-nc-pp]] — NC vs PP updates; BUDs vs observers
+- [[update-theory]] — NC/PP/Comparator/Self-inspection, QC, setBlockState flags
+- [[continuous-updates]] — DFS propagation, NC/PP order analysis
+- [[special-update-behaviors]] — dust 2nd-order, diagonal rails, lit-observer quirk
+- [[tick-micro-timing]] — game tick, inter/intra-tick phases, component phase table
+- [[piston-mechanics]] — self-check, QC, push limit, b36, instant placement
+- [[block-nature]] — Block vs BlockState (pointer)
 - [[piston-action-timing]] — 3gt default action, 1gt/2gt costs, 0-tick basis
 - [[trunk-processing]] — main + root processing methods, side-branch handling
-- [[leaf-processing]] — pistons/honey-slime walls; sapling drop 1/40 vs 1/20
+- [[leaf-processing]] — pistons/honey-slime walls; sapling drop 1/20 vs 1/40
 - [[bonemealing]] — dispensers, stacking, cross vs synchronized bonemealing
 - [[sapling-recycling]] — hoppers / water / hopper minecarts
 - [[block-to-drop]] — wither vs TNT; milk/b36 explosion chambers
@@ -38,6 +44,13 @@ All under `raw/articles/` — immutable GTMC captures (sha256-tracked):
 - gltmc-tree-farm-4gt.md
 - gltmc-tree-farm-large-spruce.md
 - bilibili-dark-oak-growth.md — Scorpio, edited 2025-02-09, Java ~1.21.x
+- gltmc-block-update-concepts.md
+- gltmc-block-update-continuous.md
+- gltmc-block-update-special.md
+- gltmc-micro-timing-ticks.md
+- gltmc-micro-timing-intra-tick.md
+- gltmc-pistons.md
+- gltmc-block-mechanics.md
 
 ## Sibling vaults (for cross-linking terms later)
 

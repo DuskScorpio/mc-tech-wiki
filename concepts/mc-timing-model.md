@@ -30,4 +30,10 @@ Pistons and note blocks (BE components) execute in the order they *receive updat
 
 - [[piston-action-timing]] — how depth produces 0-tick
 - [[updates-nc-pp]] — what updates feed the model
+- [[update-theory]] — full update taxonomy: NC/PP/Comparator/Self-inspection, QC, flags
+- [[continuous-updates]] — DFS propagation order
+- [[special-update-behaviors]] — dust 2nd-order, diagonal rails, lit-observer quirk
+- [[tick-micro-timing]] — game tick, inter/intra-tick phases, component phase table
+- [[piston-mechanics]] — self-check, QC, push limit, b36, instant placement
+- [[block-nature]] — Block vs BlockState (pointer)
 - [[0-tick]] — using depth for speed

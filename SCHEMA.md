@@ -46,7 +46,8 @@ Raw files are append-only. The ingest script (terminal) computes sha256 over the
 
 ## Tag Taxonomy
 Add new tags HERE before using them.
-- mechanics: timing, updates, piston-action, redstone-phase
+- mechanics: timing, updates, piston-action, redstone-phase, block-update, micro-timing, dust-update, qc, bud
+- structures: architecture, base, module, block-stream
 - structures: architecture, base, module, block-stream
 - methods: detection, bonemealing, trunk-processing, leaf-processing, sapling-recycling, block-to-drop
 - techniques: 0-tick, dustless, high-speed, clock, cross-bonemealing

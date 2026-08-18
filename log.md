@@ -26,6 +26,15 @@
   * 2x2 NW-corner requirement + 3x3 column >=7 above NW + 5x5 top-3-layers — MATCHES
   * sapling drop 1/20, jungle 1/40 — MATCHES GTMC (already in leaf-processing.md)
   * minor divergence: Wiki says dark oak "typically 6-8" tall; Bilibili code range is 6-9 — recorded on page, not contested (Wiki is loose wording)
-- Translation reference adopted: https://github.com/Youmiel/TechMCTranslationWorkflow (will consult before asking user for CN translation)
-- Updated index.md (new page + raw entry) and tree-species-requirements.md (dark oak row expanded)
+## [2026-08-18] ingest | GTMC mechanics backbone (7 articles) + Technical Minecraft Wiki check
+- Ingested 7 GTMC foundational-mechanics articles into raw/articles/ (sha256 tracked):
+  block-update (concepts/continuous/special), micro-timing (ticks/intra-tick), pistons, block-mechanics
+- Compiled 7 concept pages: update-theory, continuous-updates, special-update-behaviors,
+  tick-micro-timing, piston-mechanics, block-nature (pointer), plus prior dark-oak page
+- Technical Minecraft Wiki (techmcdocs.github.io) checked: its GitHub repo (TechMCDocs/TechMCDocs.github.io)
+  master branch contains ONLY the Jekyll scaffold (index.md, _includes, _layouts) — NO article markdown.
+  So there is currently nothing to ingest from it. Logged; will re-check if user points at real article URLs.
+- Noted: EN intra-tick page flagged "Outdated translation" (1 commit + 2 days lag) — version-sensitive tag applied.
+- Updated SCHEMA taxonomy (added mechanics tags), index.md (concepts + raw lists), cross-linked pages.
+- Total concept pages now 24, raw sources 16.
 
