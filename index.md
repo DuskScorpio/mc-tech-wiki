@@ -29,7 +29,8 @@
 - [[multi-species-tree-farm]] — 5-species union design + stream reorganization
 - [[4gt-tree-farm]] — 4gt-clock designs, dustless 0t, suction-to-push
 - [[large-spruce-tree-farm]] — 2x2 large spruce, speed history, planting caveats
-- [[dark-oak-growth-mechanics]] — 2x2 code-level growth: trunk bend, side branches, leaves (Java ~1.21.x)
+- [[moving-block-b36]] — B36 properties, hitbox offset, NBT (source-tmwiki + gtmc)
+- [[zero-tick-farming-crops]] — crop zero-tick (patched 1.16+); NOT the redstone 0-tick used in farms
 
 ## Raw Sources
 
@@ -51,6 +52,12 @@ All under `raw/articles/` — immutable GTMC captures (sha256-tracked):
 - gltmc-micro-timing-intra-tick.md
 - gltmc-pistons.md
 - gltmc-block-mechanics.md
+- tmwiki-block-updates.md — TechMCDocs/pages (Technical Minecraft Wiki), independent 2nd source
+- tmwiki-piston.md
+- tmwiki-moving-block36.md
+- tmwiki-zero-tick-farms.md
+- tmwiki-tile-ticks.md
+- tmwiki-game-tick.md
 
 ## Sibling vaults (for cross-linking terms later)
 

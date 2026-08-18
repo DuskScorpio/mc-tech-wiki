@@ -38,3 +38,16 @@
 - Updated SCHEMA taxonomy (added mechanics tags), index.md (concepts + raw lists), cross-linked pages.
 - Total concept pages now 24, raw sources 16.
 
+## [2026-08-18] ingest | TechMCDocs/pages (Technical Minecraft Wiki) — 2nd source, tree-farm-relevant
+- Corrected earlier miss: real content repo is TechMCDocs/pages (not TechMCDocs.github.io, which is the Jekyll scaffold).
+- Ingested 6 tree-farm-relevant pages (sha256 tracked): BlockUpdates, Piston, MovingBlock36,
+  ZeroTickFarms, TileTicks, GameTick. (Skipped MobTick/UpdateSuppression/Blocks as out of scope.)
+- Compiled/augmented concept pages: moving-block-b36 (new), zero-tick-farming-crops (new, with explicit
+  distinction from the working redstone 0-tick generators), and cross-source notes on piston-mechanics,
+  tick-micro-timing, update-theory.
+- Cross-check outcome: TMWiki's NC/PP model, piston arrival (3gt), repeater/comparator delays, and phase
+  order all ALIGN with GTMC. No contradictions found. Flagged: crop zero-tick is patched 1.16+ and is a
+  DIFFERENT mechanic from the redstone 0-tick used in tree farms.
+- Tagged new raw as source-tmwiki; concept pages carry both source-gtmc and source-tmwiki where corroborated.
+- Total concept pages now 26, raw sources 22.
+

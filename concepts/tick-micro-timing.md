@@ -34,6 +34,8 @@ Key component phases: pistons extend/retract = **BE**; b36 (moving_piston) pushe
 
 > **Translation caveat:** the EN intra-tick page is flagged "Outdated translation" (lag: 1 source commit + 2 days) at fetch time. Decompiled vs 1.20.1-yarn. Treat exact phase names as version-sensitive.
 
+> **Cross-source (TMWiki / Technical Minecraft Wiki):** `GameTick.md` lists the phase order as tile ticks → ChunkManager → BlockEvent → entities → block entities → player inputs, and notes rails/redstone dust are "recursive updators" (= our "instant" components). Substantially aligns with GTMC's AT→TT→BE→TE→EU model; difference is labeling, not contradiction. `TileTicks.md` confirms repeater 2/4/6/8gt + comparator 2gt and adds tile-tick priority (TTP) + 65536/tick cap. See ^[raw/articles/tmwiki-game-tick.md] and ^[raw/articles/tmwiki-tile-ticks.md].
+
 ## Related
 - [[update-theory]] · [[piston-mechanics]] · [[piston-action-timing]]
 - [[0-tick]] — depth within BE is what 0-tick exploits
