@@ -1,7 +1,13 @@
-# Wiki Schema — MC Technical Wiki (Tree Farms)
+# Wiki Schema — MC Technical Wiki
 
 ## Domain
-Technical Minecraft mechanics, focused initially on tree farms. Java Edition unless a page says otherwise. All source material so far is from **Graduate Texts in Minecraft (GTMC)**, decompiled against `1.20.1-yarn`. Treat every mechanical claim as **version-sensitive** — exploits and behaviors change per Minecraft version.
+Technical Minecraft mechanics. Started with tree farms; scope is general Technical Minecraft (mechanics, farms, contraptions, etc.) — tree farms are just the first area ingested, not the whole subject. Java Edition unless a page says otherwise. Source material is primarily **Graduate Texts in Minecraft (GTMC)**, decompiled against `1.20.1-yarn`, cross-checked against Technical Minecraft Wiki (TechMCDocs/pages), Minecraft Wiki, Bilibili, and TechMC-Glossary. Treat every mechanical claim as **version-sensitive** — exploits and behaviors change per Minecraft version.
+
+## Language rule (do not violate)
+- **English only.** All wiki pages are written in English.
+- No Chinese / other-language translations inside page bodies. The wiki is a reference, not a translation deliverable.
+- Term definitions go in [[glossary]] as **English term + English definition**, like a normal wiki. Source-language names (e.g. Chinese community terms) may appear ONLY as a brief parenthetical if genuinely needed for disambiguation, but are not the page's purpose.
+- Rationale: user wants the wiki fully English; translation is a separate concern handled by TechMCTranslationWorkflow, not this vault.
 
 ## Correctness rules (this is the whole point)
 - Every wiki page MUST carry `edition:` and `version:` frontmatter. No exceptions.
@@ -17,6 +23,7 @@ Technical Minecraft mechanics, focused initially on tree farms. Java Edition unl
 - On update, bump `updated:` date.
 - Every new page added to `index.md` under the correct section.
 - Every action appended to `log.md`.
+- **English only** — see Language rule above. No translations in page bodies.
 
 ## Frontmatter (wiki pages)
 ```yaml

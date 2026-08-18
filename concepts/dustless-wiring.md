@@ -27,3 +27,4 @@ sources: [raw/articles/gtmc-tree-farm-dustless-wiring.md]
 - [[updates-nc-pp]] — NC vs PP basis
 - [[0-tick]] — redirection-based 0t generators
 - [[4gt-tree-farm]] — modular dustless 0t generators
+- [[glossary]] — DL, 0t, HS, NC/PP term definitions

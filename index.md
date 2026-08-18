@@ -1,8 +1,24 @@
 # Wiki Index
 
 > Content catalog. Read this first to find relevant pages.
-> Last updated: 2026-08-18 | Total concept pages: 16 | Raw sources: 8
-> Domain: Technical Minecraft (tree farms), Java 1.20.1, sourced from GTMC.
+> Last updated: 2026-08-18
+> Domain: Technical Minecraft (Java) — currently tree farms + core mechanics; expanding to other tech-MC topics.
+> Sources tracked in the "Designated source repositories" table below.
+
+## Designated source repositories (provenance)
+
+These are the upstream repos referenced by TechMCTranslationWorkflow — adopted as our sources too:
+
+| Repo | What it is | Status |
+|---|---|---|
+| `techmc-wiki/articles` | Canonical GTMC articles (EN + ZH pairs) — what we ingest via the site | ingested (EN via site; ZH available) |
+| `TechMCDocs/pages` | Technical Minecraft Wiki (TMWiki) | ingested (tree-farm-relevant) |
+| `TechMC-Glossary/TechMC-Glossary` | Multi-language term glossary (CN names) | ingested → `concepts/glossary.md` + `raw/sources/techmc-glossary.csv` |
+| `lovexyn0827/Discovering-Minecraft` | Mechanics wiki (3rd cross-source) | available, not yet ingested |
+| `acaciachan/tree-hole` | CN technical-MC knowledge base | available, not yet ingested |
+| `Youmiel/ArticlesAndDevNotes` | Translator's own dev notes | available, not yet ingested |
+
+Source attribution (CC BY-NC-SA where applicable) is recorded per raw file in `raw/articles/` and `raw/sources/`.
 
 ## Concepts
 
@@ -21,7 +37,7 @@
 - [[bonemealing]] — dispensers, stacking, cross vs synchronized bonemealing
 - [[sapling-recycling]] — hoppers / water / hopper minecarts
 - [[block-to-drop]] — wither vs TNT; milk/b36 explosion chambers
-- [[detection-methods]] — comparator / QC / BUD / push-limit + speed limiter
+- [[glossary]] — TechMC-Glossary terms + authoritative Chinese names (translation reference) + speed limiter
 - [[high-speed-tree-farms]] — the integrated "base", suction over push
 - [[0-tick]] — generators (TT order, redstone dust, redirection)
 - [[dustless-wiring]] — rails+observers, power types, slime sticks, redirection

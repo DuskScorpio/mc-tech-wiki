@@ -63,6 +63,10 @@
 - Fixed stale phase-order references in tick-micro-timing.md and piston-mechanics.md (added correction notes).
 - Upgrade [[block-nature]] to high: ingested GTMC block-mechanics sub-articles (blocks-and-states, block-changes); rewrote page with Block/BlockState model, palettes, setBlockState flags, placement/breaking flow. Removed last medium-confidence page.
 - Tier B proofread of all 15 farm concept pages against raw sources: all numeric claims verified present in source; drop rates (1/40 jungle, 1/20 others), species heights, piston 3gt/4gt/5gt timings, 4gt clock, detection methods all match GTMC raw. Added two honesty clarifications (overview module-count nuance; large-spruce 1.21/llama-boat version caveat).
-- Now ZERO medium/low-confidence pages; all 27 concept pages high. 28 raw sources, sha256-tracked.
-- Pushed to master.
+- Adopted TechMCTranslationWorkflow's upstream source repos as our provenance (techmc-wiki/articles, TechMCDocs/pages, TechMC-Glossary, Discovering-Minecraft, tree-hole, ArticlesAndDevNotes) — recorded in index.md source-repo table.
+- Built `concepts/glossary.md` as an English term+definition reference (68 terms, sourced from TechMC-Glossary). Per user direction the wiki is **English-only** — no Chinese translations in page bodies; removed the CN glossary CSV.
+- **Scope correction:** wiki is general Technical Minecraft (tree farms are just the first area ingested), not tree-farm-only. Updated README.md + index.md header + SCHEMA.md Domain line.
+- **Language rule written into SCHEMA.md** (English only; term definitions in glossary as English term+definition; rationale recorded). This is now a hard schema rule, not re-derivable.
+- Stripped residual CN from detection-methods / dustless-wiring glossary links. dark-oak-growth-mechanics keeps original-author Chinese names only as source attribution (proper nouns, not translation).
+- Now 27 concept pages, 28 raw sources. All concepts high confidence, no broken wikilinks.
 
