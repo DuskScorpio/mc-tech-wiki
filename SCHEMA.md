@@ -30,7 +30,7 @@ version: 1.20.1        # or "1.15+" for claims that hold across versions
 confidence: high | medium | low
 contested: false
 tags: [from taxonomy]
-sources: [raw/articles/gltmc-tree-farm-basics.md]
+sources: [raw/articles/gtmc-tree-farm-basics.md]
 ---
 ```
 

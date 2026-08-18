@@ -7,16 +7,16 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, updates, source-gtmc]
-sources: [raw/articles/gltmc-tree-farm-basics.md]
+sources: [raw/articles/gtmc-tree-farm-basics.md]
 ---
 
 # Updates — NC vs PP
 
-Minecraft has two update types: **NC updates** (neighbor/block changes) and **PP updates** (block/state placement changes).^[raw/articles/gltmc-tree-farm-basics.md]
+Minecraft has two update types: **NC updates** (neighbor/block changes) and **PP updates** (block/state placement changes).^[raw/articles/gtmc-tree-farm-basics.md]
 
 ## Sources of NC updates
 
-In tree farms, NC updates mainly come from:^[raw/articles/gltmc-tree-farm-basics.md]
+In tree farms, NC updates mainly come from:^[raw/articles/gtmc-tree-farm-basics.md]
 
 - **TT components**: repeaters, comparators, observers
 - **Redstone dust**
@@ -24,11 +24,11 @@ In tree farms, NC updates mainly come from:^[raw/articles/gltmc-tree-farm-basics
 - **Pistons** plus the blocks they push/pull
 - **Note blocks**
 
-Because tree-farm structures are mostly pistons, NC updates in farms generally arrive *with* PP updates. **Observers specifically detect PP updates**, while **BUDs detect NC updates**.^[raw/articles/gltmc-tree-farm-basics.md]
+Because tree-farm structures are mostly pistons, NC updates in farms generally arrive *with* PP updates. **Observers specifically detect PP updates**, while **BUDs detect NC updates**.^[raw/articles/gtmc-tree-farm-basics.md]
 
 ## Pure PP updates (no NC)
 
-In tree farms, PP-without-NC typically comes from wireless-redstone power types:^[raw/articles/gltmc-tree-farm-basics.md]
+In tree farms, PP-without-NC typically comes from wireless-redstone power types:^[raw/articles/gtmc-tree-farm-basics.md]
 
 - **Tree power** — through leaves (NC + PP)
 - **Scaffolding power** — through scaffolding (NC + PP)

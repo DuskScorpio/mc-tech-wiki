@@ -7,12 +7,12 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, updates, timing, source-gtmc]
-sources: [raw/articles/gltmc-block-update-concepts.md]
+sources: [raw/articles/gtmc-block-update-concepts.md]
 ---
 
 # Update Theory (NC / PP / Comparator / Self-Inspection)
 
-Minecraft blocks notify each other of changes via **updates**; an update carries no details about what changed. Four kinds matter for redstone:^[raw/articles/gltmc-block-update-concepts.md]
+Minecraft blocks notify each other of changes via **updates**; an update carries no details about what changed. Four kinds matter for redstone:^[raw/articles/gtmc-block-update-concepts.md]
 
 ## NC Update (neighborChanged / updateNeighbors)
 - Emitted on place, break, or significant state change.
@@ -28,20 +28,20 @@ Minecraft blocks notify each other of changes via **updates**; an update carries
 - Special notification for comparators on container-content changes. Does not affect non-comparator blocks.
 - Reaches comparators horizontally adjacent or within 2nd-order range through a signal-transmitting block.
 - Signal: general containers `avg fill * 14 + 1`; lecterns `(page-1)/(pages-1)*14 + 1`.
-- **CUD** = comparator whose current state differs from intended.^[raw/articles/gltmc-block-update-concepts.md]
+- **CUD** = comparator whose current state differs from intended.^[raw/articles/gtmc-block-update-concepts.md]
 
 ## Self-inspection (onPlaced)
 - Redstone components recheck state on placement. Note blocks skip it; pistons self-inspect once after extending and once after retracting.
 
 ## QC and BUDs
-- **QC (quasi-connectivity):** pistons, sticky pistons, droppers, dispensers count as powered when the block ABOVE them (even air) is powered. A QC-powered piston with no NC update is a **BUD device** (state ≠ intended).^[raw/articles/gltmc-block-update-concepts.md]
+- **QC (quasi-connectivity):** pistons, sticky pistons, droppers, dispensers count as powered when the block ABOVE them (even air) is powered. A QC-powered piston with no NC update is a **BUD device** (state ≠ intended).^[raw/articles/gtmc-block-update-concepts.md]
 - This is why BUDs detect NC but not PP, and why QC powering needs a separate NC update to actuate.
 
 ## setBlockState flags (9-bit, for the curious)
-`NOTIFY_NEIGHBORS=1` (NC), `NOTIFY_LISTENERS=2`, `FORCE_STATE=16`, `MOVED=64`, `SKIP_BLOCK_ADDED_CALLBACK=512`, `NOTIFY_ALL=3`. FLAG bit4=0 → PP update emitted.^[raw/articles/gltmc-block-update-concepts.md]
+`NOTIFY_NEIGHBORS=1` (NC), `NOTIFY_LISTENERS=2`, `FORCE_STATE=16`, `MOVED=64`, `SKIP_BLOCK_ADDED_CALLBACK=512`, `NOTIFY_ALL=3`. FLAG bit4=0 → PP update emitted.^[raw/articles/gtmc-block-update-concepts.md]
 
 ## Observer exception
-Observer emits **PP-first-then-NC** on toggle (opposite of most blocks).^[raw/articles/gltmc-block-update-concepts.md]
+Observer emits **PP-first-then-NC** on toggle (opposite of most blocks).^[raw/articles/gtmc-block-update-concepts.md]
 
 > **Cross-source (TMWiki / Technical Minecraft Wiki):** TMWiki's "block update" = GTMC's NC, and "state update" = GTMC's PP. It independently confirms: redstone dust sends state updates diagonally in some conditions but won't trigger observers there; trapdoors send PP but NOT NC (so a piston BUD won't detect them — matches our BUD/PP distinction); comparator updates are detected only by comparators within 1-block range through a conductive block. See ^[raw/articles/tmwiki-block-updates.md].
 

@@ -8,7 +8,7 @@ version: 1.21
 confidence: high
 contested: false
 tags: [trees, dark-oak, source-bilibili, version-sensitive]
-sources: [raw/articles/bilibili-dark-oak-growth.md, raw/articles/gltmc-tree-farm-multi-species.md]
+sources: [raw/articles/bilibili-dark-oak-growth.md, raw/articles/gtmc-tree-farm-multi-species.md]
 ---
 
 # Dark Oak Growth Mechanics
@@ -49,7 +49,7 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 
 ## Farming implications
 
-- Dark oak's 2×2 trunk + irregular branches make it a special case in multi-species farms (GTMC notes it can't be handled by some "center consolidation" methods and retains 1.14-style growth detection in 1.20.1).^[raw/articles/gltmc-tree-farm-multi-species.md]
+- Dark oak's 2×2 trunk + irregular branches make it a special case in multi-species farms (GTMC notes it can't be handled by some "center consolidation" methods and retains 1.14-style growth detection in 1.20.1).^[raw/articles/gtmc-tree-farm-multi-species.md]
 - Sapling economy is tight: Minecraft Wiki notes only ~1 in 5 dark oak trees yield saplings plentifully; Fortune on leaves helps sustainability. The leaf sapling drop is still the standard 1/20 per leaf.^[minecraft.wiki Tutorial:Tree_farming]
 
 ## Related

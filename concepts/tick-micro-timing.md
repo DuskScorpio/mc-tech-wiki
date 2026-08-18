@@ -7,30 +7,30 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, timing, source-gtmc]
-sources: [raw/articles/gltmc-micro-timing-ticks.md, raw/articles/gltmc-micro-timing-intra-tick.md]
+sources: [raw/articles/gtmc-micro-timing-ticks.md, raw/articles/gtmc-micro-timing-intra-tick.md]
 ---
 
 # Tick & Micro-Timing Model
 
-Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering within one gt).^[raw/articles/gltmc-micro-timing-ticks.md] [^[raw/articles/gltmc-micro-timing-intra-tick.md]]
+Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering within one gt).^[raw/articles/gtmc-micro-timing-ticks.md] [^[raw/articles/gtmc-micro-timing-intra-tick.md]]
 
 ## Game tick
 - Main loop ≈ 20/sec = **gt** (GameTick). RedstoneTick (rt) = 2gt.
 - Lag metrics: **TPS** (normally 20) and **mspt** (lower = less lag).
-- Most redstone components respond with a **macroscopic delay** measured in gt.^[raw/articles/gltmc-micro-timing-ticks.md]
+- Most redstone components respond with a **macroscopic delay** measured in gt.^[raw/articles/gtmc-micro-timing-ticks.md]
 
 ## Repeater / Comparator delays
 - Repeater: 1–4 rt = **2–8gt**. Comparator: always **2gt**.
 - Repeater locked when side is powered by adjacent repeater/comparator.
-- Comparator modes: Compare vs Subtract.^[raw/articles/gltmc-micro-timing-ticks.md]
+- Comparator modes: Compare vs Subtract.^[raw/articles/gtmc-micro-timing-ticks.md]
 
 ## Intra-tick phases (within 1gt)
-MC is single-threaded, so "same gt" events still sequence. Authoritative phase order: **WTU → TT → CT → BE → EU → TE → AT** (player actions at the END).^[raw/articles/gltmc-intra-tick-timing.md] [^[raw/articles/gltmc-scheduled-ticks.md]]
+MC is single-threaded, so "same gt" events still sequence. Authoritative phase order: **WTU → TT → CT → BE → EU → TE → AT** (player actions at the END).^[raw/articles/gtmc-intra-tick-timing.md] [^[raw/articles/gtmc-scheduled-ticks.md]]
 
 - **Instant components:** respond in any phase, triggered only by block updates — redstone dust, rails, fence gates, trapdoors, note blocks, dispensers/droppers, redstone lamp (on).
-- **Delayed components:** scheduled-tick controlled, fixed phase — repeater/comparator/observer on-off (TT), redstone lamp off (TT), dispenser dispense (TT), falling-block decide (TT).^[raw/articles/gltmc-intra-tick-timing.md]
+- **Delayed components:** scheduled-tick controlled, fixed phase — repeater/comparator/observer on-off (TT), redstone lamp off (TT), dispenser dispense (TT), falling-block decide (TT).^[raw/articles/gtmc-intra-tick-timing.md]
 
-Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands = **TE**; b36 retracted+landed by sticky piston = **BE**; hopper absorb/transfer = **TE**.^[raw/articles/gltmc-intra-tick-timing.md] [^[raw/articles/gltmc-block-entities.md]]
+Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands = **TE**; b36 retracted+landed by sticky piston = **BE**; hopper absorb/transfer = **TE**.^[raw/articles/gtmc-intra-tick-timing.md] [^[raw/articles/gtmc-block-entities.md]]
 
 > **Correction note:** the earlier version listed an abbreviated order ("AT→TT→BE→TE…"). The full GTMC intra-tick chapter gives the precise WTU→TT→CT→BE→EU→TE→AT order (player input last), corroborated by TMWiki's GameTick phase list. See [[mc-timing-model]] for the authoritative order + component phase table.
 

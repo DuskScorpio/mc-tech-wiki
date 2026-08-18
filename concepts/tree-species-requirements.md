@@ -7,12 +7,12 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [trees, source-gtmc, version-sensitive]
-sources: [raw/articles/gltmc-tree-farm-multi-species.md, raw/articles/gltmc-tree-farm-large-spruce.md]
+sources: [raw/articles/gtmc-tree-farm-multi-species.md, raw/articles/gtmc-tree-farm-large-spruce.md]
 ---
 
 # Tree Species Requirements
 
-For a multi-species farm, take the **union** of every species' constraints — meet the most demanding one.^[raw/articles/gltmc-tree-farm-multi-species.md]
+For a multi-species farm, take the **union** of every species' constraints — meet the most demanding one.^[raw/articles/gtmc-tree-farm-multi-species.md]
 
 | Species | Key growth constraint | Processing note |
 |---|---|---|
@@ -23,9 +23,9 @@ For a multi-species farm, take the **union** of every species' constraints — m
 | **Oak** | Can become a **large oak** (drumstick) | Height-limit block at **9th block above dirt** |
 | **Dark oak** | 2x2 (NW corner); 3x7x3–3x10x3 column above NW + 5x3x5 below height; can be limited/boosted | Can be "height-boosted"; special case in multi-species (see [[dark-oak-growth-mechanics]]) |
 
-Large spruce (2x2): growth detection is **3x3 at the sapling layer (NW corner), expanding to 5x5 above**; max height 28 (29 at NW corner). Needs double recursion + honey-slime walls.^[raw/articles/gltmc-tree-farm-large-spruce.md]
+Large spruce (2x2): growth detection is **3x3 at the sapling layer (NW corner), expanding to 5x5 above**; max height 28 (29 at NW corner). Needs double recursion + honey-slime walls.^[raw/articles/gtmc-tree-farm-large-spruce.md]
 
-> **1.14-and-below only:** jungle/acacia used a 3x3-trunk / 5x5-canopy check enabling a "height increase" module; dark oak keeps this in 1.20.1. Out of scope for 1.15+ pages.^[raw/articles/gltmc-tree-farm-multi-species.md]
+> **1.14-and-below only:** jungle/acacia used a 3x3-trunk / 5x5-canopy check enabling a "height increase" module; dark oak keeps this in 1.20.1. Out of scope for 1.15+ pages.^[raw/articles/gtmc-tree-farm-multi-species.md]
 
 ## Related
 

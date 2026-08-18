@@ -7,7 +7,7 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, piston-action, b36, source-tmwiki, source-gtmc]
-sources: [raw/articles/tmwiki-moving-block36.md, raw/articles/gltmc-pistons.md]
+sources: [raw/articles/tmwiki-moving-block36.md, raw/articles/gtmc-pistons.md]
 ---
 
 # Moving Block (B36)

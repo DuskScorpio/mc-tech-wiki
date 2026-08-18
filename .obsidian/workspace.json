@@ -190,6 +190,7 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "raw/articles/gtmc-block-entities.md",
     "raw/articles/gltmc-block-entities.md.tmp",
     "raw/articles/gltmc-block-events.md.tmp",
     "raw/articles/gltmc-scheduled-ticks.md.tmp",
@@ -223,7 +224,6 @@
     "concepts/piston-mechanics.md",
     "concepts/continuous-updates.md",
     "concepts/special-update-behaviors.md",
-    "raw/articles/gltmc-block-mechanics.md.tmp",
     "raw/articles/gltmc-micro-timing-ticks.md",
     "raw/articles/gltmc-block-update-continuous.md"
   ]

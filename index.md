@@ -36,26 +36,26 @@
 
 All under `raw/articles/` — immutable GTMC captures (sha256-tracked):
 
-- gltmc-tree-farm-foreword.md
-- gltmc-tree-farm-basics.md
-- gltmc-tree-farm-simple-design.md
-- gltmc-tree-farm-multi-species.md
-- gltmc-tree-farm-high-speed.md
-- gltmc-tree-farm-dustless-wiring.md
-- gltmc-tree-farm-4gt.md
-- gltmc-tree-farm-large-spruce.md
+- gtmc-tree-farm-foreword.md
+- gtmc-tree-farm-basics.md
+- gtmc-tree-farm-simple-design.md
+- gtmc-tree-farm-multi-species.md
+- gtmc-tree-farm-high-speed.md
+- gtmc-tree-farm-dustless-wiring.md
+- gtmc-tree-farm-4gt.md
+- gtmc-tree-farm-large-spruce.md
 - bilibili-dark-oak-growth.md — Scorpio, edited 2025-02-09, Java ~1.21.x
-- gltmc-block-update-concepts.md
-- gltmc-block-update-continuous.md
-- gltmc-block-update-special.md
-- gltmc-micro-timing-ticks.md
-- gltmc-micro-timing-intra-tick.md
-- gltmc-pistons.md
-- gltmc-block-mechanics.md
-- gltmc-intra-tick-timing.md
-- gltmc-scheduled-ticks.md
-- gltmc-block-events.md
-- gltmc-block-entities.md
+- gtmc-block-update-concepts.md
+- gtmc-block-update-continuous.md
+- gtmc-block-update-special.md
+- gtmc-micro-timing-ticks.md
+- gtmc-micro-timing-intra-tick.md
+- gtmc-pistons.md
+- gtmc-block-mechanics.md
+- gtmc-intra-tick-timing.md
+- gtmc-scheduled-ticks.md
+- gtmc-block-events.md
+- gtmc-block-entities.md
 - tmwiki-block-updates.md — TechMCDocs/pages (Technical Minecraft Wiki), independent 2nd source
 - tmwiki-piston.md
 - tmwiki-moving-block36.md

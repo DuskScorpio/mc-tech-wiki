@@ -7,16 +7,16 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [methods, leaf-processing, source-gtmc]
-sources: [raw/articles/gltmc-tree-farm-basics.md]
+sources: [raw/articles/gtmc-tree-farm-basics.md]
 ---
 
 # Leaf Processing
 
-Push away enough leaves (with pistons or honey-slime walls) to recover the saplings you need.^[raw/articles/gltmc-tree-farm-basics.md]
+Push away enough leaves (with pistons or honey-slime walls) to recover the saplings you need.^[raw/articles/gtmc-tree-farm-basics.md]
 
 ## Sapling drop chance
 
-Each leaf block has a fixed sapling drop chance:^[raw/articles/gltmc-tree-farm-basics.md]
+Each leaf block has a fixed sapling drop chance:^[raw/articles/gtmc-tree-farm-basics.md]
 
 | Tree type | Sapling drop per leaf |
 |---|---|

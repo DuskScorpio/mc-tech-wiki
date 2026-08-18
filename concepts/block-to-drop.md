@@ -7,20 +7,20 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [methods, block-to-drop, source-gtmc]
-sources: [raw/articles/gltmc-tree-farm-basics.md, raw/articles/gltmc-tree-farm-multi-species.md]
+sources: [raw/articles/gtmc-tree-farm-basics.md, raw/articles/gtmc-tree-farm-multi-species.md]
 ---
 
 # Block-to-Drop Conversion
 
-Two main ways to turn logs/leaves into items: **wither** and **TNT**.^[raw/articles/gltmc-tree-farm-basics.md]
+Two main ways to turn logs/leaves into items: **wither** and **TNT**.^[raw/articles/gtmc-tree-farm-basics.md]
 
 ## TNT
 
-A **TNT duplicator** plus water flow to buffer TNT and collect drops is the common simple-farm choice.^[raw/articles/gltmc-tree-farm-simple-design.md]
+A **TNT duplicator** plus water flow to buffer TNT and collect drops is the common simple-farm choice.^[raw/articles/gtmc-tree-farm-simple-design.md]
 
 ## Multi-species: irregular streams
 
-Multi-species farms produce an irregular block stream, so they use specialized chambers:^[raw/articles/gltmc-tree-farm-multi-species.md]
+Multi-species farms produce an irregular block stream, so they use specialized chambers:^[raw/articles/gtmc-tree-farm-multi-species.md]
 
 - **Pure milk explosion chambers** ("milk explosions")
 - **b36 explosion chambers** ("push explosions")
