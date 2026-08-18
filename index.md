@@ -37,7 +37,7 @@ Source attribution (CC BY-NC-SA where applicable) is recorded per raw file in `r
 - [[bonemealing]] — dispensers, stacking, cross vs synchronized bonemealing
 - [[sapling-recycling]] — hoppers / water / hopper minecarts
 - [[block-to-drop]] — wither vs TNT; milk/b36 explosion chambers
-- [[glossary]] — TechMC-Glossary terms + authoritative Chinese names (translation reference) + speed limiter
+- [[rails]] — Powered/Activator/Detector: NC-update order, directional connectivity (diode), rail BUD
 - [[high-speed-tree-farms]] — the integrated "base", suction over push
 - [[0-tick]] — generators (TT order, redstone dust, redirection)
 - [[dustless-wiring]] — rails+observers, power types, slime sticks, redirection
@@ -72,8 +72,8 @@ All under `raw/articles/` — immutable GTMC captures (sha256-tracked):
 - gltmc-scheduled-ticks.md
 - gltmc-block-events.md
 - gltmc-block-entities.md
-- gltmc-blocks-and-states.md
-- gltmc-block-changes.md
+- gltmc-rails.md
+- gltmc-rail-budding.md
 - tmwiki-block-updates.md — TechMCDocs/pages (Technical Minecraft Wiki), independent 2nd source
 - tmwiki-piston.md
 - tmwiki-moving-block36.md

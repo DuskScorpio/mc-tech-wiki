@@ -68,5 +68,6 @@
 - **Scope correction:** wiki is general Technical Minecraft (tree farms are just the first area ingested), not tree-farm-only. Updated README.md + index.md header + SCHEMA.md Domain line.
 - **Language rule written into SCHEMA.md** (English only; term definitions in glossary as English term+definition; rationale recorded). This is now a hard schema rule, not re-derivable.
 - Stripped residual CN from detection-methods / dustless-wiring glossary links. dark-oak-growth-mechanics keeps original-author Chinese names only as source attribution (proper nouns, not translation).
-- Now 27 concept pages, 28 raw sources. All concepts high confidence, no broken wikilinks.
+- Ingested GTMC `redstone-components/rails` (NC-update emission order, direct/indirect activation, directional search/diode connectivity) + TMWiki `GameMechanics/RailBudding` (corroborates above→self→below notifier order, 9-rail search, rail BUD). Built `concepts/rails.md` (high confidence). Wired into dustless-wiring + piston-mechanics. This is the first non-tree-farm mechanics ingest since scope widened to general Tech MC.
+- 28 concept pages, 30 raw sources, no broken wikilinks.
 
