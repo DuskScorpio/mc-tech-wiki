@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "079fc39910ecf330",
+    "type": "split",
+    "children": [
+      {
+        "id": "525a9e2226b3877c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7bbdf8407a8926a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/dark-oak-growth-mechanics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dark-oak-growth-mechanics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "77a87df14b18d067",
+    "type": "split",
+    "children": [
+      {
+        "id": "5263996b0b2ed2bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b36d6c46eac447e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4d052d95d9f843a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9a736ab54b35582b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ce01eaa27f41e0f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "61045dd87536ff74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "849f03101b83fe46",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "concepts/dark-oak-growth-mechanics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b46fa06228a5ef2c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "concepts/dark-oak-growth-mechanics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "811b52eb20651925",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "03a5aab76238102e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2f700a39849a9135",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "concepts/dark-oak-growth-mechanics.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b7bbdf8407a8926a",
+  "lastOpenFiles": [
+    "README.md",
+    "concepts/dark-oak-growth-mechanics.md",
+    "raw/articles/bilibili-dark-oak-growth.md",
+    "concepts/tree-farm-overview.md",
+    "concepts/mc-timing-model.md",
+    "raw/articles/gltmc-tree-farm-4gt.md",
+    "SCHEMA.md",
+    "concepts/high-speed-tree-farms.md",
+    "index.md",
+    "log.md",
+    "concepts/large-spruce-tree-farm.md",
+    "concepts/multi-species-tree-farm.md",
+    "concepts/4gt-tree-farm.md",
+    "concepts/0-tick.md",
+    "concepts/dustless-wiring.md",
+    "concepts/tree-species-requirements.md",
+    "concepts/detection-methods.md",
+    "concepts/block-to-drop.md",
+    "concepts/piston-action-timing.md",
+    "concepts/bonemealing.md",
+    "concepts/leaf-processing.md",
+    "concepts/trunk-processing.md",
+    "concepts/updates-nc-pp.md",
+    "concepts/sapling-recycling.md",
+    "concepts",
+    "raw/articles/gltmc-tree-farm-simple-design.md.tmp",
+    "raw/articles/gltmc-tree-farm-multi-species.md.tmp",
+    "raw/articles/gltmc-tree-farm-large-spruce.md.tmp",
+    "raw/articles/gltmc-tree-farm-high-speed.md.tmp",
+    "raw/articles/gltmc-tree-farm-foreword.md.tmp",
+    "raw/articles/gltmc-tree-farm-dustless-wiring.md.tmp",
+    "raw/articles/gltmc-tree-farm-basics.md.tmp",
+    "raw/articles/gltmc-tree-farm-4gt.md.tmp"
+  ]
+}
