@@ -51,3 +51,16 @@
 - Tagged new raw as source-tmwiki; concept pages carry both source-gtmc and source-tmwiki where corroborated.
 - Total concept pages now 26, raw sources 22.
 
+## [2026-08-18] tier-a lint + upgrade mc-timing-model from medium to high
+- Tier A lint results: 2 medium-confidence pages (block-nature, mc-timing-model); 7 version-sensitive tags (expected);
+  2 orphans (zero-tick-farming-crops, tree-farm-overview — both have outbound links but no inbound; acceptable, index links them).
+  No broken wikilinks, all frontmatter complete.
+- Read GTMC's full timing-theory chapters (intra-tick, scheduled-ticks, block-events, block-entities) — these SUPERSEDE
+  the simplified "basics" page. Captured 4 new raw files (sha256 tracked).
+- Upgraded [[mc-timing-model]] to confidence: high. Corrected the intra-tick phase order (was loosely AT→TT→BE→TE;
+  now authoritative WTU→TT→CT→BE→EU→TE→AT, player input LAST). TMWiki GameTick corroborates. Added component phase
+  table, BED/depth explanation (0t bottom-retraction base example), scheduled-tick execution order, 4gt-observer basis.
+- Fixed stale phase-order references in tick-micro-timing.md and piston-mechanics.md (added correction notes).
+- This is the proofreading value: the simplified source page was wrong; the real theory chapter corrected it.
+- Total concept pages now 26, raw sources 26.
+

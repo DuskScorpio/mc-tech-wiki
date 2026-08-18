@@ -25,12 +25,15 @@ Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering 
 - Comparator modes: Compare vs Subtract.^[raw/articles/gltmc-micro-timing-ticks.md]
 
 ## Intra-tick phases (within 1gt)
-MC is single-threaded, so "same gt" events still sequence. Main phases in order: **AT (Player Action) → NU → TT (Tile/Scheduled Tick) → BE (Block Event) → TE (Block Entity) → EU (Entity Update) → …**.^[raw/articles/gltmc-micro-timing-intra-tick.md]
+MC is single-threaded, so "same gt" events still sequence. Authoritative phase order: **WTU → TT → CT → BE → EU → TE → AT** (player actions at the END).^[raw/articles/gltmc-intra-tick-timing.md] [^[raw/articles/gltmc-scheduled-ticks.md]]
 
 - **Instant components:** respond in any phase, triggered only by block updates — redstone dust, rails, fence gates, trapdoors, note blocks, dispensers/droppers, redstone lamp (on).
-- **Delayed components:** scheduled-tick controlled, fixed phase — repeater/comparator/observer on-off (TT), redstone lamp off (TT), dispenser dispense (TT), falling-block decide (TT).^[raw/articles/gltmc-micro-timing-intra-tick.md]
+- **Delayed components:** scheduled-tick controlled, fixed phase — repeater/comparator/observer on-off (TT), redstone lamp off (TT), dispenser dispense (TT), falling-block decide (TT).^[raw/articles/gltmc-intra-tick-timing.md]
 
-Key component phases: pistons extend/retract = **BE**; b36 (moving_piston) pushes entity / lands = **TE**; b36 retracted+landed by sticky piston = **BE**; hopper absorb/transfer = **TE**.^[raw/articles/gltmc-micro-timing-intra-tick.md]
+Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands = **TE**; b36 retracted+landed by sticky piston = **BE**; hopper absorb/transfer = **TE**.^[raw/articles/gltmc-intra-tick-timing.md] [^[raw/articles/gltmc-block-entities.md]]
+
+> **Correction note:** the earlier version listed an abbreviated order ("AT→TT→BE→TE…"). The full GTMC intra-tick chapter gives the precise WTU→TT→CT→BE→EU→TE→AT order (player input last), corroborated by TMWiki's GameTick phase list. See [[mc-timing-model]] for the authoritative order + component phase table.
+
 
 > **Translation caveat:** the EN intra-tick page is flagged "Outdated translation" (lag: 1 source commit + 2 days) at fetch time. Decompiled vs 1.20.1-yarn. Treat exact phase names as version-sensitive.
 

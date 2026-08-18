@@ -1,39 +1,62 @@
 ---
-title: MC Timing Model
+title: MC Timing Model (intra-tick phases)
 created: 2026-08-18
 updated: 2026-08-18
 type: concept
 edition: java
 version: 1.20.1
-confidence: medium
-tags: [mechanics, timing, source-gtmc, version-sensitive]
-sources: [raw/articles/gltmc-tree-farm-basics.md]
+confidence: high
+tags: [mechanics, timing, micro-timing, source-gtmc, source-tmwiki]
+sources: [raw/articles/gltmc-intra-tick-timing.md, raw/articles/gltmc-scheduled-ticks.md, raw/articles/gltmc-block-events.md, raw/articles/gltmc-block-entities.md, raw/articles/tmwiki-game-tick.md, raw/articles/tmwiki-tile-ticks.md]
 ---
 
-# MC Timing Model
+# MC Timing Model (intra-tick phases)
 
-Minecraft timing has two scales: **inter-tick timing** (across game ticks) and **intra-tick timing** (within a single game tick). Moving work from inter-tick into intra-tick is the core way to speed up a tree farm.^[raw/articles/gltmc-tree-farm-basics.md]
+Minecraft timing has two scales: **inter-tick timing** (whole gt units) and **intra-tick timing** (the finer ordering *within* one gt). MC is single-threaded, so even "same gt" events always execute in a fixed priority order.^[raw/articles/gltmc-intra-tick-timing.md]
 
-## Game tick (gt)
+## The authoritative intra-tick phase order (within 1gt)
+1. **WTU** — World Tick Update: the world "timer" increments by 1.
+2. **TT** — Scheduled/Tile Tick (Next Tick Entry): delayed components execute here.
+3. **CT** — Chunk Tick: lightning, snow, Random Tick (crop growth, grass spread, water freeze) near the player.
+4. **BE** — Block Event: piston push/pull, note-block sound. A piston adds its block event when its actual state ≠ powered state.
+5. **EU** — Entity Update: entity movement/AI, TNT, non-player plate/tripwire activation.
+6. **TE** — Block Entity: hoppers absorb/transfer; b36 pushes entities (first two TE) and reverts on the third.
+7. **AT/NU** — Async Task / Network Update (Player Action): player-action packets executed at the *end* of the tick.
 
-- 1 second = 20 gt. A gt is further split into ordered phases; the ones relevant to tree farms execute in this order: NU → TT → BE → TE (per GTMC naming).^[raw/articles/gltmc-tree-farm-basics.md]
-- **TT components** (repeaters, comparators, observers) have fixed *macroscopic* delays: repeaters 2–8gt, comparators and observers 2gt. All other tree-farm components have no macroscopic delay.^[raw/articles/gltmc-tree-farm-basics.md]
-- **Instant components** act immediately on receiving an update regardless of phase: redstone dust, rails, fence gates, trapdoors, note blocks, droppers, dispensers.^[raw/articles/gltmc-tree-farm-basics.md]
+> **Correction note:** an earlier simplified GTMC page listed this order loosely ("NU→TT→BE→TE"). The full GTMC intra-tick chapter gives the precise order above (WTU→TT→CT→BE→EU→TE→AT), and TMWiki's `GameTick.md` independently lists a compatible order (tile ticks → ChunkManager → BlockEvent → entities → block entities → player inputs). The order above is now treated as authoritative.^[raw/articles/gltmc-intra-tick-timing.md] ^[raw/articles/tmwiki-game-tick.md]
 
-## Depth (BE ordering)
+## Depth (BE ordering) — what 0-tick exploits
+Pistons (BE components) execute when their actual state ≠ powered state. Block Events process **FIFO with depth**: the initial event is depth 0; events it directly causes are depth 1, and so on — a breadth-first search over the "piston graph." This is **Block Event Delay (BED)**. A 0-tick pulse acts within BE depth before a later event can interrupt it. Note blocks do **not** increase depth.^[raw/articles/gltmc-block-events.md]
 
-Pistons and note blocks (BE components) execute in the order they *receive updates confirming a needed state change*. This order is called **depth** — deeper means later in the BE queue. Note blocks do **not** increase depth.^[raw/articles/gltmc-tree-farm-basics.md]
+The canonical tree-farm example is a **0t bottom-retraction base**: 0gt AT lever → 1gt BE depth0 sticky piston retracts → depth1 pulls podzol + dust redirects → depth2 bottom-retraction piston self-checks & extends → depth3 powered block removed, bottom piston queues retract but is still extending → **0t**. 3gt TE everything placed.^[raw/articles/gltmc-block-events.md]
 
-> **Confidence note:** GTMC's basics section is a simplified model ("technically incorrect" per the authors) and points to the full Timing Theory for rigor. Treat exact phase names and the 1gt/2gt action-cost numbers as version-sensitive.^[raw/articles/gltmc-tree-farm-basics.md]
+## Scheduled ticks (TT detail)
+A Scheduled Tick carries only `triggerTick, subTickOrder, priority, pos, type` — no action; the block decides on execution. Execution order: **triggerTick (macro) > priority (lower = earlier) > subTickOrder (add order)**. Repeater = `delay×2gt`; comparator = `2gt`; observer/torch = `2gt` (priority 0). Observers check `isQueued` (not current-gt), which is the basis of **4gt Observer high-frequency** used in 4gt tree farms.^[raw/articles/gltmc-scheduled-ticks.md]
+
+## Component phase table (key rows)^[raw/articles/gltmc-intra-tick-timing.md]
+| Component | Phase |
+|---|---|
+| Repeater / Comparator / Observer / Redstone Torch on-off | TT |
+| Redstone Dust, Rails state change | Instant (any phase, on block update) |
+| Fence Gates, Trapdoors, Dispenser/Dropper state, Hopper state, Lamp on, Buttons/Plates/Tripwire on | Instant |
+| Hopper absorb/transfer items | TE |
+| Note/Bell sound | BE |
+| Dispenser dispense / Dropper drop | TT |
+| Lamp off, Button/Plate/Tripwire off | TT |
+| Piston extend/retract | BE |
+| b36 push entity / natural land | TE |
+| b36 retracted + landed by sticky piston | BE |
+| Falling block decide | TT; fall/land | EU |
+
+> **Confidence note:** upgraded from `medium` to `high` after reading GTMC's full intra-tick, scheduled-tick, block-event, and block-entity theory chapters (which supersede the simplified "basics" page). Phase order and component phases are now sourced to those chapters. Still Java 1.20.1; treat exact phase *names* as conventional but the ordering is well-established.
 
 ## Related
-
 - [[piston-action-timing]] — how depth produces 0-tick
-- [[updates-nc-pp]] — what updates feed the model
-- [[update-theory]] — full update taxonomy: NC/PP/Comparator/Self-inspection, QC, flags
-- [[continuous-updates]] — DFS propagation order
+- [[update-theory]] — NC/PP/Comparator/Self-inspection, QC, flags
+- [[continuous-updates]] — DFS propagation order (note: NC propagation, distinct from BE BFS)
 - [[special-update-behaviors]] — dust 2nd-order, diagonal rails, lit-observer quirk
-- [[tick-micro-timing]] — game tick, inter/intra-tick phases, component phase table
+- [[tick-micro-timing]] — game tick, inter/intra-tick, tile-tick table
 - [[piston-mechanics]] — self-check, QC, push limit, b36, instant placement
-- [[block-nature]] — Block vs BlockState (pointer)
+- [[moving-block-b36]] — B36 properties & NBT
 - [[0-tick]] — using depth for speed
+- [[block-nature]] — Block vs BlockState (pointer)

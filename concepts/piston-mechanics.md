@@ -36,9 +36,9 @@ Piston = base + head; states retracted/extended. A **headless piston** (base onl
 - PP update behind → canSurvive check (invalid → disappears). NC update never removes the head.^[raw/articles/gltmc-pistons.md]
 
 ## Related
-- [[piston-action-timing]] — 3gt default, 0-tick
+- [[piston-action-timing]] — 3gt default action, 1gt/2gt costs, 0-tick basis
 - [[update-theory]] — QC/Bud wiring
-- [[tick-micro-timing]] — BE phase = piston extend/retract
+- [[tick-micro-timing]] — BE phase = piston extend/retract (order AT last per GTMC intra-tick)
 - [[detection-methods]] — push-limit detection in practice
 - [[moving-block-b36]] — B36 properties, hitbox, NBT
 - **Cross-source:** TMWiki `Blocks/Piston.md` confirms block-event creation-order execution + 2-tick arrival (→ "3gt delay") and pushed-block order `-y;+y;-z;+z;-x;+x`. Aligns with GTMC. See ^[raw/articles/tmwiki-piston.md].

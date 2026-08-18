@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/0-tick.md",
-                "mode": "preview",
+                "file": "raw/articles/tmwiki-block-updates.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0-tick"
+              "title": "tmwiki-block-updates"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/0-tick.md",
+                "file": "raw/articles/tmwiki-block-updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/0-tick.md",
+                "file": "raw/articles/tmwiki-block-updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/0-tick.md",
+                "file": "raw/articles/tmwiki-block-updates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,18 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "raw/articles/gltmc-block-entities.md.tmp",
+    "raw/articles/gltmc-block-events.md.tmp",
+    "raw/articles/gltmc-scheduled-ticks.md.tmp",
+    "raw/articles/gltmc-intra-tick-timing.md.tmp",
+    "raw/articles/gltmc-block-events.md",
+    "raw/articles/gltmc-intra-tick-timing.md",
+    "raw/articles/gltmc-scheduled-ticks.md",
+    "raw/articles/gltmc-block-entities.md",
+    "raw/articles/gltmc-block-mechanics.md",
+    "raw/articles/gltmc-block-update-concepts.md",
+    "raw/articles/bilibili-dark-oak-growth.md",
+    "concepts/0-tick.md",
     "concepts/moving-block-b36.md",
     "concepts/zero-tick-farming-crops.md",
     "raw/articles/tmwiki-game-tick.md.tmp",
@@ -212,19 +224,7 @@
     "concepts/continuous-updates.md",
     "concepts/special-update-behaviors.md",
     "raw/articles/gltmc-block-mechanics.md.tmp",
-    "raw/articles/gltmc-pistons.md.tmp",
-    "raw/articles/gltmc-micro-timing-intra-tick.md.tmp",
-    "raw/articles/gltmc-micro-timing-ticks.md.tmp",
-    "raw/articles/gltmc-block-update-concepts.md",
     "raw/articles/gltmc-micro-timing-ticks.md",
-    "raw/articles/gltmc-block-update-continuous.md",
-    "raw/articles/gltmc-pistons.md",
-    "raw/articles/gltmc-block-update-special.md",
-    "raw/articles/gltmc-micro-timing-intra-tick.md",
-    "raw/articles/gltmc-block-mechanics.md",
-    "README.md",
-    "raw/articles/bilibili-dark-oak-growth.md",
-    "concepts/tree-farm-overview.md",
-    "concepts/mc-timing-model.md"
+    "raw/articles/gltmc-block-update-continuous.md"
   ]
 }
