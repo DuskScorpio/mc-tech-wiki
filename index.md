@@ -52,10 +52,12 @@ All under `raw/articles/` — immutable GTMC captures (sha256-tracked):
 - gtmc-micro-timing-intra-tick.md
 - gtmc-pistons.md
 - gtmc-block-mechanics.md
-- gtmc-intra-tick-timing.md
-- gtmc-scheduled-ticks.md
-- gtmc-block-events.md
-- gtmc-block-entities.md
+- gltmc-intra-tick-timing.md
+- gltmc-scheduled-ticks.md
+- gltmc-block-events.md
+- gltmc-block-entities.md
+- gltmc-blocks-and-states.md
+- gltmc-block-changes.md
 - tmwiki-block-updates.md — TechMCDocs/pages (Technical Minecraft Wiki), independent 2nd source
 - tmwiki-piston.md
 - tmwiki-moving-block36.md

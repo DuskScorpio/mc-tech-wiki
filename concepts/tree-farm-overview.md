@@ -26,7 +26,7 @@ A tree farm consists of five modules:^[raw/articles/gtmc-tree-farm-basics.md]
 
 Most farms also include a **[[detection-methods|detection]]** module that detects growth and triggers the farm, but this is optional.^[raw/articles/gtmc-tree-farm-basics.md]
 
-> **Version scope:** these pages follow GTMC's 1.15+ structure. In 1.14 and below, jungle/acacia needed a height-increase module and spruce needed a retractable wall — explicitly out of scope here.^[raw/articles/gtmc-tree-farm-basics.md]
+> **Module count nuance:** GTMC's "basic structure" names 4 core modules (Bonemealing, Trunk, Leaf, Sapling Recycling) and treats Detection as optional. `block-to-drop` (TNT/wither conversion) is a near-universal 5th module in practice; this wiki lists it as part of the structure because every real farm needs item conversion. Source: ^[raw/articles/gtmc-tree-farm-basics.md]
 
 ## Foundation pages
 

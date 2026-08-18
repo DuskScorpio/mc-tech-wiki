@@ -61,6 +61,8 @@
   now authoritative WTU→TT→CT→BE→EU→TE→AT, player input LAST). TMWiki GameTick corroborates. Added component phase
   table, BED/depth explanation (0t bottom-retraction base example), scheduled-tick execution order, 4gt-observer basis.
 - Fixed stale phase-order references in tick-micro-timing.md and piston-mechanics.md (added correction notes).
-- This is the proofreading value: the simplified source page was wrong; the real theory chapter corrected it.
-- Total concept pages now 26, raw sources 26.
+- Upgrade [[block-nature]] to high: ingested GTMC block-mechanics sub-articles (blocks-and-states, block-changes); rewrote page with Block/BlockState model, palettes, setBlockState flags, placement/breaking flow. Removed last medium-confidence page.
+- Tier B proofread of all 15 farm concept pages against raw sources: all numeric claims verified present in source; drop rates (1/40 jungle, 1/20 others), species heights, piston 3gt/4gt/5gt timings, 4gt clock, detection methods all match GTMC raw. Added two honesty clarifications (overview module-count nuance; large-spruce 1.21/llama-boat version caveat).
+- Now ZERO medium/low-confidence pages; all 27 concept pages high. 28 raw sources, sha256-tracked.
+- Pushed to master.
 
