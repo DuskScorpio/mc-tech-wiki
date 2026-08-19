@@ -67,9 +67,13 @@ Add new tags HERE before using them.
 - Split when a page exceeds ~200 lines.
 - Archive to `_archive/` when fully superseded by a newer version-specific page.
 
-## Related vaults (cross-link later, do not auto-merge)
-- `C:\GitHub Related\TechMC-Glossary` — GTMC glossary, useful for `[[term]]` definitions.
-- `C:\GitHub Related\tmc-glossary-web` — web build of the same glossary.
+## Source repositories (provenance)
+Same set as README "Sources" + index.md. All ingested captures live in `raw/articles/`, sha256-tracked:
+- `techmc-wiki/articles` (GTMC) — primary
+- `TechMCDocs/pages` (TMWiki) — 2nd source
+- `minecraft.wiki` — 3rd cross-source
+- `TechMC-Glossary/TechMC-Glossary` — term definitions
+- Bilibili creators (per-article attribution)
 
 ## OKF (Open Knowledge Format) compliance
 This vault is an OKF v0.1 bundle. Contract:
