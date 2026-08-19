@@ -4,7 +4,7 @@ title: High-Speed Tree Farms
 created: 2026-08-18
 updated: 2026-08-18
 
-description: "High-speed" means moving functionality from inter-tick timing into intra-tick timing (via [[0-tick]] and [[dustless-wiring]]) and integrating the modules into …
+description: '"High-speed" means moving functionality from inter-tick timing into intra-tick timing (via [[0-tick]] and [[dustless-wiring]]) and integrating the modules into …'
 edition: java
 version: 1.20.1
 confidence: high

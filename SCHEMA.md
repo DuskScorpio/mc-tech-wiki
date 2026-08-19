@@ -104,6 +104,7 @@ Contract (derived from SPEC.md, not from the validator's tolerance):
 - **`raw/articles/` split:** our convention (sources as `type: source` concepts + `concepts/` as compiled `type: concept`). This is NOT an OKF requirement — OKF has no source/resource division — but it is legal (producer-defined types) and the validator tolerates it. Provenance is encoded per §5.1 above, not via the directory alone.
 - Paths are stable (git-backed). Renaming a concept file breaks inbound edges — treat paths as identity.
 - English-only (see Language rule). No translations in page bodies.
+- **Conformance oracle:** the authoritative check is Google's own `reference_agent.bundle.document.OKFDocument.validate()` (from `GoogleCloudPlatform/knowledge-catalog`, `okf/src/reference_agent/bundle/document.py`), which requires only `type` and parses frontmatter as strict YAML. The WitsCode `okf-conformance` validator is a secondary, stricter community check (0 errors there too). Always lint with a **real YAML parser** (not regex) — unquoted backticks or stray `"` inside `description:` break YAML and are invisible to regex lints.
 
 ## Pitfalls
 - GTMC is **Java 1.20.1**. Never generalize a Java mechanic to Bedrock without a Bedrock source.

@@ -4,7 +4,7 @@ title: Moving Block (B36)
 created: 2026-08-18
 updated: 2026-08-18
 
-description: `Moving_Piston` = "B36" / "Block 36" (pre-Flattening ID 36).
+description: '`Moving_Piston` = "B36" / "Block 36" (pre-Flattening ID 36).'
 edition: java
 version: 1.20.1
 confidence: high
