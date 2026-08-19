@@ -26,10 +26,10 @@ Instead of mounting onto an engine, extend "mobility" into a functional structur
 
 To mobilize a functional structure: fill in those three components. **Prioritize reusing the structure's existing slime blocks and observers** (avoid adding new ones). Place pistons avoiding the 12-block push limit and ensuring all parts connect. The engine need not be 10gt — the two-pistons + observers + slime principle is what matters.^[raw/articles/gtmc-mobility.md]
 
-> Conceptual/practice-oriented chapters (single GTMC source). The mechanical core — periods, observers, push limits — is covered in [Flying Machines](concepts/flying-machines.md) and [Piston Mechanics](concepts/piston-mechanics.md).
+> Conceptual/practice-oriented chapters (single GTMC source). The mechanical core — periods, observers, push limits — is covered in [Flying Machines](/concepts/flying-machines.md) and [Piston Mechanics](/concepts/piston-mechanics.md).
 
 ## Related
-- [Flying Machines](concepts/flying-machines.md) — the 10gt engine these build on
-- [Linkages](concepts/linkages.md) — zero-delay piston-chain motion transfer
-- [Piston Mechanics](concepts/piston-mechanics.md) — 12-block push limit, sticky-piston timing
-- [Glossary](concepts/glossary.md) — slime/honey, observer, BUD definitions
+- [Flying Machines](/concepts/flying-machines.md) — the 10gt engine these build on
+- [Linkages](/concepts/linkages.md) — zero-delay piston-chain motion transfer
+- [Piston Mechanics](/concepts/piston-mechanics.md) — 12-block push limit, sticky-piston timing
+- [Glossary](/concepts/glossary.md) — slime/honey, observer, BUD definitions

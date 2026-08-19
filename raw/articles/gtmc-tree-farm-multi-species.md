@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
 ingested: 2026-08-18
 sha256: 037b93d76028f6c789b22fab2a06f86bd31318e671abb63681c391da111e0954

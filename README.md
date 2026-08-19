@@ -1,3 +1,7 @@
+---
+type: doc
+---
+
 # MC Technical Wiki
 
 Personal Obsidian vault + LLM-compiled knowledge base for **Technical Minecraft (Java)**, structured as a **Google Open Knowledge Format (OKF) v0.1** bundle (agent-readable knowledge graph).
@@ -31,4 +35,4 @@ All source material is CC BY-NC-SA where applicable; attribution is preserved pe
 ## Use
 
 - **In Obsidian:** open the folder as a vault. `[[wikilinks]]` + Graph View work; path links render too.
-- **As an OKF bundle:** start at `index.md`, follow `[concept](concepts/x.md)` links. Any OKF v0.1 consumer can ingest it without translation.
+- **As an OKF bundle:** start at `index.md`, follow concept links (each `[label](/concepts/NAME)` with the `.md` suffix). Any OKF consumer can ingest it without translation.

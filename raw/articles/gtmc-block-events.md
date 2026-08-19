@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/micro-timing/block-events
 ingested: 2026-08-18
 sha256: 87e2a14ef101e1a97e4d561e5784008066b0204562bebeefe2fea5f557169db0

@@ -15,7 +15,7 @@ sources: [raw/articles/gtmc-tree-farm-basics.md, raw/articles/gtmc-tree-farm-sim
 
 # Sapling Recycling
 
-Saplings dropped by [leaf-processing](concepts/leaf-processing.md) are collected back to the player using hoppers, water flow, or similar.^[raw/articles/gtmc-tree-farm-basics.md]
+Saplings dropped by [leaf-processing](/concepts/leaf-processing.md) are collected back to the player using hoppers, water flow, or similar.^[raw/articles/gtmc-tree-farm-basics.md]
 
 - **Hoppers** under the farm core feed a dropper the player collects from while AFK.^[raw/articles/gtmc-tree-farm-simple-design.md]
 - **Water flow** to gather and flush saplings.
@@ -25,5 +25,5 @@ In 4gt farms the huge item volume means 3–4 droppers throw saplings to the pla
 
 ## Related
 
-- [leaf-processing](concepts/leaf-processing.md) — where saplings come from
-- [bonemealing](concepts/bonemealing.md) — paired in the farm "base"
+- [leaf-processing](/concepts/leaf-processing.md) — where saplings come from
+- [bonemealing](/concepts/bonemealing.md) — paired in the farm "base"

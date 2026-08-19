@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/block-mechanics/blocks-and-states
 ingested: 2026-08-18
 sha256: 4d848be2979cc2f2ce022781bb7acf7f0ee92f7af33c2a53ca6956613b58bed3

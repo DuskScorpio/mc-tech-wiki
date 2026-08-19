@@ -15,7 +15,7 @@ sources: [raw/articles/gtmc-tree-farm-multi-species.md]
 
 # Multi-Species Tree Farm
 
-A farm handling birch, oak, jungle, spruce, and acacia together. Design takes the union of species requirements (see [tree-species-requirements](concepts/tree-species-requirements.md)).^[raw/articles/gtmc-tree-farm-multi-species.md]
+A farm handling birch, oak, jungle, spruce, and acacia together. Design takes the union of species requirements (see [tree-species-requirements](/concepts/tree-species-requirements.md)).^[raw/articles/gtmc-tree-farm-multi-species.md]
 
 ## Example architecture (PTHSUTF-like)
 
@@ -32,9 +32,9 @@ Multi-species output is irregular, so it must be **reorganized** before the expl
 
 - **Acacia timing switching:** add delay to the two side walls vs normal timing.
 - **Automatic oak height limiting:** place an unpushable block via flying machine.
-- **Speed limiter:** prevent premature re-trigger before reset (see [detection-methods](concepts/detection-methods.md)).^[raw/articles/gtmc-tree-farm-multi-species.md]
+- **Speed limiter:** prevent premature re-trigger before reset (see [detection-methods](/concepts/detection-methods.md)).^[raw/articles/gtmc-tree-farm-multi-species.md]
 
 ## Related
 
-- [tree-species-requirements](concepts/tree-species-requirements.md) · [trunk-processing](concepts/trunk-processing.md) · [block-to-drop](concepts/block-to-drop.md)
-- [4gt-tree-farm](concepts/4gt-tree-farm.md) — the clock-driven evolution of this design
+- [tree-species-requirements](/concepts/tree-species-requirements.md) · [trunk-processing](/concepts/trunk-processing.md) · [block-to-drop](/concepts/block-to-drop.md)
+- [4gt-tree-farm](/concepts/4gt-tree-farm.md) — the clock-driven evolution of this design

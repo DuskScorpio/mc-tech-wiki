@@ -15,7 +15,7 @@ sources: [raw/articles/gtmc-tree-farm-high-speed.md]
 
 # High-Speed Tree Farms
 
-"High-speed" means moving functionality from inter-tick timing into intra-tick timing (via [0-tick](concepts/0-tick.md) and [dustless-wiring](concepts/dustless-wiring.md)) and integrating the modules into a tight **base**.^[raw/articles/gtmc-tree-farm-high-speed.md]
+"High-speed" means moving functionality from inter-tick timing into intra-tick timing (via [0-tick](/concepts/0-tick.md) and [dustless-wiring](/concepts/dustless-wiring.md)) and integrating the modules into a tight **base**.^[raw/articles/gtmc-tree-farm-high-speed.md]
 
 ## The "base"
 
@@ -29,11 +29,11 @@ For high-speed farms, design **bonemealing**, **detection**, **trunk processing*
 
 ### Bonemealing — stacking dispensers
 
-Stack dispensers to widen the growth window; introduces **cross bonemealing** (stagger fire by ~2gt). See [bonemealing](concepts/bonemealing.md).^[raw/articles/gtmc-tree-farm-high-speed.md]
+Stack dispensers to widen the growth window; introduces **cross bonemealing** (stagger fire by ~2gt). See [bonemealing](/concepts/bonemealing.md).^[raw/articles/gtmc-tree-farm-high-speed.md]
 
 ### Push-limit detection
 
-The most important detection unit (Bright_Observer), 8gt cycle, stack four layers staggered 2gt to align with the cross-bonemealing clock. See [detection-methods](concepts/detection-methods.md).^[raw/articles/gtmc-tree-farm-high-speed.md]
+The most important detection unit (Bright_Observer), 8gt cycle, stack four layers staggered 2gt to align with the cross-bonemealing clock. See [detection-methods](/concepts/detection-methods.md).^[raw/articles/gtmc-tree-farm-high-speed.md]
 
 ## Architecture = the real bottleneck
 
@@ -41,5 +41,5 @@ The architecture determines the minimum operating cycle. Faster architectures co
 
 ## Related
 
-- [0-tick](concepts/0-tick.md) · [dustless-wiring](concepts/dustless-wiring.md) · [bonemealing](concepts/bonemealing.md) · [detection-methods](concepts/detection-methods.md)
-- [4gt-tree-farm](concepts/4gt-tree-farm.md) · [multi-species-tree-farm](concepts/multi-species-tree-farm.md) — concrete high-speed designs
+- [0-tick](/concepts/0-tick.md) · [dustless-wiring](/concepts/dustless-wiring.md) · [bonemealing](/concepts/bonemealing.md) · [detection-methods](/concepts/detection-methods.md)
+- [4gt-tree-farm](/concepts/4gt-tree-farm.md) · [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — concrete high-speed designs

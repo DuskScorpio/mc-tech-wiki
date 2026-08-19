@@ -4,7 +4,9 @@
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
 
-## [2026-08-18] create | Wiki initialized (tree-farm focus)
+## 2026-08-18
+
+**create | Wiki initialized (tree-farm focus)**
 - Domain: Technical Minecraft tree farms, Java 1.20.1, GTMC source
 - Vault path: `C:\GitHub Related\mc-tech-wiki`
 - Wrote SCHEMA.md (edition/version/confidence provenance rules)
@@ -17,7 +19,9 @@
 - Wrote index.md and this log.md
 - Not yet done: GTMC ch.06 (URL not fetched), detailed timing tables, example-world ZIPs
 
-## [2026-08-18] ingest | Dark oak growth mechanics (Bilibili) + Minecraft Wiki cross-check
+## 2026-08-18
+
+**ingest | Dark oak growth mechanics (Bilibili) + Minecraft Wiki cross-check**
 - Ingestion source: https://www.bilibili.com/opus/1031059770508836903 (Scorpio 深色橡木生长机制, edited 2025-02-09, Java ~1.21.x)
 - web_extract succeeded on retry; browser load failed (Chrome remote-debugging approval prompt) — noted, not blocking
 - Wrote raw/articles/bilibili-dark-oak-growth.md (Chinese original, sha256 tracked)
@@ -26,7 +30,9 @@
   * 2x2 NW-corner requirement + 3x3 column >=7 above NW + 5x5 top-3-layers — MATCHES
   * sapling drop 1/20, jungle 1/40 — MATCHES GTMC (already in leaf-processing.md)
   * minor divergence: Wiki says dark oak "typically 6-8" tall; Bilibili code range is 6-9 — recorded on page, not contested (Wiki is loose wording)
-## [2026-08-18] ingest | GTMC mechanics backbone (7 articles) + Technical Minecraft Wiki check
+## 2026-08-18
+
+**ingest | GTMC mechanics backbone (7 articles) + Technical Minecraft Wiki check**
 - Ingested 7 GTMC foundational-mechanics articles into raw/articles/ (sha256 tracked):
   block-update (concepts/continuous/special), micro-timing (ticks/intra-tick), pistons, block-mechanics
 - Compiled 7 concept pages: update-theory, continuous-updates, special-update-behaviors,
@@ -38,7 +44,9 @@
 - Updated SCHEMA taxonomy (added mechanics tags), index.md (concepts + raw lists), cross-linked pages.
 - Total concept pages now 24, raw sources 16.
 
-## [2026-08-18] ingest | TechMCDocs/pages (Technical Minecraft Wiki) — 2nd source, tree-farm-relevant
+## 2026-08-18
+
+**ingest | TechMCDocs/pages (Technical Minecraft Wiki) — 2nd source, tree-farm-relevant**
 - Corrected earlier miss: real content repo is TechMCDocs/pages (not TechMCDocs.github.io, which is the Jekyll scaffold).
 - Ingested 6 tree-farm-relevant pages (sha256 tracked): BlockUpdates, Piston, MovingBlock36,
   ZeroTickFarms, TileTicks, GameTick. (Skipped MobTick/UpdateSuppression/Blocks as out of scope.)
@@ -51,7 +59,9 @@
 - Tagged new raw as source-tmwiki; concept pages carry both source-gtmc and source-tmwiki where corroborated.
 - Total concept pages now 26, raw sources 22.
 
-## [2026-08-18] tier-a lint + upgrade mc-timing-model from medium to high
+## 2026-08-18
+
+**tier-a lint + upgrade mc-timing-model from medium to high**
 - Tier A lint results: 2 medium-confidence pages (block-nature, mc-timing-model); 7 version-sensitive tags (expected);
   2 orphans (zero-tick-farming-crops, tree-farm-overview — both have outbound links but no inbound; acceptable, index links them).
   No broken wikilinks, all frontmatter complete.
@@ -71,7 +81,9 @@
 - Ingested GTMC `redstone-components/rails` (NC-update emission order, direct/indirect activation, directional search/diode connectivity) + TMWiki `GameMechanics/RailBudding` (corroborates above→self→below notifier order, 9-rail search, rail BUD). Built `concepts/rails.md` (high confidence). Wired into dustless-wiring + piston-mechanics. This is the first non-tree-farm mechanics ingest since scope widened to general Tech MC.
 - 28 concept pages, 30 raw sources, no broken wikilinks.
 
-## [2026-08-18] cross-check | Minecraft Wiki (Sapling) + OKF refactor + repo docs + Slime Tech ingest
+## 2026-08-18
+
+**cross-check | Minecraft Wiki (Sapling) + OKF refactor + repo docs + Slime Tech ingest**
 - Cross-checked tree-species-requirements.md vs minecraft.wiki/w/Sapling: clearance heights + 2x2 search order (SE→NE→SW→NW, NW canonical) + drop rates all corroborated. Captured `mcwiki-sapling.md`.
 - Refactored whole vault to Google Open Knowledge Format (OKF) v0.1: every concept has required `type` + recommended `description`/`timestamp`/`resource`; `[[wikilinks]]`→path links (graph edges); `index.md` = progressive-disclosure entry; OKF contract in SCHEMA.md. Validator passes.
 - Refreshed README + SCHEMA + GitHub repo description (was "tree-farm wiki"; now general Tech MC + OKF bundle).
@@ -80,7 +92,9 @@
 - 29 concept pages, 32 raw sources. OKF lint passes.
 
 
-## [2026-08-18] ingest | Slime Tech engines / mobility / linkages (GTMC)
+## 2026-08-18
+
+**ingest | Slime Tech engines / mobility / linkages (GTMC)**
 - Captured gtmc-engines.md, gtmc-mobility.md, gtmc-linkages.md (sha256).
 - concepts/slime-tech-engines.md (engine=agency; mobilizing a structure directly) + concepts/linkages.md
   (zero-delay piston-chain retraction; BUD linkages; t0 AT->t1 BE->t3 TE piston transmission table). Both high, single-sourced GTMC.

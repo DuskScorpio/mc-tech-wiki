@@ -35,7 +35,7 @@ MC is single-threaded, so "same gt" events still sequence. Authoritative phase o
 
 Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands = **TE**; b36 retracted+landed by sticky piston = **BE**; hopper absorb/transfer = **TE**.^[raw/articles/gtmc-intra-tick-timing.md] [^[raw/articles/gtmc-block-entities.md]]
 
-> **Correction note:** the earlier version listed an abbreviated order ("AT→TT→BE→TE…"). The full GTMC intra-tick chapter gives the precise WTU→TT→CT→BE→EU→TE→AT order (player input last), corroborated by TMWiki's GameTick phase list. See [mc-timing-model](concepts/mc-timing-model.md) for the authoritative order + component phase table.
+> **Correction note:** the earlier version listed an abbreviated order ("AT→TT→BE→TE…"). The full GTMC intra-tick chapter gives the precise WTU→TT→CT→BE→EU→TE→AT order (player input last), corroborated by TMWiki's GameTick phase list. See [mc-timing-model](/concepts/mc-timing-model.md) for the authoritative order + component phase table.
 
 
 > **Translation caveat:** the EN intra-tick page is flagged "Outdated translation" (lag: 1 source commit + 2 days) at fetch time. Decompiled vs 1.20.1-yarn. Treat exact phase names as version-sensitive.
@@ -43,5 +43,5 @@ Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands
 > **Cross-source (TMWiki / Technical Minecraft Wiki):** `GameTick.md` lists the phase order as tile ticks → ChunkManager → BlockEvent → entities → block entities → player inputs, and notes rails/redstone dust are "recursive updators" (= our "instant" components). Substantially aligns with GTMC's AT→TT→BE→TE→EU model; difference is labeling, not contradiction. `TileTicks.md` confirms repeater 2/4/6/8gt + comparator 2gt and adds tile-tick priority (TTP) + 65536/tick cap. See ^[raw/articles/tmwiki-game-tick.md] and ^[raw/articles/tmwiki-tile-ticks.md].
 
 ## Related
-- [update-theory](concepts/update-theory.md) · [piston-mechanics](concepts/piston-mechanics.md) · [piston-action-timing](concepts/piston-action-timing.md)
-- [0-tick](concepts/0-tick.md) — depth within BE is what 0-tick exploits
+- [update-theory](/concepts/update-theory.md) · [piston-mechanics](/concepts/piston-mechanics.md) · [piston-action-timing](/concepts/piston-action-timing.md)
+- [0-tick](/concepts/0-tick.md) — depth within BE is what 0-tick exploits

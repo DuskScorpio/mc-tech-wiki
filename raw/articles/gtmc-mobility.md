@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/slime-tech/twisuki/mobility
 ingested: 2026-08-18
 sha256: f08a6eeb5554155a45327eaae53215ea2f7e909f029fc655094aa1895da9f2c0

@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/redstone-components/rails
 ingested: 2026-08-18
 sha256: 8d19fd64932876a55c02a1048b33056cccaf2b41d4b7d71baaae1a5bc066d5a7

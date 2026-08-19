@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/slime-tech/twisuki/flying-machine-basics
 ingested: 2026-08-18
 sha256: a804e67281ddba74873b3fccd3aa51155ee5f49001e1a69dbf5cb3dcbe7d5f6c

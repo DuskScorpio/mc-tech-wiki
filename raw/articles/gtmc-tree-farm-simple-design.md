@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/simple-design
 ingested: 2026-08-18
 sha256: ada368541fb29f8599f26c2546997305ac00fd73c4a2d71915d3019324c3928a

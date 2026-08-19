@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/micro-timing/block-entities
 ingested: 2026-08-18
 sha256: 6368b0c845bdc03414dc7b3bfb9bcae3b04b5b00a1ee5a34d76b594cabd8f71d

@@ -31,8 +31,8 @@ B36 hitbox can sit offset from its logical position (e.g. at the world border, t
 `Extending` (1/0), `Facing` (0=down..5=east), `Progress` (0..1), `Source` (1 if piston head itself).^[raw/articles/tmwiki-moving-block36.md]
 
 ## Arrival in tree farms
-Normal arrival = 3gt (GTMC "3-gt piston delay"); instant placement (`finish`) forces arrival in BE. See [piston-mechanics](concepts/piston-mechanics.md).
+Normal arrival = 3gt (GTMC "3-gt piston delay"); instant placement (`finish`) forces arrival in BE. See [piston-mechanics](/concepts/piston-mechanics.md).
 
 ## Related
-- [piston-mechanics](concepts/piston-mechanics.md) — arrival timing, instant placement
-- [piston-action-timing](concepts/piston-action-timing.md) — how arrival slots into the action budget
+- [piston-mechanics](/concepts/piston-mechanics.md) — arrival timing, instant placement
+- [piston-action-timing](/concepts/piston-action-timing.md) — how arrival slots into the action budget

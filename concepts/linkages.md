@@ -29,11 +29,11 @@ A **linkage** passes "motion" along a chain of pistons (each pushes only 12 bloc
 - **Bidirectional (comet107's expandable tunnel bore):** activatable from any position; symmetric Redstone-Block connections on both sides; transmits motion downward.^[raw/articles/gtmc-linkages.md]
 - **BUD-state linkage:** a BUD piston moves when it receives an update; stationary→moving is itself an update, so the signal transmits instantly and all modules move together. Used in burst tunnel bores (if blocked at the front, the linkage oscillates in place and can't advance -> transmits burst signals).^[raw/articles/gtmc-linkages.md]
 
-> Single GTMC source (1.20.1). The zero-delay retraction fact is precise and testable; corroborate with a 2nd source if available. Connects to [Piston Mechanics](concepts/piston-mechanics.md) (b36, 3gt action) and [Tick Micro Timing](concepts/tick-micro-timing.md) (BE/TE phases).
+> Single GTMC source (1.20.1). The zero-delay retraction fact is precise and testable; corroborate with a 2nd source if available. Connects to [Piston Mechanics](/concepts/piston-mechanics.md) (b36, 3gt action) and [Tick Micro Timing](/concepts/tick-micro-timing.md) (BE/TE phases).
 
 ## Related
-- [Piston Mechanics](concepts/piston-mechanics.md) — b36, sticky-piston 3gt action, push limit
-- [Flying Machines](concepts/flying-machines.md) — engines these linkages synchronize
-- [Slime Tech Engines and Mobility](concepts/slime-tech-engines.md) — engine/mobility framing
-- [Tick Micro Timing](concepts/tick-micro-timing.md) — BE (piston extend) / TE (block placed) phases
-- [Glossary](concepts/glossary.md) — b36, BUD, observer definitions
+- [Piston Mechanics](/concepts/piston-mechanics.md) — b36, sticky-piston 3gt action, push limit
+- [Flying Machines](/concepts/flying-machines.md) — engines these linkages synchronize
+- [Slime Tech Engines and Mobility](/concepts/slime-tech-engines.md) — engine/mobility framing
+- [Tick Micro Timing](/concepts/tick-micro-timing.md) — BE (piston extend) / TE (block placed) phases
+- [Glossary](/concepts/glossary.md) — b36, BUD, observer definitions

@@ -57,6 +57,6 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 
 ## Related
 
-- [tree-species-requirements](concepts/tree-species-requirements.md) — dark oak in the species table
-- [multi-species-tree-farm](concepts/multi-species-tree-farm.md) — why dark oak is a special case
-- [leaf-processing](concepts/leaf-processing.md) — 1/20 sapling drop
+- [tree-species-requirements](/concepts/tree-species-requirements.md) — dark oak in the species table
+- [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — why dark oak is a special case
+- [leaf-processing](/concepts/leaf-processing.md) — 1/20 sapling drop

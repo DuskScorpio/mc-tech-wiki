@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/block-update
 ingested: 2026-08-18
 sha256: 6b2f1612fd660d51aa94b7987edde937f53114b777738b3e5fc77b9aacc491ad

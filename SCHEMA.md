@@ -1,3 +1,7 @@
+---
+type: doc
+---
+
 # Wiki Schema — MC Technical Wiki
 
 ## Domain
@@ -79,7 +83,7 @@ Same set as README "Sources" + index.md. All ingested captures live in `raw/arti
 This vault is an OKF v0.1 bundle. Contract:
 - Each concept = one `.md` file under `concepts/`. The file path (minus `.md`) is the concept id / link target.
 - Every concept frontmatter REQUIRES `type` (we use: concept). Recommended OKF fields also present: `title`, `description` (one-line agent summary), `timestamp` (ISO 8601), `tags`, `resource` (canonical source URL), `sources`.
-- Links between concepts use **ordinary markdown path links** `[label](concepts/foo.md)` — these are the graph edges. (Obsidian also renders `[[wikilinks]]`, but OKF consumers only parse path links, so path links are canonical.)
+- Links between concepts use **ordinary markdown path links** (each target ending in `.md` is a graph edge). Obsidian also renders `[[wikilinks]]`, but OKF consumers parse path links, so path links are canonical.
 - `index.md` = progressive-disclosure entry point (path links grouped by type). `log.md` = dated changelog.
 - Paths are stable (git-backed). Renaming a concept file breaks inbound edges — treat paths as identity.
 - English-only (see Language rule). No translations in page bodies.

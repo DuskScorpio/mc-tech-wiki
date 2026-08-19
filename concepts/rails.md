@@ -46,8 +46,8 @@ If a rail is updated but is already in the correct state, it sends **no further 
 > **Confidence:** high. GTMC rails article (1.20.1) and TMWiki RailBudding independently agree on the NC-notifier order and the directional/diode connectivity. TMWiki states the search limit as 9 rails including itself vs GTMC's "within 8 blocks" — minor wording difference (9 inclusive vs 8 exclusive); both describe the same reach. Detector Rail update behavior is not yet documented in either source (GTMC marks it incomplete).
 
 ## Related
-- [dustless-wiring](concepts/dustless-wiring.md) — rails are the instant component that makes dustless 0t generators work
-- [piston-mechanics](concepts/piston-mechanics.md) — rails drive adjacent pistons via the NC updates above
-- [update-theory](concepts/update-theory.md) — NC updates emitted by rails
-- [special-update-behaviors](concepts/special-update-behaviors.md) — rails in the "instant component" class
-- [glossary](concepts/glossary.md) — rail-related term definitions
+- [dustless-wiring](/concepts/dustless-wiring.md) — rails are the instant component that makes dustless 0t generators work
+- [piston-mechanics](/concepts/piston-mechanics.md) — rails drive adjacent pistons via the NC updates above
+- [update-theory](/concepts/update-theory.md) — NC updates emitted by rails
+- [special-update-behaviors](/concepts/special-update-behaviors.md) — rails in the "instant component" class
+- [glossary](/concepts/glossary.md) — rail-related term definitions

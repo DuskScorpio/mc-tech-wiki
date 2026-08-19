@@ -32,5 +32,5 @@ Avoid pushing a 2-block-thick stream at once — it sharply cuts processing effi
 
 ## Related
 
-- [multi-species-tree-farm](concepts/multi-species-tree-farm.md) — why stream shape matters
-- [trunk-processing](concepts/trunk-processing.md) — what feeds the stream
+- [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — why stream shape matters
+- [trunk-processing](/concepts/trunk-processing.md) — what feeds the stream

@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm
 ingested: 2026-08-18
 sha256: e5ed05a323d79932e825ceb8c24be38b6bb9b78da7bd9acf2ccee911059239aa

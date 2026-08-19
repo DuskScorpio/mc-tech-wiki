@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/slime-tech/twisuki/introduction
 ingested: 2026-08-18
 sha256: aa392f701ccc0e0d277c4266cb6335d23885930e673e2c97671486869d2946fe

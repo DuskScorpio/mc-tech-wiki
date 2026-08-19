@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/block-update/continuous-updates
 ingested: 2026-08-18
 sha256: 2c18e8bf9cee8a87982ca71804c5eaefab166beb98e08a04354dce1171b4897d

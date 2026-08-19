@@ -37,9 +37,9 @@ In tree farms, PP-without-NC typically comes from wireless-redstone power types:
 - **Scaffolding power** — through scaffolding (NC + PP)
 - **Wall power** — through walls, vertically (PP)
 
-See [dustless-wiring](concepts/dustless-wiring.md) for how these enable lag-free signal transmission.
+See [dustless-wiring](/concepts/dustless-wiring.md) for how these enable lag-free signal transmission.
 
 ## Related
 
-- [mc-timing-model](concepts/mc-timing-model.md) — updates drive the phase/depth model
-- [detection-methods](concepts/detection-methods.md) — BUDs and observers as detectors
+- [mc-timing-model](/concepts/mc-timing-model.md) — updates drive the phase/depth model
+- [detection-methods](/concepts/detection-methods.md) — BUDs and observers as detectors

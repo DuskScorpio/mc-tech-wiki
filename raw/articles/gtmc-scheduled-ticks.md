@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/micro-timing/scheduled-ticks
 ingested: 2026-08-18
 sha256: f0bcd957eb320f782817c63a6f4c7715673da0482a9eca0203f2461dceb05338

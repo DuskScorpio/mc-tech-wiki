@@ -31,5 +31,5 @@ Think of it as exploring a cavern: pushing NC onto a stack = "going deeper", pop
 NC update direction order is **West, East, Down, Up, North, South**. Order of NC updates to the block ABOVE varies (near-to-far vs far-to-near) depending on traversal direction.^[raw/articles/gtmc-block-update-continuous.md]
 
 ## Related
-- [update-theory](concepts/update-theory.md) — the update types this builds on
-- [special-update-behaviors](concepts/special-update-behaviors.md) — dust 2nd-order changes the locational order
+- [update-theory](/concepts/update-theory.md) — the update types this builds on
+- [special-update-behaviors](/concepts/special-update-behaviors.md) — dust 2nd-order changes the locational order

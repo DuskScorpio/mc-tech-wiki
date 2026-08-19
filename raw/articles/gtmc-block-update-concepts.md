@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/block-update/update-concepts
 ingested: 2026-08-18
 sha256: 9a9b54cfe78f8681b93a87e1aa83fcc323d20174bef558baea04b02c4ed575dc

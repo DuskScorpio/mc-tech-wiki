@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
 ingested: 2026-08-18
 sha256: 86178fc2fce7ad35dde20bcdc034be8554094281e3e76ffc10a04fb4cc04a606

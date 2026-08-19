@@ -33,5 +33,5 @@ Several blocks break the simple 1st-order neighbor model.^[raw/articles/gtmc-blo
 - When a piston pushes a lit observer into position and **no observer scheduled tick is queued at the destination**, it does NOT emit the usual piston-movement NC update to neighbors (except the output-face block). On arrival, onBlockAdded sees powered=true + no queued tick → sets powered=false (PP) and updates neighbors (NC only to output face). Net effect: neighbors don't get the standard NC update.^[raw/articles/gtmc-block-update-special.md]
 
 ## Related
-- [update-theory](concepts/update-theory.md) · [continuous-updates](concepts/continuous-updates.md)
-- [dustless-wiring](concepts/dustless-wiring.md) — dust redirection exploits dust's locational updates
+- [update-theory](/concepts/update-theory.md) · [continuous-updates](/concepts/continuous-updates.md)
+- [dustless-wiring](/concepts/dustless-wiring.md) — dust redirection exploits dust's locational updates

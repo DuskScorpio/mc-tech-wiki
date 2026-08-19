@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/4gt-farms
 ingested: 2026-08-18
 sha256: 6a10ba95286e6bf3e0be0abecdfa169620852c507aa54e880bf171366800051f

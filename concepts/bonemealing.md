@@ -27,6 +27,6 @@ Because a clock-based 4gt farm has only one growth window every 4gt, it uses **s
 
 ## Related
 
-- [high-speed-tree-farms](concepts/high-speed-tree-farms.md) — base design and cross bonemealing
-- [4gt-tree-farm](concepts/4gt-tree-farm.md) — synchronized bonemealing on a 4gt clock
-- [sapling-recycling](concepts/sapling-recycling.md) — the other half of the base
+- [high-speed-tree-farms](/concepts/high-speed-tree-farms.md) — base design and cross bonemealing
+- [4gt-tree-farm](/concepts/4gt-tree-farm.md) — synchronized bonemealing on a 4gt clock
+- [sapling-recycling](/concepts/sapling-recycling.md) — the other half of the base

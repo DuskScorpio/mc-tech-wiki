@@ -26,9 +26,9 @@ Each leaf block has a fixed sapling drop chance:^[raw/articles/gtmc-tree-farm-ba
 | Jungle | 1/40 |
 | All other types | 1/20 |
 
-Because jungle is so low (1/40), jungle-capable farms need extra leaf-processing coverage — see [tree-species-requirements](concepts/tree-species-requirements.md) and [multi-species-tree-farm](concepts/multi-species-tree-farm.md).
+Because jungle is so low (1/40), jungle-capable farms need extra leaf-processing coverage — see [tree-species-requirements](/concepts/tree-species-requirements.md) and [multi-species-tree-farm](/concepts/multi-species-tree-farm.md).
 
 ## Related
 
-- [sapling-recycling](concepts/sapling-recycling.md) — what happens to the dropped saplings
-- [block-to-drop](concepts/block-to-drop.md) — converting the rest to items
+- [sapling-recycling](/concepts/sapling-recycling.md) — what happens to the dropped saplings
+- [block-to-drop](/concepts/block-to-drop.md) — converting the rest to items

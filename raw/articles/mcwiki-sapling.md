@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://minecraft.wiki/w/Sapling
 source_repo: Minecraft Wiki (minecraft.wiki)
 ingested: 2026-08-18

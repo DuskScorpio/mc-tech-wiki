@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring
 ingested: 2026-08-18
 sha256: 720d7a2728c3cd0c48a05136c569dc7dfbfc4a40eb6b38326468eb58af32698f

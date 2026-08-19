@@ -27,8 +27,8 @@ sources: [raw/articles/gtmc-tree-farm-dustless-wiring.md]
 
 ## Related
 
-- [updates-nc-pp](concepts/updates-nc-pp.md) — NC vs PP basis
-- [0-tick](concepts/0-tick.md) — redirection-based 0t generators
-- [4gt-tree-farm](concepts/4gt-tree-farm.md) — modular dustless 0t generators
-- [glossary](concepts/glossary.md) — DL, 0t, HS, NC/PP term definitions
-- [rails](concepts/rails.md) — rail NC-update order + directional connectivity (the instant component behind dustless wiring)
+- [updates-nc-pp](/concepts/updates-nc-pp.md) — NC vs PP basis
+- [0-tick](/concepts/0-tick.md) — redirection-based 0t generators
+- [4gt-tree-farm](/concepts/4gt-tree-farm.md) — modular dustless 0t generators
+- [glossary](/concepts/glossary.md) — DL, 0t, HS, NC/PP term definitions
+- [rails](/concepts/rails.md) — rail NC-update order + directional connectivity (the instant component behind dustless wiring)

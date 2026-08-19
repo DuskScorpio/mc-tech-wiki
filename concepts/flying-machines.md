@@ -33,7 +33,7 @@ A regular Piston ("right foot") stays put while a sticky piston pulls the rear s
 > **Confidence:** high. Single GTMC source (SlimeTech/Twisuki, 1.20.1). Period figures (9/10/12gt) and the observer-activation mechanism are stated explicitly. No cross-source yet — Discovering-Minecraft is CN-only (out of scope per language rule), so this page is currently single-sourced; flag for corroboration if a 2nd English source is found.
 
 ## Related
-- [Piston Mechanics](concepts/piston-mechanics.md) — the pushes/pulls a flying machine sequences
-- [Rails](concepts/rails.md) — directional connectivity; flying-machine rails use similar update logic
-- [0-Tick](concepts/0-tick.md) — intra-tick timing that flying-machine circuits rely on
-- [Glossary](concepts/glossary.md) — slime/honey, observer term definitions
+- [Piston Mechanics](/concepts/piston-mechanics.md) — the pushes/pulls a flying machine sequences
+- [Rails](/concepts/rails.md) — directional connectivity; flying-machine rails use similar update logic
+- [0-Tick](/concepts/0-tick.md) — intra-tick timing that flying-machine circuits rely on
+- [Glossary](/concepts/glossary.md) — slime/honey, observer term definitions

@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/block-mechanics/block-changes
 ingested: 2026-08-18
 sha256: 83e35f8d6dc8eb9e626c21772e6648586204ba9c511f1459645c6b704b50b1c2

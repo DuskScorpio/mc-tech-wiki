@@ -54,12 +54,12 @@ A Scheduled Tick carries only `triggerTick, subTickOrder, priority, pos, type` �
 > **Confidence note:** upgraded from `medium` to `high` after reading GTMC's full intra-tick, scheduled-tick, block-event, and block-entity theory chapters (which supersede the simplified "basics" page). Phase order and component phases are now sourced to those chapters. Still Java 1.20.1; treat exact phase *names* as conventional but the ordering is well-established.
 
 ## Related
-- [piston-action-timing](concepts/piston-action-timing.md) — how depth produces 0-tick
-- [update-theory](concepts/update-theory.md) — NC/PP/Comparator/Self-inspection, QC, flags
-- [continuous-updates](concepts/continuous-updates.md) — DFS propagation order (note: NC propagation, distinct from BE BFS)
-- [special-update-behaviors](concepts/special-update-behaviors.md) — dust 2nd-order, diagonal rails, lit-observer quirk
-- [tick-micro-timing](concepts/tick-micro-timing.md) — game tick, inter/intra-tick, tile-tick table
-- [piston-mechanics](concepts/piston-mechanics.md) — self-check, QC, push limit, b36, instant placement
-- [moving-block-b36](concepts/moving-block-b36.md) — B36 properties & NBT
-- [0-tick](concepts/0-tick.md) — using depth for speed
-- [block-nature](concepts/block-nature.md) — Block vs BlockState (pointer)
+- [piston-action-timing](/concepts/piston-action-timing.md) — how depth produces 0-tick
+- [update-theory](/concepts/update-theory.md) — NC/PP/Comparator/Self-inspection, QC, flags
+- [continuous-updates](/concepts/continuous-updates.md) — DFS propagation order (note: NC propagation, distinct from BE BFS)
+- [special-update-behaviors](/concepts/special-update-behaviors.md) — dust 2nd-order, diagonal rails, lit-observer quirk
+- [tick-micro-timing](/concepts/tick-micro-timing.md) — game tick, inter/intra-tick, tile-tick table
+- [piston-mechanics](/concepts/piston-mechanics.md) — self-check, QC, push limit, b36, instant placement
+- [moving-block-b36](/concepts/moving-block-b36.md) — B36 properties & NBT
+- [0-tick](/concepts/0-tick.md) — using depth for speed
+- [block-nature](/concepts/block-nature.md) — Block vs BlockState (pointer)

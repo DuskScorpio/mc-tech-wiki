@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/redstone-components/pistons
 ingested: 2026-08-18
 sha256: fbb66a2db19fcf96c45417d198ce5ce59ba93196d18f9df86434122340bd9fae

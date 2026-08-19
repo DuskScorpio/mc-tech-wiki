@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/high-speed-intro
 ingested: 2026-08-18
 sha256: b2a62f792d7510ec9160cdfc88fdbdf43546fd15a42fa7eb127025bf83559b2c

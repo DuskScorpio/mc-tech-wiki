@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://www.techmc.wiki/en/articles/micro-timing/tick-timing
 ingested: 2026-08-18
 sha256: 63b3b30edb1045df27814582a241ffd7b8fe69ee9666ba640e44ba1637aad9f0

@@ -1,4 +1,5 @@
 ---
+type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/BugsAndExploits/ZeroTickFarms.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18

@@ -99,5 +99,5 @@ Terms sourced from the TechMC-Glossary project (community-standard definitions).
 - **Synced Bone Meal** — Tree farming term. Synchronous application of bone meal to a sapling with all the dispensers, usually used to differentiate from cross bone meal
 
 ## Related
-- [tree-farm-overview](concepts/tree-farm-overview.md) — terms used across the farm pages
-- [mc-timing-model](concepts/mc-timing-model.md) — gt, tile tick, micro-timing
+- [tree-farm-overview](/concepts/tree-farm-overview.md) — terms used across the farm pages
+- [mc-timing-model](/concepts/mc-timing-model.md) — gt, tile tick, micro-timing

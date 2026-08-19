@@ -49,6 +49,6 @@ Observer emits **PP-first-then-NC** on toggle (opposite of most blocks).^[raw/ar
 > **Cross-source (TMWiki / Technical Minecraft Wiki):** TMWiki's "block update" = GTMC's NC, and "state update" = GTMC's PP. It independently confirms: redstone dust sends state updates diagonally in some conditions but won't trigger observers there; trapdoors send PP but NOT NC (so a piston BUD won't detect them — matches our BUD/PP distinction); comparator updates are detected only by comparators within 1-block range through a conductive block. See ^[raw/articles/tmwiki-block-updates.md].
 
 ## Related
-- [continuous-updates](concepts/continuous-updates.md) — DFS propagation & order analysis
-- [special-update-behaviors](concepts/special-update-behaviors.md) — redstone dust 2nd-order, diagonal rails, lit-observer quirk
-- [mc-timing-model](concepts/mc-timing-model.md) · [piston-mechanics](concepts/piston-mechanics.md)
+- [continuous-updates](/concepts/continuous-updates.md) — DFS propagation & order analysis
+- [special-update-behaviors](/concepts/special-update-behaviors.md) — redstone dust 2nd-order, diagonal rails, lit-observer quirk
+- [mc-timing-model](/concepts/mc-timing-model.md) · [piston-mechanics](/concepts/piston-mechanics.md)

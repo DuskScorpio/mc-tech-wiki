@@ -24,7 +24,7 @@ For a multi-species farm, take the **union** of every species' constraints — m
 | **Acacia** | 6 (5×5) | Up to 2 logs same y-level, along x/z, ≤4 from sapling; growth detection 3×3 | Needs **side branch processing** (center consolidation or extra outputs) |
 | **Jungle** | 5 (3×3) single; 11 (5×5 centered on NW) as 2×2 | Trunk up to **12 blocks** tall; sapling drop 1/40 (=2.5%) | Needs tall pusher + extra leaf coverage (avg >42 to get enough saplings) |
 | **Oak** | 5 (3×3); a block in growth space forces a large variant | Can become a **large oak** (drumstick) | Height-limit block at **9th block above dirt** |
-| **Dark oak** | 7 (3×3 centered on NW), **must be 2×2** | 3×7×3–3×10×3 column above NW + 5×3×5 below height; can be limited/boosted | Can be "height-boosted"; special case in multi-species (see [dark-oak-growth-mechanics](concepts/dark-oak-growth-mechanics.md)) |
+| **Dark oak** | 7 (3×3 centered on NW), **must be 2×2** | 3×7×3–3×10×3 column above NW + 5×3×5 below height; can be limited/boosted | Can be "height-boosted"; special case in multi-species (see [dark-oak-growth-mechanics](/concepts/dark-oak-growth-mechanics.md)) |
 | **Cherry** | 8 (5×5), 1×1 only | Not yet in farm scope | — |
 
 Min-clearance heights and the 2×2 search order (SE → NE → SW → NW; NW sapling is canonical) are corroborated by Minecraft Wiki.^[raw/articles/mcwiki-sapling.md] Drop rates (jungle 1/40, others 1/20) also match.^[raw/articles/mcwiki-sapling.md]
@@ -35,6 +35,6 @@ Large spruce (2x2): growth detection is **3x3 at the sapling layer (NW corner), 
 
 ## Related
 
-- [trunk-processing](concepts/trunk-processing.md) — which method handles each constraint
-- [multi-species-tree-farm](concepts/multi-species-tree-farm.md) — combining them
-- [large-spruce-tree-farm](concepts/large-spruce-tree-farm.md) — 2x2 deep dive
+- [trunk-processing](/concepts/trunk-processing.md) — which method handles each constraint
+- [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — combining them
+- [large-spruce-tree-farm](/concepts/large-spruce-tree-farm.md) — 2x2 deep dive
