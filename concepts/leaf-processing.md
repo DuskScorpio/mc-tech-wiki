@@ -3,23 +3,28 @@ type: concept
 title: Leaf Processing
 created: 2026-08-18
 updated: 2026-08-18
-timestamp: "2026-08-18T00:00:00Z"
+
 description: Push away enough leaves (with pistons or honey-slime walls) to recover the saplings you need.^[raw/articles/gtmc-tree-farm-basics.md]
 edition: java
 version: 1.20.1
 confidence: high
 tags: [methods, leaf-processing, source-gtmc]
 resource: "https://www.techmc.wiki/en/articles/block-update"
-sources: [raw/articles/gtmc-tree-farm-basics.md]
+sources:
+- id: gtmc-tree-farm-basics
+  resource: https://www.techmc.wiki/en/articles/block-update
+  title: GTMC Tree Farm Basics
+generated: { by: /, at: "2026-08-18T00:00:00Z" }
+status: stable
 ---
 
 # Leaf Processing
 
-Push away enough leaves (with pistons or honey-slime walls) to recover the saplings you need.^[raw/articles/gtmc-tree-farm-basics.md]
+Push away enough leaves (with pistons or honey-slime walls) to recover the saplings you need.[^gtmc-tree-farm-basics]
 
 ## Sapling drop chance
 
-Each leaf block has a fixed sapling drop chance:^[raw/articles/gtmc-tree-farm-basics.md]
+Each leaf block has a fixed sapling drop chance:[^gtmc-tree-farm-basics]
 
 | Tree type | Sapling drop per leaf |
 |---|---|
@@ -32,3 +37,4 @@ Because jungle is so low (1/40), jungle-capable farms need extra leaf-processing
 
 - [sapling-recycling](/concepts/sapling-recycling.md) — what happens to the dropped saplings
 - [block-to-drop](/concepts/block-to-drop.md) — converting the rest to items
+[^gtmc-tree-farm-basics]: https://www.techmc.wiki/en/articles/block-update

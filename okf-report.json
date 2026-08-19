@@ -9,22 +9,12 @@
   "summary": {
     "concepts": 69,
     "reserved": 2,
-    "links": 185,
+    "links": 187,
     "errors": 0,
-    "warnings": 40
+    "warnings": 36
   },
   "errors": [],
   "warnings": [
-    {
-      "rule": "S2",
-      "file": "index.md",
-      "message": "index does not link sibling concept `README.md`"
-    },
-    {
-      "rule": "S2",
-      "file": "index.md",
-      "message": "index does not link sibling concept `SCHEMA.md`"
-    },
     {
       "rule": "S4",
       "file": "raw/articles/bilibili-dark-oak-growth.md",
@@ -203,16 +193,6 @@
     {
       "rule": "S4",
       "file": "raw/articles/tmwiki-zero-tick-farms.md",
-      "message": "orphan concept (no links in or out)"
-    },
-    {
-      "rule": "S4",
-      "file": "README.md",
-      "message": "orphan concept (no links in or out)"
-    },
-    {
-      "rule": "S4",
-      "file": "SCHEMA.md",
       "message": "orphan concept (no links in or out)"
     }
   ]

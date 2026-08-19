@@ -3,7 +3,7 @@ type: concept
 title: Glossary (Technical Minecraft terms)
 created: 2026-08-18
 updated: 2026-08-18
-timestamp: "2026-08-18T00:00:00Z"
+
 description: English term + definition reference for Technical Minecraft (Java).
 edition: java
 version: any
@@ -11,6 +11,8 @@ confidence: high
 tags: [glossary, reference]
 resource: "https://github.com/TechMC-Glossary/TechMC-Glossary"
 sources: [https://github.com/TechMC-Glossary/TechMC-Glossary]
+generated: { by: /, at: "2026-08-18T00:00:00Z" }
+status: stable
 ---
 
 # Glossary

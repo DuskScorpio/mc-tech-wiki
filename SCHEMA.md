@@ -80,15 +80,30 @@ Same set as README "Sources" + index.md. All ingested captures live in `raw/arti
 - Bilibili creators (per-article attribution)
 
 ## OKF (Open Knowledge Format) compliance
-This vault is an OKF v0.1 bundle. Contract:
-- Each concept = one `.md` file under `concepts/`. The file path (minus `.md`) is the concept id / link target.
-- Every concept frontmatter REQUIRES `type` (we use: concept). Recommended OKF fields also present: `title`, `description` (one-line agent summary), `timestamp` (ISO 8601), `tags`, `resource` (canonical source URL), `sources`.
-- Links between concepts use **ordinary markdown path links** (each target ending in `.md` is a graph edge). Obsidian also renders `[[wikilinks]]`, but OKF consumers parse path links, so path links are canonical.
-- `index.md` = progressive-disclosure entry point (path links grouped by type). `log.md` = dated changelog.
+This vault is an **OKF v0.2** bundle. Authoritative spec:
+`https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md` (v0.2).
+Contract (derived from SPEC.md, not from the validator's tolerance):
+- **Concept = one `.md` file.** File path (minus `.md`) = concept id / link target (§2, §6).
+- **Required frontmatter:** `type` (short string; producer-defined values allowed, e.g. `concept`, `source`, `doc`). §4.1.
+- **Recommended frontmatter:** `title`, `description` (one-line agent summary), `resource` (URI of the asset the concept describes), `tags` (list), plus the v0.2 provenance/trust/lifecycle families (§5).
+- **Provenance — `sources:` is a LIST of entries** (§5.1), NOT a bare string list:
+  ```yaml
+  sources:
+  - id: gtmc-rails
+    resource: https://www.techmc.wiki/en/articles/redstone-components/rails
+    title: GTMC — Rails
+  ```
+  `resource` is REQUIRED within an entry and SHOULD be a concrete artifact a consumer can follow (canonical URL, or a bundle-relative path, or a `references/`-style path). Our `raw/articles/*.md` files are local mirrors kept for drift detection; the canonical `resource` points at the upstream URL.
+- **Per-claim attribution uses markdown footnotes** keyed to `sources[].id` (§5.1): `claim.[^gtmc-rails]` with `[^gtmc-rails]: GTMC — Rails` at the bottom. NOT inline `^[raw/...]` carets.
+- **Freshness — `generated: { by, at }`** (§5.2). `by` uses the actor convention (§7): `/` for agents, `human:` for people, `process:` for automation. The v0.1 `timestamp` field is SUPERSEDED (§13.1) — do not use it.
+- **Trust — `verified:`** (§5.2/§5.3): list of `{ by, at }` verification events. `human:` verifier ⇒ human-reviewed tier. Our `confidence:` field is an extra producer key (allowed) but does NOT replace `verified`.
+- **Lifecycle — `status:`** (§5.4): `draft | stable | deprecated`. Absent ⇒ `stable`.
+- **Links:** ordinary markdown, two forms — bundle-relative (leading `/`, recommended, §6.1) or relative. Broken links are tolerated (§6.1). Obsidian also renders `[[wikilinks]]`; path links are canonical for OKF consumers.
+- **`index.md`** = progressive-disclosure entry (§8; may carry `okf_version: "0.2"` in frontmatter, the only permitted frontmatter). **`log.md`** = dated changelog, headings `## YYYY-MM-DD` (§9).
+- **Reserved filenames:** only `index.md` + `log.md` (§3.1). Every other `.md` is a concept document — including `README.md`/`SCHEMA.md`, which we type as `doc` (producer-defined, legal) but are repo docs, not knowledge concepts.
+- **`raw/articles/` split:** our convention (sources as `type: source` concepts + `concepts/` as compiled `type: concept`). This is NOT an OKF requirement — OKF has no source/resource division — but it is legal (producer-defined types) and the validator tolerates it. Provenance is encoded per §5.1 above, not via the directory alone.
 - Paths are stable (git-backed). Renaming a concept file breaks inbound edges — treat paths as identity.
 - English-only (see Language rule). No translations in page bodies.
-- Source captures live in `raw/articles/` (sha256-tracked, immutable). Cross-source corroboration is recorded in `sources:` + `resource:`.
-- Validator: a small bundle passes OKF v0.1 if every concept has `type` and links resolve. Run a lint (python) for: no `[[wikilinks]]` in bodies, `description`+`type` present on all, links resolve to existing files.
 
 ## Pitfalls
 - GTMC is **Java 1.20.1**. Never generalize a Java mechanic to Bedrock without a Bedrock source.
