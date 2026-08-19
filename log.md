@@ -79,3 +79,10 @@
 - Discovering-Minecraft found CN-only (160 files) -> out of scope per English-only rule; not ingested.
 - 29 concept pages, 32 raw sources. OKF lint passes.
 
+
+## [2026-08-18] ingest | Slime Tech engines / mobility / linkages (GTMC)
+- Captured gtmc-engines.md, gtmc-mobility.md, gtmc-linkages.md (sha256).
+- concepts/slime-tech-engines.md (engine=agency; mobilizing a structure directly) + concepts/linkages.md
+  (zero-delay piston-chain retraction; BUD linkages; t0 AT->t1 BE->t3 TE piston transmission table). Both high, single-sourced GTMC.
+- Wired into flying-machines + piston-mechanics + index.
+- 31 concept pages, 36 raw sources. OKF lint clean.

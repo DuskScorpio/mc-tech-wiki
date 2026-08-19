@@ -50,6 +50,8 @@ Source attribution (CC BY-NC-SA where applicable) is recorded per raw file in `r
 - [Block Nature](concepts/block-nature.md) — Block vs BlockState
 - [Piston Action Timing](concepts/piston-action-timing.md) — 3gt action, 1gt/2gt costs
 - [Flying Machines](concepts/flying-machines.md) — 9gt/10gt/12gt, observer activation, mounting/extension
+- [Slime Tech Engines and Mobility](concepts/slime-tech-engines.md) — engine = agency; mobilizing a structure directly
+- [Linkages](concepts/linkages.md) — zero-delay piston-chain retraction, BUD linkages
 - [Moving Block B36](concepts/moving-block-b36.md) — B36 properties, hitbox, NBT
 - [Dark Oak Growth Mechanics](concepts/dark-oak-growth-mechanics.md) — 2x2 code-level growth
 - [Zero-Tick Farming Crops](concepts/zero-tick-farming-crops.md) — crop 0t (patched 1.16+); not redstone 0t
@@ -66,7 +68,7 @@ gtmc-tree-farm-4gt.md, gtmc-tree-farm-large-spruce.md,
 gtmc-block-update-concepts.md, gtmc-block-update-continuous.md, gtmc-block-update-special.md,
 gtmc-micro-timing-ticks.md, gtmc-micro-timing-intra-tick.md,
 gtmc-pistons.md, gtmc-block-mechanics.md, gtmc-blocks-and-states.md, gtmc-block-changes.md,
-gtmc-rails.md, gtmc-rail-budding.md, gtmc-slime-introduction.md, gtmc-flying-machine-basics.md
+gtmc-rails.md, gtmc-rail-budding.md, gtmc-slime-introduction.md, gtmc-flying-machine-basics.md, gtmc-engines.md, gtmc-mobility.md, gtmc-linkages.md
 
 ### bilibili
 bilibili-dark-oak-growth.md — Scorpio, edited 2025-02-09, Java ~1.21.x
