@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [farms, large-spruce, tree-farm, source-gtmc, version-sensitive]
-resource: "https://www.techmc.wiki/en/articles/tree-farm/large-spruce-farm"
 sources:
 - id: gtmc-tree-farm-large-spruce
   resource: https://www.techmc.wiki/en/articles/tree-farm/large-spruce-farm

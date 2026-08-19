@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [farms, 4gt, tree-farm, high-speed, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/tree-farm/4gt-farms"
 sources:
 - id: gtmc-tree-farm-4gt
   resource: https://www.techmc.wiki/en/articles/tree-farm/4gt-farms

@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [techniques, 0-tick, timing, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/tree-farm/high-speed-intro"
 sources:
 - id: gtmc-tree-farm-high-speed
   resource: https://www.techmc.wiki/en/articles/tree-farm/high-speed-intro

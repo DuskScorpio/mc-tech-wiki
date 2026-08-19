@@ -10,7 +10,6 @@ version: 1.20.1
 confidence: high
 contested: False
 tags: [mechanics, updates, source-gtmc, version-sensitive]
-resource: "https://www.techmc.wiki/en/articles/block-update/special-updates"
 sources:
 - id: gtmc-block-update-special
   resource: https://www.techmc.wiki/en/articles/block-update/special-updates

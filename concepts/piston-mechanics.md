@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, piston-action, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/redstone-components/pistons"
 sources:
 - id: gtmc-pistons
   resource: https://www.techmc.wiki/en/articles/redstone-components/pistons

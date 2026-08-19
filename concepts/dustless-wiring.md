@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [techniques, dustless, high-speed, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring"
 sources:
 - id: gtmc-tree-farm-dustless-wiring
   resource: https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring

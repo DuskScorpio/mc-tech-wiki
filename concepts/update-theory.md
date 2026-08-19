@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, updates, timing, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/block-update/update-concepts"
 sources:
 - id: gtmc-block-update-concepts
   resource: https://www.techmc.wiki/en/articles/block-update/update-concepts

@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [methods, detection, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/tree-farm/simple-design"
 sources:
 - id: gtmc-tree-farm-simple-design
   resource: https://www.techmc.wiki/en/articles/tree-farm/simple-design

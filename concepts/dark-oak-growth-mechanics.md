@@ -10,7 +10,6 @@ version: 1.21
 confidence: high
 contested: False
 tags: [trees, dark-oak, source-bilibili, version-sensitive]
-resource: "https://www.bilibili.com/opus/1031059770508836903"
 sources:
 - id: bilibili-dark-oak-growth
   resource: https://www.bilibili.com/opus/1031059770508836903

@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, updates, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/block-update/continuous-updates"
 sources:
 - id: gtmc-block-update-continuous
   resource: https://www.techmc.wiki/en/articles/block-update/continuous-updates

@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [trees, source-gtmc, source-mcwiki, version-sensitive]
-resource: "https://www.techmc.wiki/en/articles/tree-farm/multi-species-design"
 sources:
 - id: gtmc-tree-farm-multi-species
   resource: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design

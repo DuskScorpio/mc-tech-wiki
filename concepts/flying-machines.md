@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, slime-tech, flying-machine, source-gtmc]
-resource: https://www.techmc.wiki/en/articles/slime-tech/twisuki/flying-machine-basics
 sources:
 - id: gtmc-flying-machine-basics
   resource: https://www.techmc.wiki/en/articles/slime-tech/twisuki/flying-machine-basics

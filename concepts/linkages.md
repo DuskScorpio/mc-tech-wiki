@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, slime-tech, linkage, source-gtmc]
-resource: https://www.techmc.wiki/en/articles/slime-tech/twisuki/linkages
 sources:
 - id: gtmc-linkages
   resource: https://www.techmc.wiki/en/articles/slime-tech/twisuki/linkages

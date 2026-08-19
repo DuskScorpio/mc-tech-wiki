@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, timing, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/micro-timing/tick-timing"
 sources:
 - id: gtmc-micro-timing-ticks
   resource: https://www.techmc.wiki/en/articles/micro-timing/tick-timing

@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, piston-action, timing, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/block-update"
 sources:
 - id: gtmc-tree-farm-basics
   resource: https://www.techmc.wiki/en/articles/block-update

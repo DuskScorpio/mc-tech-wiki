@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, timing, micro-timing, source-gtmc, source-tmwiki]
-resource: "https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing"
 sources:
 - id: gtmc-intra-tick-timing
   resource: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing

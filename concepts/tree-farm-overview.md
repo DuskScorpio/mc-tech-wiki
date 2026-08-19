@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [farms, tree-farm, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/tree-farm"
 sources:
 - id: gtmc-tree-farm-foreword
   resource: https://www.techmc.wiki/en/articles/tree-farm

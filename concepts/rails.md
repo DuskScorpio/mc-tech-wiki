@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, rails, redstone-phase, source-gtmc, source-tmwiki]
-resource: "https://www.techmc.wiki/en/articles/redstone-components/rails"
 sources:
 - id: gtmc-rails
   resource: https://www.techmc.wiki/en/articles/redstone-components/rails

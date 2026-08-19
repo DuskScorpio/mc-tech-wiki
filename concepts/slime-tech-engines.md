@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, slime-tech, engine, mobility, source-gtmc]
-resource: https://www.techmc.wiki/en/articles/slime-tech/twisuki/engines
 sources:
 - id: gtmc-engines
   resource: https://www.techmc.wiki/en/articles/slime-tech/twisuki/engines

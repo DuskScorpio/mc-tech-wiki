@@ -9,7 +9,6 @@ edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, source-gtmc]
-resource: "https://www.techmc.wiki/en/articles/block-mechanics"
 sources:
 - id: gtmc-block-mechanics
   resource: https://www.techmc.wiki/en/articles/block-mechanics

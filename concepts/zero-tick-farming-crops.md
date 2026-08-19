@@ -10,7 +10,6 @@ version: <=1.15 (patched 20w12a)
 confidence: high
 contested: False
 tags: [bugs, zero-tick, crops, source-tmwiki, version-sensitive, patched]
-resource: "https://github.com/TechMCDocs/pages/blob/master/BugsAndExploits/ZeroTickFarms.md"
 sources:
 - id: tmwiki-zero-tick-farms
   resource: https://github.com/TechMCDocs/pages/blob/master/BugsAndExploits/ZeroTickFarms.md
