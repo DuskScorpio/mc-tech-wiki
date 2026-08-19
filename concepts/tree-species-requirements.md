@@ -6,22 +6,25 @@ type: concept
 edition: java
 version: 1.20.1
 confidence: high
-tags: [trees, source-gtmc, version-sensitive]
-sources: [raw/articles/gtmc-tree-farm-multi-species.md, raw/articles/gtmc-tree-farm-large-spruce.md]
+tags: [trees, source-gtmc, source-mcwiki, version-sensitive]
+sources: [raw/articles/gtmc-tree-farm-multi-species.md, raw/articles/gtmc-tree-farm-large-spruce.md, raw/articles/mcwiki-sapling.md]
 ---
 
 # Tree Species Requirements
 
 For a multi-species farm, take the **union** of every species' constraints — meet the most demanding one.^[raw/articles/gtmc-tree-farm-multi-species.md]
 
-| Species | Key growth constraint | Processing note |
-|---|---|---|
-| **Birch** | Fewest restrictions | Simple push/pull; ~20 leaves needed |
-| **Spruce** | 5x5 area centered on sapling must be clear | Triple / pseudo-double / honey-slime double recursion |
-| **Acacia** | Up to 2 logs same y-level, along x/z, ≤4 from sapling; growth detection 3x3 | Needs **side branch processing** (center consolidation or extra outputs) |
-| **Jungle** | Trunk up to **12 blocks** tall; sapling drop 1/40 | Needs tall pusher + extra leaf coverage (avg >42 to get enough saplings) |
-| **Oak** | Can become a **large oak** (drumstick) | Height-limit block at **9th block above dirt** |
-| **Dark oak** | 2x2 (NW corner); 3x7x3–3x10x3 column above NW + 5x3x5 below height; can be limited/boosted | Can be "height-boosted"; special case in multi-species (see [[dark-oak-growth-mechanics]]) |
+| Species | Min clear space above (JE) | Key growth constraint | Processing note |
+|---|---|---|---|
+| **Birch** | 6 (3×3) | Fewest restrictions | Simple push/pull; ~20 leaves needed |
+| **Spruce** | 6 (5×5) single; 14 (5×5 centered on NW) as 2×2 | 5×5 area centered on sapling must be clear | Triple / pseudo-double / honey-slime double recursion |
+| **Acacia** | 6 (5×5) | Up to 2 logs same y-level, along x/z, ≤4 from sapling; growth detection 3×3 | Needs **side branch processing** (center consolidation or extra outputs) |
+| **Jungle** | 5 (3×3) single; 11 (5×5 centered on NW) as 2×2 | Trunk up to **12 blocks** tall; sapling drop 1/40 (=2.5%) | Needs tall pusher + extra leaf coverage (avg >42 to get enough saplings) |
+| **Oak** | 5 (3×3); a block in growth space forces a large variant | Can become a **large oak** (drumstick) | Height-limit block at **9th block above dirt** |
+| **Dark oak** | 7 (3×3 centered on NW), **must be 2×2** | 3×7×3–3×10×3 column above NW + 5×3×5 below height; can be limited/boosted | Can be "height-boosted"; special case in multi-species (see [[dark-oak-growth-mechanics]]) |
+| **Cherry** | 8 (5×5), 1×1 only | Not yet in farm scope | — |
+
+Min-clearance heights and the 2×2 search order (SE → NE → SW → NW; NW sapling is canonical) are corroborated by Minecraft Wiki.^[raw/articles/mcwiki-sapling.md] Drop rates (jungle 1/40, others 1/20) also match.^[raw/articles/mcwiki-sapling.md]
 
 Large spruce (2x2): growth detection is **3x3 at the sapling layer (NW corner), expanding to 5x5 above**; max height 28 (29 at NW corner). Needs double recursion + honey-slime walls.^[raw/articles/gtmc-tree-farm-large-spruce.md]
 

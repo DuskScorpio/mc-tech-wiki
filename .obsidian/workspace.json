@@ -190,6 +190,7 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "raw/articles/mcwiki-sapling.md",
     "concepts/rails.md",
     "raw/articles/gltmc-rail-budding.md.tmp",
     "raw/articles/gltmc-rails.md.tmp",
@@ -224,7 +225,6 @@
     "raw/articles/tmwiki-piston.md",
     "raw/articles/tmwiki-game-tick.md",
     "raw/articles/tmwiki-tile-ticks.md",
-    "raw/articles/tmwiki-zero-tick-farms.md",
-    "raw/articles/tmwiki-moving-block36.md"
+    "raw/articles/tmwiki-zero-tick-farms.md"
   ]
 }
