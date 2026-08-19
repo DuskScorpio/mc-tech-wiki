@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Updates — NC vs PP
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: "Minecraft has two update types: **NC updates** (neighbor/block changes) and **PP updates** (block/state placement changes).^[raw/articles/gtmc-tree-farm-basics.…"
 edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, updates, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/block-update"
 sources: [raw/articles/gtmc-tree-farm-basics.md]
 ---
 
@@ -34,9 +37,9 @@ In tree farms, PP-without-NC typically comes from wireless-redstone power types:
 - **Scaffolding power** — through scaffolding (NC + PP)
 - **Wall power** — through walls, vertically (PP)
 
-See [[dustless-wiring]] for how these enable lag-free signal transmission.
+See [dustless-wiring](concepts/dustless-wiring.md) for how these enable lag-free signal transmission.
 
 ## Related
 
-- [[mc-timing-model]] — updates drive the phase/depth model
-- [[detection-methods]] — BUDs and observers as detectors
+- [mc-timing-model](concepts/mc-timing-model.md) — updates drive the phase/depth model
+- [detection-methods](concepts/detection-methods.md) — BUDs and observers as detectors

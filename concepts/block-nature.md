@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Block Nature (Block vs BlockState)
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: In source, **`Block`** and **`BlockState`** are distinct.
 edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/block-mechanics"
 sources: [raw/articles/gtmc-block-mechanics.md, raw/articles/gtmc-blocks-and-states.md, raw/articles/gtmc-block-changes.md]
 ---
 
@@ -41,7 +44,7 @@ In 1.20.1 nearly every block change flows through `World#setBlockState(pos, stat
 > **Confidence note:** upgraded from `medium` to `high` after ingesting GTMC's two `block-mechanics` sub-articles (blocks-and-states, block-changes), which fully specify the Block/BlockState model and the `setBlockState` write path for 1.20.1.
 
 ## Related
-- [[piston-mechanics]] — piston uses BlockState EXTENDED + getPlacementState; FORCE_STATE skips PP (QC)
-- [[update-theory]] — NC/PP updates emitted by setBlockState
-- [[tick-micro-timing]] — block changes trigger updates that propagate intra-tick
-- [[moving-block-b36]] — b36 is a BlockState of moving_piston
+- [piston-mechanics](concepts/piston-mechanics.md) — piston uses BlockState EXTENDED + getPlacementState; FORCE_STATE skips PP (QC)
+- [update-theory](concepts/update-theory.md) — NC/PP updates emitted by setBlockState
+- [tick-micro-timing](concepts/tick-micro-timing.md) — block changes trigger updates that propagate intra-tick
+- [moving-block-b36](concepts/moving-block-b36.md) — b36 is a BlockState of moving_piston

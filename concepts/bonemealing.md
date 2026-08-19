@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Bonemealing
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Dispensers fire bone meal onto saplings.
 edition: java
 version: 1.20.1
 confidence: high
 tags: [methods, bonemealing, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/block-update"
 sources: [raw/articles/gtmc-tree-farm-basics.md, raw/articles/gtmc-tree-farm-high-speed.md, raw/articles/gtmc-tree-farm-4gt.md]
 ---
 
@@ -24,6 +27,6 @@ Because a clock-based 4gt farm has only one growth window every 4gt, it uses **s
 
 ## Related
 
-- [[high-speed-tree-farms]] — base design and cross bonemealing
-- [[4gt-tree-farm]] — synchronized bonemealing on a 4gt clock
-- [[sapling-recycling]] — the other half of the base
+- [high-speed-tree-farms](concepts/high-speed-tree-farms.md) — base design and cross bonemealing
+- [4gt-tree-farm](concepts/4gt-tree-farm.md) — synchronized bonemealing on a 4gt clock
+- [sapling-recycling](concepts/sapling-recycling.md) — the other half of the base

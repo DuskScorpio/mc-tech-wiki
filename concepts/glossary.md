@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Glossary (Technical Minecraft terms)
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: English term + definition reference for Technical Minecraft (Java).
 edition: java
 version: any
 confidence: high
 tags: [glossary, reference]
+resource: "https://github.com/TechMC-Glossary/TechMC-Glossary"
 sources: [https://github.com/TechMC-Glossary/TechMC-Glossary]
 ---
 
@@ -96,5 +99,5 @@ Terms sourced from the TechMC-Glossary project (community-standard definitions).
 - **Synced Bone Meal** — Tree farming term. Synchronous application of bone meal to a sapling with all the dispensers, usually used to differentiate from cross bone meal
 
 ## Related
-- [[tree-farm-overview]] — terms used across the farm pages
-- [[mc-timing-model]] — gt, tile tick, micro-timing
+- [tree-farm-overview](concepts/tree-farm-overview.md) — terms used across the farm pages
+- [mc-timing-model](concepts/mc-timing-model.md) — gt, tile tick, micro-timing

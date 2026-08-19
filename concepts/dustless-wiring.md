@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Dustless Wiring
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: "> **Goal:** reduce lag — not to be dustless for its own sake."
 edition: java
 version: 1.20.1
 confidence: high
 tags: [techniques, dustless, high-speed, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring"
 sources: [raw/articles/gtmc-tree-farm-dustless-wiring.md]
 ---
 
@@ -24,8 +27,8 @@ sources: [raw/articles/gtmc-tree-farm-dustless-wiring.md]
 
 ## Related
 
-- [[updates-nc-pp]] — NC vs PP basis
-- [[0-tick]] — redirection-based 0t generators
-- [[4gt-tree-farm]] — modular dustless 0t generators
-- [[glossary]] — DL, 0t, HS, NC/PP term definitions
-- [[rails]] — rail NC-update order + directional connectivity (the instant component behind dustless wiring)
+- [updates-nc-pp](concepts/updates-nc-pp.md) — NC vs PP basis
+- [0-tick](concepts/0-tick.md) — redirection-based 0t generators
+- [4gt-tree-farm](concepts/4gt-tree-farm.md) — modular dustless 0t generators
+- [glossary](concepts/glossary.md) — DL, 0t, HS, NC/PP term definitions
+- [rails](concepts/rails.md) — rail NC-update order + directional connectivity (the instant component behind dustless wiring)

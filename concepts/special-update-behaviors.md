@@ -1,13 +1,16 @@
 ---
+type: concept
 title: Special Update Behaviors
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Several blocks break the simple 1st-order neighbor model.^[raw/articles/gtmc-block-update-special.md]
 edition: java
 version: 1.20.1
 confidence: high
-contested: false
+contested: False
 tags: [mechanics, updates, source-gtmc, version-sensitive]
+resource: "https://www.techmc.wiki/en/articles/block-update/special-updates"
 sources: [raw/articles/gtmc-block-update-special.md]
 ---
 
@@ -30,5 +33,5 @@ Several blocks break the simple 1st-order neighbor model.^[raw/articles/gtmc-blo
 - When a piston pushes a lit observer into position and **no observer scheduled tick is queued at the destination**, it does NOT emit the usual piston-movement NC update to neighbors (except the output-face block). On arrival, onBlockAdded sees powered=true + no queued tick → sets powered=false (PP) and updates neighbors (NC only to output face). Net effect: neighbors don't get the standard NC update.^[raw/articles/gtmc-block-update-special.md]
 
 ## Related
-- [[update-theory]] · [[continuous-updates]]
-- [[dustless-wiring]] — dust redirection exploits dust's locational updates
+- [update-theory](concepts/update-theory.md) · [continuous-updates](concepts/continuous-updates.md)
+- [dustless-wiring](concepts/dustless-wiring.md) — dust redirection exploits dust's locational updates

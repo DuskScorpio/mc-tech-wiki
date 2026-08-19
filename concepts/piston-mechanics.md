@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Piston Mechanics
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Piston = base + head; states retracted/extended.
 edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, piston-action, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/redstone-components/pistons"
 sources: [raw/articles/gtmc-pistons.md]
 ---
 
@@ -29,17 +32,17 @@ Piston = base + head; states retracted/extended. A **headless piston** (base onl
 - **Instant placement (finish):** triggered when a sticky piston has a b36 one block outside its extension direction with matching movement direction, or when the piston-head position is b36 (instant retract). Progress set to 1.0, original block placed, updates sent — but only the single block in front of the sticky piston. No entity displacement, no waterlogged removal.^[raw/articles/gtmc-pistons.md]
 
 ## Push-limit detection (advanced)
-- "Deceiving" the piston: its planned action can differ from the actual push structure at execution time. Core of **push-limit detection** (discovered by _Kayleigh and Landmining; simplified by Bright_Observer) — the detection method used in tree farms. See [[detection-methods]].^[raw/articles/gtmc-pistons.md]
+- "Deceiving" the piston: its planned action can differ from the actual push structure at execution time. Core of **push-limit detection** (discovered by _Kayleigh and Landmining; simplified by Bright_Observer) — the detection method used in tree farms. See [detection-methods](concepts/detection-methods.md).^[raw/articles/gtmc-pistons.md]
 
 ## Piston head (advanced)
 - `canSurvive`: head valid iff the block behind (opposite push dir) is an extending piston with same facing, OR a b36 behind with same dir.
 - PP update behind → canSurvive check (invalid → disappears). NC update never removes the head.^[raw/articles/gtmc-pistons.md]
 
 ## Related
-- [[piston-action-timing]] — 3gt default action, 1gt/2gt costs, 0-tick basis
-- [[update-theory]] — QC/Bud wiring
-- [[tick-micro-timing]] — BE phase = piston extend/retract (order AT last per GTMC intra-tick)
-- [[rails]] — rails drive adjacent pistons via their NC-update emission
-- [[detection-methods]] — push-limit detection in practice
-- [[moving-block-b36]] — B36 properties, hitbox, NBT
+- [piston-action-timing](concepts/piston-action-timing.md) — 3gt default action, 1gt/2gt costs, 0-tick basis
+- [update-theory](concepts/update-theory.md) — QC/Bud wiring
+- [tick-micro-timing](concepts/tick-micro-timing.md) — BE phase = piston extend/retract (order AT last per GTMC intra-tick)
+- [rails](concepts/rails.md) — rails drive adjacent pistons via their NC-update emission
+- [detection-methods](concepts/detection-methods.md) — push-limit detection in practice
+- [moving-block-b36](concepts/moving-block-b36.md) — B36 properties, hitbox, NBT
 - **Cross-source:** TMWiki `Blocks/Piston.md` confirms block-event creation-order execution + 2-tick arrival (→ "3gt delay") and pushed-block order `-y;+y;-z;+z;-x;+x`. Aligns with GTMC. See ^[raw/articles/tmwiki-piston.md].

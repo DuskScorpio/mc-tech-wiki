@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Large Spruce Tree Farm
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: The most log-efficient wood farm (2x2 large spruce).^[raw/articles/gtmc-tree-farm-large-spruce.md]
 edition: java
 version: 1.20.1
 confidence: high
 tags: [farms, large-spruce, tree-farm, source-gtmc, version-sensitive]
+resource: "https://www.techmc.wiki/en/articles/tree-farm/large-spruce-farm"
 sources: [raw/articles/gtmc-tree-farm-large-spruce.md]
 ---
 
@@ -39,5 +42,5 @@ Double recursion for the trunk, honey-slime walls for leaves. Vertical signal vi
 
 ## Related
 
-- [[trunk-processing]] · [[sapling-recycling]] · [[tree-species-requirements]]
-- [[high-speed-tree-farms]] — base/suction concepts that carry over
+- [trunk-processing](concepts/trunk-processing.md) · [sapling-recycling](concepts/sapling-recycling.md) · [tree-species-requirements](concepts/tree-species-requirements.md)
+- [high-speed-tree-farms](concepts/high-speed-tree-farms.md) — base/suction concepts that carry over

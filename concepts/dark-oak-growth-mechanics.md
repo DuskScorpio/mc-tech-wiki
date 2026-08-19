@@ -1,13 +1,16 @@
 ---
+type: concept
 title: Dark Oak Growth Mechanics
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)'s Bilibili post (edited 2025-02-09, ~Java 1.21.x), which draws on Sine_Chen's dark oak…
 edition: java
 version: 1.21
 confidence: high
-contested: false
+contested: False
 tags: [trees, dark-oak, source-bilibili, version-sensitive]
+resource: "https://www.bilibili.com/opus/1031059770508836903"
 sources: [raw/articles/bilibili-dark-oak-growth.md, raw/articles/gtmc-tree-farm-multi-species.md]
 ---
 
@@ -54,6 +57,6 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 
 ## Related
 
-- [[tree-species-requirements]] — dark oak in the species table
-- [[multi-species-tree-farm]] — why dark oak is a special case
-- [[leaf-processing]] — 1/20 sapling drop
+- [tree-species-requirements](concepts/tree-species-requirements.md) — dark oak in the species table
+- [multi-species-tree-farm](concepts/multi-species-tree-farm.md) — why dark oak is a special case
+- [leaf-processing](concepts/leaf-processing.md) — 1/20 sapling drop

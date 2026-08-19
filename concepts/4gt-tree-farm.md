@@ -1,12 +1,15 @@
 ---
+type: concept
 title: 4gt Tree Farm
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Tree farms that **run on a 4gt clock**.
 edition: java
 version: 1.20.1
 confidence: high
 tags: [farms, 4gt, tree-farm, high-speed, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/tree-farm/4gt-farms"
 sources: [raw/articles/gtmc-tree-farm-4gt.md]
 ---
 
@@ -42,4 +45,4 @@ The only dustless zero-delay rising-edge 0t is **redstone dust redirection** —
 
 ## Related
 
-- [[dustless-wiring]] · [[0-tick]] · [[bonemealing]] · [[tree-species-requirements]]
+- [dustless-wiring](concepts/dustless-wiring.md) · [0-tick](concepts/0-tick.md) · [bonemealing](concepts/bonemealing.md) · [tree-species-requirements](concepts/tree-species-requirements.md)

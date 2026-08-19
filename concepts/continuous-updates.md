@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Continuous Updates (DFS Propagation)
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: "An update is a **process**, not a single event: NC update fires first and triggers a chain of events, then PP update fires."
 edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, updates, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/block-update/continuous-updates"
 sources: [raw/articles/gtmc-block-update-continuous.md]
 ---
 
@@ -28,5 +31,5 @@ Think of it as exploring a cavern: pushing NC onto a stack = "going deeper", pop
 NC update direction order is **West, East, Down, Up, North, South**. Order of NC updates to the block ABOVE varies (near-to-far vs far-to-near) depending on traversal direction.^[raw/articles/gtmc-block-update-continuous.md]
 
 ## Related
-- [[update-theory]] — the update types this builds on
-- [[special-update-behaviors]] — dust 2nd-order changes the locational order
+- [update-theory](concepts/update-theory.md) — the update types this builds on
+- [special-update-behaviors](concepts/special-update-behaviors.md) — dust 2nd-order changes the locational order

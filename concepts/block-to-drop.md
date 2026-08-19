@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Block-to-Drop Conversion
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: "Two main ways to turn logs/leaves into items: **wither** and **TNT**.^[raw/articles/gtmc-tree-farm-basics.md]"
 edition: java
 version: 1.20.1
 confidence: high
 tags: [methods, block-to-drop, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/block-update"
 sources: [raw/articles/gtmc-tree-farm-basics.md, raw/articles/gtmc-tree-farm-multi-species.md]
 ---
 
@@ -29,5 +32,5 @@ Avoid pushing a 2-block-thick stream at once — it sharply cuts processing effi
 
 ## Related
 
-- [[multi-species-tree-farm]] — why stream shape matters
-- [[trunk-processing]] — what feeds the stream
+- [multi-species-tree-farm](concepts/multi-species-tree-farm.md) — why stream shape matters
+- [trunk-processing](concepts/trunk-processing.md) — what feeds the stream

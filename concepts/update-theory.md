@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Update Theory (NC / PP / Comparator / Self-Inspection)
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Minecraft blocks notify each other of changes via **updates**; an update carries no details about what changed.
 edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, updates, timing, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/block-update/update-concepts"
 sources: [raw/articles/gtmc-block-update-concepts.md]
 ---
 
@@ -46,6 +49,6 @@ Observer emits **PP-first-then-NC** on toggle (opposite of most blocks).^[raw/ar
 > **Cross-source (TMWiki / Technical Minecraft Wiki):** TMWiki's "block update" = GTMC's NC, and "state update" = GTMC's PP. It independently confirms: redstone dust sends state updates diagonally in some conditions but won't trigger observers there; trapdoors send PP but NOT NC (so a piston BUD won't detect them — matches our BUD/PP distinction); comparator updates are detected only by comparators within 1-block range through a conductive block. See ^[raw/articles/tmwiki-block-updates.md].
 
 ## Related
-- [[continuous-updates]] — DFS propagation & order analysis
-- [[special-update-behaviors]] — redstone dust 2nd-order, diagonal rails, lit-observer quirk
-- [[mc-timing-model]] · [[piston-mechanics]]
+- [continuous-updates](concepts/continuous-updates.md) — DFS propagation & order analysis
+- [special-update-behaviors](concepts/special-update-behaviors.md) — redstone dust 2nd-order, diagonal rails, lit-observer quirk
+- [mc-timing-model](concepts/mc-timing-model.md) · [piston-mechanics](concepts/piston-mechanics.md)

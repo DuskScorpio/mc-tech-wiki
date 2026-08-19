@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Trunk Processing
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Moving the grown trunk away from where it grew.
 edition: java
 version: 1.20.1
 confidence: high
 tags: [methods, trunk-processing, source-gtmc]
+resource: "https://www.techmc.wiki/en/articles/block-update"
 sources: [raw/articles/gtmc-tree-farm-basics.md, raw/articles/gtmc-tree-farm-multi-species.md]
 ---
 
@@ -29,10 +32,10 @@ For birch/oak a simple push/pull works. For side-branch trees (acacia, cherry, a
 3. **Downward pull** — ~3gt
 4. **Side pull** — as fast as 0gt
 
-Dark oak sometimes uses an **upward pull** variant.^[raw/articles/gtmc-tree-farm-basics.md] [^See [[high-speed-tree-farms]] for why upward push is abandoned in high-speed designs.]
+Dark oak sometimes uses an **upward pull** variant.^[raw/articles/gtmc-tree-farm-basics.md] [^See [high-speed-tree-farms](concepts/high-speed-tree-farms.md) for why upward push is abandoned in high-speed designs.]
 
 ## Related
 
-- [[tree-species-requirements]] — which method fits each species
-- [[multi-species-tree-farm]] — combining methods
-- [[high-speed-tree-farms]] — base design with downward/side suction
+- [tree-species-requirements](concepts/tree-species-requirements.md) — which method fits each species
+- [multi-species-tree-farm](concepts/multi-species-tree-farm.md) — combining methods
+- [high-speed-tree-farms](concepts/high-speed-tree-farms.md) — base design with downward/side suction

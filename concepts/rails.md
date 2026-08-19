@@ -1,12 +1,15 @@
 ---
+type: concept
 title: Rails (Powered / Activator / Detector)
 created: 2026-08-18
 updated: 2026-08-18
-type: concept
+timestamp: "2026-08-18T00:00:00Z"
+description: Rails are a core redstone component (and a favorite in dustless wiring).
 edition: java
 version: 1.20.1
 confidence: high
 tags: [mechanics, rails, redstone-phase, source-gtmc, source-tmwiki]
+resource: "https://www.techmc.wiki/en/articles/redstone-components/rails"
 sources: [raw/articles/gtmc-rails.md, raw/articles/tmwiki-rail-budding.md]
 ---
 
@@ -43,8 +46,8 @@ If a rail is updated but is already in the correct state, it sends **no further 
 > **Confidence:** high. GTMC rails article (1.20.1) and TMWiki RailBudding independently agree on the NC-notifier order and the directional/diode connectivity. TMWiki states the search limit as 9 rails including itself vs GTMC's "within 8 blocks" — minor wording difference (9 inclusive vs 8 exclusive); both describe the same reach. Detector Rail update behavior is not yet documented in either source (GTMC marks it incomplete).
 
 ## Related
-- [[dustless-wiring]] — rails are the instant component that makes dustless 0t generators work
-- [[piston-mechanics]] — rails drive adjacent pistons via the NC updates above
-- [[update-theory]] — NC updates emitted by rails
-- [[special-update-behaviors]] — rails in the "instant component" class
-- [[glossary]] — rail-related term definitions
+- [dustless-wiring](concepts/dustless-wiring.md) — rails are the instant component that makes dustless 0t generators work
+- [piston-mechanics](concepts/piston-mechanics.md) — rails drive adjacent pistons via the NC updates above
+- [update-theory](concepts/update-theory.md) — NC updates emitted by rails
+- [special-update-behaviors](concepts/special-update-behaviors.md) — rails in the "instant component" class
+- [glossary](concepts/glossary.md) — rail-related term definitions

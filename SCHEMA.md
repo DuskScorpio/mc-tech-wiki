@@ -71,6 +71,17 @@ Add new tags HERE before using them.
 - `C:\GitHub Related\TechMC-Glossary` — GTMC glossary, useful for `[[term]]` definitions.
 - `C:\GitHub Related\tmc-glossary-web` — web build of the same glossary.
 
+## OKF (Open Knowledge Format) compliance
+This vault is an OKF v0.1 bundle. Contract:
+- Each concept = one `.md` file under `concepts/`. The file path (minus `.md`) is the concept id / link target.
+- Every concept frontmatter REQUIRES `type` (we use: concept). Recommended OKF fields also present: `title`, `description` (one-line agent summary), `timestamp` (ISO 8601), `tags`, `resource` (canonical source URL), `sources`.
+- Links between concepts use **ordinary markdown path links** `[label](concepts/foo.md)` — these are the graph edges. (Obsidian also renders `[[wikilinks]]`, but OKF consumers only parse path links, so path links are canonical.)
+- `index.md` = progressive-disclosure entry point (path links grouped by type). `log.md` = dated changelog.
+- Paths are stable (git-backed). Renaming a concept file breaks inbound edges — treat paths as identity.
+- English-only (see Language rule). No translations in page bodies.
+- Source captures live in `raw/articles/` (sha256-tracked, immutable). Cross-source corroboration is recorded in `sources:` + `resource:`.
+- Validator: a small bundle passes OKF v0.1 if every concept has `type` and links resolve. Run a lint (python) for: no `[[wikilinks]]` in bodies, `description`+`type` present on all, links resolve to existing files.
+
 ## Pitfalls
 - GTMC is **Java 1.20.1**. Never generalize a Java mechanic to Bedrock without a Bedrock source.
 - "Basics section" in GTMC may use generalized (slightly imprecise) statements marked with superscripts — the precise version is in the Advanced section. Prefer the precise statement.
