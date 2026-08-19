@@ -71,3 +71,11 @@
 - Ingested GTMC `redstone-components/rails` (NC-update emission order, direct/indirect activation, directional search/diode connectivity) + TMWiki `GameMechanics/RailBudding` (corroborates above→self→below notifier order, 9-rail search, rail BUD). Built `concepts/rails.md` (high confidence). Wired into dustless-wiring + piston-mechanics. This is the first non-tree-farm mechanics ingest since scope widened to general Tech MC.
 - 28 concept pages, 30 raw sources, no broken wikilinks.
 
+## [2026-08-18] cross-check | Minecraft Wiki (Sapling) + OKF refactor + repo docs + Slime Tech ingest
+- Cross-checked tree-species-requirements.md vs minecraft.wiki/w/Sapling: clearance heights + 2x2 search order (SE→NE→SW→NW, NW canonical) + drop rates all corroborated. Captured `mcwiki-sapling.md`.
+- Refactored whole vault to Google Open Knowledge Format (OKF) v0.1: every concept has required `type` + recommended `description`/`timestamp`/`resource`; `[[wikilinks]]`→path links (graph edges); `index.md` = progressive-disclosure entry; OKF contract in SCHEMA.md. Validator passes.
+- Refreshed README + SCHEMA + GitHub repo description (was "tree-farm wiki"; now general Tech MC + OKF bundle).
+- Ingested GTMC SlimeTech flying-machine basics -> `concepts/flying-machines.md` (high, single-sourced; flagged for 2nd-source). Wired into piston-mechanics/rails/0-tick.
+- Discovering-Minecraft found CN-only (160 files) -> out of scope per English-only rule; not ingested.
+- 29 concept pages, 32 raw sources. OKF lint passes.
+

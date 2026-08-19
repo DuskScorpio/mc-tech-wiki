@@ -42,7 +42,8 @@ Piston = base + head; states retracted/extended. A **headless piston** (base onl
 - [piston-action-timing](concepts/piston-action-timing.md) — 3gt default action, 1gt/2gt costs, 0-tick basis
 - [update-theory](concepts/update-theory.md) — QC/Bud wiring
 - [tick-micro-timing](concepts/tick-micro-timing.md) — BE phase = piston extend/retract (order AT last per GTMC intra-tick)
-- [rails](concepts/rails.md) — rails drive adjacent pistons via their NC-update emission
+- [Rails](concepts/rails.md) — rails drive adjacent pistons via their NC-update emission
+- [Flying Machines](concepts/flying-machines.md) — Slime Tech flying machines sequence piston pushes/pulls over 9/10/12gt
 - [detection-methods](concepts/detection-methods.md) — push-limit detection in practice
 - [moving-block-b36](concepts/moving-block-b36.md) — B36 properties, hitbox, NBT
 - **Cross-source:** TMWiki `Blocks/Piston.md` confirms block-event creation-order execution + 2-tick arrival (→ "3gt delay") and pushed-block order `-y;+y;-z;+z;-x;+x`. Aligns with GTMC. See ^[raw/articles/tmwiki-piston.md].

@@ -49,7 +49,7 @@ Source attribution (CC BY-NC-SA where applicable) is recorded per raw file in `r
 - [Piston Mechanics](concepts/piston-mechanics.md) — self-check, QC, push limit, b36
 - [Block Nature](concepts/block-nature.md) — Block vs BlockState
 - [Piston Action Timing](concepts/piston-action-timing.md) — 3gt action, 1gt/2gt costs
-- [Rails](concepts/rails.md) — Powered/Activator/Detector NC-update order, diode connectivity
+- [Flying Machines](concepts/flying-machines.md) — 9gt/10gt/12gt, observer activation, mounting/extension
 - [Moving Block B36](concepts/moving-block-b36.md) — B36 properties, hitbox, NBT
 - [Dark Oak Growth Mechanics](concepts/dark-oak-growth-mechanics.md) — 2x2 code-level growth
 - [Zero-Tick Farming Crops](concepts/zero-tick-farming-crops.md) — crop 0t (patched 1.16+); not redstone 0t
@@ -66,7 +66,7 @@ gtmc-tree-farm-4gt.md, gtmc-tree-farm-large-spruce.md,
 gtmc-block-update-concepts.md, gtmc-block-update-continuous.md, gtmc-block-update-special.md,
 gtmc-micro-timing-ticks.md, gtmc-micro-timing-intra-tick.md,
 gtmc-pistons.md, gtmc-block-mechanics.md, gtmc-blocks-and-states.md, gtmc-block-changes.md,
-gtmc-rails.md, gtmc-rail-budding.md
+gtmc-rails.md, gtmc-rail-budding.md, gtmc-slime-introduction.md, gtmc-flying-machine-basics.md
 
 ### bilibili
 bilibili-dark-oak-growth.md — Scorpio, edited 2025-02-09, Java ~1.21.x
