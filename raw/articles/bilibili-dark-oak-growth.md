@@ -9,8 +9,11 @@ sha256: 82fecc2fb490f2f1484bb5bfb9c0410637c04702b2134d5722956aa72228c7b2
 
 Author: Scorpio天蝎君 | Edited: 2025-02-09
 
-> Original Chinese source. Compiled/translated into concepts/dark-oak-growth-mechanics.md.
-> Translation conventions per TechMCTranslationWorkflow (Youmiel).
+> Original Chinese source (kept raw; sources may be in any language per the Language rule).
+> Our workflow: a source may stay as-is, OR we also keep an English translation of it in
+> `raw/` (e.g. this file's `-en` companion). Concept pages are always compiled in English
+> from the English source. Translation of sources is our own step, NOT delegated to
+> TechMCTranslationWorkflow — we only share source-repo provenance with that project.
 
 ## 声明
 本文大部分内容引用自 @Sine_Chen 的深色橡木文章，并在撰写过程中获得了 @1uu1、@Wormbo、@Dreaming_Galaxy 和 @幽帘幽梦 在代码查阅方面的帮助。

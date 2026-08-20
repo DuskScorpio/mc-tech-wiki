@@ -8,10 +8,12 @@ type: doc
 Technical Minecraft mechanics. Started with tree farms; scope is general Technical Minecraft (mechanics, farms, contraptions, etc.) — tree farms are just the first area ingested, not the whole subject. Java Edition unless a page says otherwise. Source material is primarily **Graduate Texts in Minecraft (GTMC)**, decompiled against `1.20.1-yarn`, cross-checked against Technical Minecraft Wiki (TechMCDocs/pages), Minecraft Wiki, Bilibili, and TechMC-Glossary. Treat every mechanical claim as **version-sensitive** — exploits and behaviors change per Minecraft version.
 
 ## Language rule (do not violate)
-- **English only.** All wiki pages are written in English.
-- No Chinese / other-language translations inside page bodies. The wiki is a reference, not a translation deliverable.
-- Term definitions go in [[glossary]] as **English term + English definition**, like a normal wiki. Source-language names (e.g. Chinese community terms) may appear ONLY as a brief parenthetical if genuinely needed for disambiguation, but are not the page's purpose.
-- Rationale: user wants the wiki fully English; translation is a separate concern handled by TechMCTranslationWorkflow, not this vault.
+- **Concept pages are English only.** Every file under `concepts/` is written in English. No Chinese / other-language translations inside concept page bodies. The wiki is a reference, not a translation deliverable.
+- **Sources may be in any language.** Files under `raw/articles/` are source captures and may be Chinese (e.g. Bilibili originals). Keeping a non-English source raw is fine — it is provenance, not a published page.
+- **Optional English translation of a source lives in `raw/`, not in `concepts/`.** When a source is non-English and we want a working English text, we store it as a companion file (e.g. `bilibili-dark-oak-growth-en.md`) under `raw/articles/`. Concept pages are then compiled from the English source. This keeps translation artifacts with the sources, never mixed into the English concept layer.
+- **Translation of sources is our own step.** We translate at ingest (mentally, or into a `-en` raw file). It is NOT delegated to TechMCTranslationWorkflow — we only share *source-repo provenance* with that project, not a translation pipeline.
+- Term definitions in `[[glossary]]` are **English term + English definition**, like a normal wiki. Source-language names (e.g. Chinese community terms) may appear ONLY as a brief parenthetical for disambiguation, or as original-author proper nouns in source attribution — but are never the page's purpose.
+- Rationale: user wants the wiki fully English; non-English material is confined to `raw/` as source/provenance.
 
 ## Correctness rules (this is the whole point)
 - Every wiki page MUST carry `edition:` and `version:` frontmatter. No exceptions.
