@@ -22,7 +22,7 @@ status: stable
 
 # Tick & Micro-Timing Model
 
-Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering within one gt).[^gtmc-micro-timing-ticks] [[^gtmc-micro-timing-intra-tick]]
+Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering within one gt).[^gtmc-micro-timing-ticks] [^gtmc-micro-timing-intra-tick]
 
 ## Game tick
 - Main loop ≈ 20/sec = **gt** (GameTick). RedstoneTick (rt) = 2gt.
@@ -35,12 +35,12 @@ Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering 
 - Comparator modes: Compare vs Subtract.[^gtmc-micro-timing-ticks]
 
 ## Intra-tick phases (within 1gt)
-MC is single-threaded, so "same gt" events still sequence. Authoritative phase order: **WTU → TT → CT → BE → EU → TE → AT** (player actions at the END).[^gtmc-intra-tick-timing] [[^gtmc-scheduled-ticks]]
+MC is single-threaded, so "same gt" events still sequence. Authoritative phase order: **WTU → TT → CT → BE → EU → TE → AT** (player actions at the END).[^gtmc-intra-tick-timing] [^gtmc-scheduled-ticks]
 
 - **Instant components:** respond in any phase, triggered only by block updates — redstone dust, rails, fence gates, trapdoors, note blocks, dispensers/droppers, redstone lamp (on).
 - **Delayed components:** scheduled-tick controlled, fixed phase — repeater/comparator/observer on-off (TT), redstone lamp off (TT), dispenser dispense (TT), falling-block decide (TT).[^gtmc-intra-tick-timing]
 
-Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands = **TE**; b36 retracted+landed by sticky piston = **BE**; hopper absorb/transfer = **TE**.[^gtmc-intra-tick-timing] [[^gtmc-block-entities]]
+Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands = **TE**; b36 retracted+landed by sticky piston = **BE**; hopper absorb/transfer = **TE**.[^gtmc-intra-tick-timing] [^gtmc-block-entities]
 
 > **Correction note:** the earlier version listed an abbreviated order ("AT→TT→BE→TE…"). The full GTMC intra-tick chapter gives the precise WTU→TT→CT→BE→EU→TE→AT order (player input last), corroborated by TMWiki's GameTick phase list. See [mc-timing-model](/concepts/mc-timing-model.md) for the authoritative order + component phase table.
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/moving-block-b36.md",
-                "mode": "preview",
-                "source": true
+                "file": "concepts/dark-oak-growth-mechanics.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "moving-block-b36"
+              "title": "dark-oak-growth-mechanics"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -190,21 +190,26 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
-    "_fix_fn_blank.py",
-    "concepts/mc-timing-model.md",
-    "concepts/moving-block-b36.md",
+    "raw/articles/bilibili-dark-oak-growth.md",
+    "^gtmc-micro-timing-intra-tick.md",
+    "concepts/large-spruce-tree-farm.md",
+    "^gtmc-scheduled-ticks.md",
+    "concepts/linkages.md",
     "concepts/piston-mechanics.md",
+    "concepts/mc-timing-model.md",
+    "concepts/block-to-drop.md",
+    "concepts/block-nature.md",
+    "concepts/4gt-tree-farm.md",
+    "concepts/0-tick.md",
+    "concepts/moving-block-b36.md",
+    "_fix_fn_blank.py",
     "concepts/piston-action-timing.md",
     "concepts/slime-tech-engines.md",
     "concepts/tick-micro-timing.md",
     "raw/articles/tmwiki-tile-ticks.md",
-    "^gtmc-scheduled-ticks.md",
     "raw/articles/bilibili-dark-oak-growth-en.md",
-    "concepts/linkages.md",
     "_dedup_resource.py",
     "concepts/leaf-processing.md",
-    "concepts/block-to-drop.md",
-    "concepts/4gt-tree-farm.md",
     "index.md",
     "SCHEMA.md",
     "_okf_migrate.py",
@@ -212,19 +217,14 @@
     "concepts/glossary.md",
     "_okf_v02.py",
     "okf-report.json",
-    "concepts/large-spruce-tree-farm.md",
     "raw/articles/gtmc-engines.md",
     "raw/articles/gtmc-mobility.md",
     "raw/articles/gtmc-linkages.md",
     "raw/articles/mcwiki-sapling.md",
-    "concepts/rails.md",
     "raw/articles/gltmc-rail-budding.md.tmp",
     "raw/articles/gltmc-rails.md.tmp",
-    "raw/articles/gtmc-rails.md",
-    "raw/articles/tmwiki-rail-budding.md",
     "_gloss.py",
     "_build_glossary.py",
-    "raw/sources/techmc-glossary.csv",
-    "raw/sources"
+    "raw/sources/techmc-glossary.csv"
   ]
 }
