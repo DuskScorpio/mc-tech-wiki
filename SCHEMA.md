@@ -95,13 +95,13 @@ Contract (derived from SPEC.md, not from the validator's tolerance):
     title: GTMC — Rails
   ```
   `resource` is REQUIRED within an entry and SHOULD be a concrete artifact a consumer can follow (canonical URL, or a bundle-relative path, or a `references/`-style path). Our `raw/articles/*.md` files are local mirrors kept for drift detection; the canonical `resource` points at the upstream URL.
-- **Per-claim attribution uses markdown footnotes** keyed to `sources[].id` (§5.1): `claim.[^gtmc-rails]` with `[^gtmc-rails]: GTMC — Rails` at the bottom. NOT inline `^[raw/...]` carets.
-- **Freshness — `generated: { by, at }`** (§5.2). `by` uses the actor convention (§7): `/` for agents, `human:` for people, `process:` for automation. The v0.1 `timestamp` field is SUPERSEDED (§13.1) — do not use it.
-- **Trust — `verified:`** (§5.2/§5.3): list of `{ by, at }` verification events. `human:` verifier ⇒ human-reviewed tier. Our `confidence:` field is an extra producer key (allowed) but does NOT replace `verified`.
-- **Lifecycle — `status:`** (§5.4): `draft | stable | deprecated`. Absent ⇒ `stable`.
-- **Links:** ordinary markdown, two forms — bundle-relative (leading `/`, recommended, §6.1) or relative. Broken links are tolerated (§6.1). Obsidian also renders `[[wikilinks]]`; path links are canonical for OKF consumers.
-- **`index.md`** = progressive-disclosure entry (§8; may carry `okf_version: "0.2"` in frontmatter, the only permitted frontmatter). **`log.md`** = dated changelog, headings `## YYYY-MM-DD` (§9).
-- **Reserved filenames:** only `index.md` + `log.md` (§3.1). Every other `.md` is a concept document — including `README.md`/`SCHEMA.md`, which we type as `doc` (producer-defined, legal) but are repo docs, not knowledge concepts.
+- **Per-claim attribution uses markdown footnotes** keyed to `sources[].id` (OKF SPEC §5.1): `claim.[^gtmc-rails]` with `[^gtmc-rails]: GTMC — Rails` at the bottom. NOT inline `^[raw/...]` carets.
+- **Freshness — `generated: { by, at }`** (OKF SPEC §5.2). `by` uses the actor convention (OKF SPEC §7): `/` for agents, `human:` for people, `process:` for automation. The v0.1 `timestamp` field is SUPERSEDED (OKF SPEC §13.1) — do not use it.
+- **Trust — `verified:`** (OKF SPEC §5.2/§5.3): list of `{ by, at }` verification events. `human:` verifier ⇒ human-reviewed tier. Our `confidence:` field is an extra producer key (allowed) but does NOT replace `verified`.
+- **Lifecycle — `status:`** (OKF SPEC §5.4): `draft | stable | deprecated`. Absent ⇒ `stable`.
+- **Links:** ordinary markdown, two forms — bundle-relative (leading `/`, recommended, OKF SPEC §6.1) or relative. Broken links are tolerated (OKF SPEC §6.1). Obsidian also renders `[[wikilinks]]`; path links are canonical for OKF consumers.
+- **`index.md`** = progressive-disclosure entry (OKF SPEC §8; may carry `okf_version: "0.2"` in frontmatter, the only permitted frontmatter). **`log.md`** = dated changelog, headings `## YYYY-MM-DD` (OKF SPEC §9).
+- **Reserved filenames:** only `index.md` + `log.md` (OKF SPEC §3.1). Every other `.md` is a concept document — including `README.md`/`SCHEMA.md`, which we type as `doc` (producer-defined, legal) but are repo docs, not knowledge concepts.
 - **`raw/articles/` split:** our convention (sources as `type: source` concepts + `concepts/` as compiled `type: concept`). This is NOT an OKF requirement — OKF has no source/resource division — but it is legal (producer-defined types) and the validator tolerates it. Provenance is encoded per §5.1 above, not via the directory alone.
 - Paths are stable (git-backed). Renaming a concept file breaks inbound edges — treat paths as identity.
 - English-only (see Language rule). No translations in page bodies.
