@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SCHEMA.md",
-                "mode": "preview",
+                "file": "concepts/tick-micro-timing.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SCHEMA"
+              "title": "tick-micro-timing"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "SCHEMA.md",
     "concepts/dark-oak-growth-mechanics.md",
     "concepts/detection-methods.md",
     "concepts/tree-species-requirements.md",
@@ -214,7 +215,6 @@
     "_dedup_resource.py",
     "concepts/leaf-processing.md",
     "index.md",
-    "SCHEMA.md",
     "_okf_migrate.py",
     "README.md",
     "concepts/glossary.md",

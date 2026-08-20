@@ -84,10 +84,10 @@ Same set as README "Sources" + index.md. All ingested captures live in `raw/arti
 This vault is an **OKF v0.2** bundle. Authoritative spec:
 `https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md` (v0.2).
 Contract (derived from SPEC.md, not from the validator's tolerance):
-- **Concept = one `.md` file.** File path (minus `.md`) = concept id / link target (§2, §6).
-- **Required frontmatter:** `type` (short string; producer-defined values allowed, e.g. `concept`, `source`, `doc`). §4.1.
-- **Recommended frontmatter:** `title`, `description` (one-line agent summary), `resource` (URI of the asset the concept describes), `tags` (list), plus the v0.2 provenance/trust/lifecycle families (§5).
-- **Provenance — `sources:` is a LIST of entries** (§5.1), NOT a bare string list:
+- **Concept = one `.md` file.** File path (minus `.md`) = concept id / link target (OKF SPEC §2 Terminology, §6 Cross-linking and paths).
+- **Required frontmatter:** `type` (short string; producer-defined values allowed, e.g. `concept`, `source`, `doc`). OKF SPEC §4.1.
+- **Recommended frontmatter:** `title`, `description` (one-line agent summary), `resource` (URI of the asset the concept describes), `tags` (list), plus the v0.2 provenance/trust/lifecycle families (OKF SPEC §5).
+- **Provenance — `sources:` is a LIST of entries** (OKF SPEC §5.1), NOT a bare string list:
   ```yaml
   sources:
   - id: gtmc-rails
