@@ -9,8 +9,10 @@ edition: java
 version: any
 confidence: high
 tags: [glossary, reference]
-resource: "https://github.com/TechMC-Glossary/TechMC-Glossary"
-sources: [https://github.com/TechMC-Glossary/TechMC-Glossary]
+sources:
+- id: techmc-glossary
+  resource: https://github.com/TechMC-Glossary/TechMC-Glossary
+  title: TechMC Glossary (GitHub)
 generated: { by: /, at: "2026-08-18T00:00:00Z" }
 status: stable
 ---

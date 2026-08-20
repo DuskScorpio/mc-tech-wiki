@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/block-nature.md",
+                "file": "concepts/block-to-drop.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "block-nature"
+              "title": "block-to-drop"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo.md",
+                "file": "concepts/block-to-drop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/large-spruce-tree-farm.md",
+                "file": "concepts/block-to-drop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -170,7 +170,8 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,6 +191,8 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "raw/articles/techmc-glossary.md",
+    "concepts/block-nature.md",
     "concepts/0-tick.md",
     "todo.md",
     "_repoint_fn.py",
@@ -200,7 +203,6 @@
     "raw/articles/tmwiki-piston.md",
     "raw/articles/tmwiki-rail-budding.md",
     "raw/articles/tmwiki-tile-ticks.md",
-    "concepts/block-nature.md",
     "_fix_sha.py",
     "concepts/tick-micro-timing.md",
     "_repair_citations.py",
