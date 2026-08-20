@@ -40,4 +40,4 @@ Several blocks break the simple 1st-order neighbor model.[^gtmc-block-update-spe
 - [update-theory](/concepts/update-theory.md) · [continuous-updates](/concepts/continuous-updates.md)
 - [dustless-wiring](/concepts/dustless-wiring.md) — dust redirection exploits dust's locational updates
 
-[^gtmc-block-update-special]: https://www.techmc.wiki/en/articles/block-update/special-updates
+[^gtmc-block-update-special]: raw/articles/gtmc-block-update-special.md

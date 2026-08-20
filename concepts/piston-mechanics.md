@@ -57,5 +57,5 @@ Piston = base + head; states retracted/extended. A **headless piston** (base onl
 - [moving-block-b36](/concepts/moving-block-b36.md) — B36 properties, hitbox, NBT
 - **Cross-source:** TMWiki `Blocks/Piston.md` confirms block-event creation-order execution + 2-tick arrival (→ "3gt delay") and pushed-block order `-y;+y;-z;+z;-x;+x`. Aligns with GTMC. See [^tmwiki-piston].
 
-[^gtmc-pistons]: https://www.techmc.wiki/en/articles/redstone-components/pistons
-[^tmwiki-piston]: https://github.com/TechMCDocs/pages/blob/master/Blocks/Pistons.md
+[^gtmc-pistons]: raw/articles/gtmc-pistons.md
+[^tmwiki-piston]: raw/articles/tmwiki-piston.md

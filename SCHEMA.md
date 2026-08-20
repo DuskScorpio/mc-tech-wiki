@@ -94,8 +94,9 @@ Contract (derived from SPEC.md, not from the validator's tolerance):
     resource: https://www.techmc.wiki/en/articles/redstone-components/rails
     title: GTMC — Rails
   ```
-  `resource` is REQUIRED within an entry and SHOULD be a concrete artifact a consumer can follow (canonical URL, or a bundle-relative path, or a `references/`-style path). Our `raw/articles/*.md` files are local mirrors kept for drift detection; the canonical `resource` points at the upstream URL.
-- **Per-claim attribution uses markdown footnotes** keyed to `sources[].id` (OKF SPEC §5.1): `claim.[^gtmc-rails]` with `[^gtmc-rails]: GTMC — Rails` at the bottom. NOT inline `^[raw/...]` carets.
+  `resource` is REQUIRED within an entry and MUST be the **canonical upstream URL** (the source of truth, used for OKF consumers + drift detection). Our `raw/articles/<id>.md` files are local mirrors of every cited source.
+- **Citation split (enforced):** `sources[].resource` = canonical URL (machine-readable, OKF). The bottom `[^id]:` footnote block = a **local mirror link** `raw/articles/<id>.md` (human-clickable in Obsidian, offline). Every `sources[]` id MUST have a downloaded `raw/articles/<id>.md` mirror, and every `[^id]:` def MUST point to that local file (never a URL). Raw mirrors are PRISTINE source extracts — no annotations, no `[[wikilinks]]` (see No stray files / raw-purity rule).
+- **Per-claim attribution uses markdown footnotes** keyed to `sources[].id` (OKF SPEC §5.1): `claim.[^gtmc-rails]` with `[^gtmc-rails]: raw/articles/gtmc-rails.md` at the bottom. NOT inline `^[raw/...]` carets.
 - **Freshness — `generated: { by, at }`** (OKF SPEC §5.2). `by` uses the actor convention (OKF SPEC §7): `/` for agents, `human:` for people, `process:` for automation. The v0.1 `timestamp` field is SUPERSEDED (OKF SPEC §13.1) — do not use it.
 - **Trust — `verified:`** (OKF SPEC §5.2/§5.3): list of `{ by, at }` verification events. `human:` verifier ⇒ human-reviewed tier. Our `confidence:` field is an extra producer key (allowed) but does NOT replace `verified`.
 - **Lifecycle — `status:`** (OKF SPEC §5.4): `draft | stable | deprecated`. Absent ⇒ `stable`.

@@ -42,6 +42,6 @@ Avoid pushing a 2-block-thick stream at once — it sharply cuts processing effi
 - [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — why stream shape matters
 - [trunk-processing](/concepts/trunk-processing.md) — what feeds the stream
 
-[^gtmc-tree-farm-basics]: https://www.techmc.wiki/en/articles/block-update
-[^gtmc-tree-farm-simple-design]: https://www.techmc.wiki/en/articles/tree-farm/simple-design
-[^gtmc-tree-farm-multi-species]: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
+[^gtmc-tree-farm-basics]: raw/articles/gtmc-tree-farm-basics.md
+[^gtmc-tree-farm-simple-design]: raw/articles/gtmc-tree-farm-simple-design.md
+[^gtmc-tree-farm-multi-species]: raw/articles/gtmc-tree-farm-multi-species.md

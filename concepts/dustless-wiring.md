@@ -37,4 +37,4 @@ status: stable
 - [glossary](/concepts/glossary.md) — DL, 0t, HS, NC/PP term definitions
 - [rails](/concepts/rails.md) — rail NC-update order + directional connectivity (the instant component behind dustless wiring)
 
-[^gtmc-tree-farm-dustless-wiring]: https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring
+[^gtmc-tree-farm-dustless-wiring]: raw/articles/gtmc-tree-farm-dustless-wiring.md

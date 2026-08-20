@@ -38,4 +38,4 @@ Controlling the *rising* vs *falling* edge depth is the basis of [0-tick](/conce
 - [mc-timing-model](/concepts/mc-timing-model.md) — depth and BE ordering
 - [0-tick](/concepts/0-tick.md) — generators built on edge depth
 
-[^gtmc-tree-farm-basics]: https://www.techmc.wiki/en/articles/block-update
+[^gtmc-tree-farm-basics]: raw/articles/gtmc-tree-farm-basics.md

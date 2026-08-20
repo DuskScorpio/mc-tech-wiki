@@ -59,10 +59,10 @@ Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands
 - [update-theory](/concepts/update-theory.md) · [piston-mechanics](/concepts/piston-mechanics.md) · [piston-action-timing](/concepts/piston-action-timing.md)
 - [0-tick](/concepts/0-tick.md) — depth within BE is what 0-tick exploits
 
-[^gtmc-micro-timing-ticks]: https://www.techmc.wiki/en/articles/micro-timing/tick-timing
-[^gtmc-micro-timing-intra-tick]: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
-[^gtmc-intra-tick-timing]: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
-[^gtmc-scheduled-ticks]: https://www.techmc.wiki/en/articles/micro-timing/scheduled-ticks
-[^gtmc-block-entities]: https://www.techmc.wiki/en/articles/micro-timing/block-entities
-[^tmwiki-game-tick]: https://github.com/TechMCDocs/pages/blob/master/GameTick.md
-[^tmwiki-tile-ticks]: https://github.com/TechMCDocs/pages/blob/master/GameTick/TileTicks.md
+[^gtmc-micro-timing-ticks]: raw/articles/gtmc-micro-timing-ticks.md
+[^gtmc-micro-timing-intra-tick]: raw/articles/gtmc-micro-timing-intra-tick.md
+[^gtmc-intra-tick-timing]: raw/articles/gtmc-intra-tick-timing.md
+[^gtmc-scheduled-ticks]: raw/articles/gtmc-scheduled-ticks.md
+[^gtmc-block-entities]: raw/articles/gtmc-block-entities.md
+[^tmwiki-game-tick]: raw/articles/tmwiki-game-tick.md
+[^tmwiki-tile-ticks]: raw/articles/tmwiki-tile-ticks.md
