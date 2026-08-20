@@ -1,8 +1,7 @@
 # Wiki Index — OKF bundle entry point
 
 > Content catalog (OKF progressive disclosure). An agent starts here, then follows concept links (each `[label](/concepts/NAME)` with the `.md` suffix) to traverse the knowledge graph.
-> Domain: Technical Minecraft (Java) — started with tree farms, expanding to general tech-MC.
-> Sources tracked in the "Designated source repositories" table below. English-only (see SCHEMA.md).
+> Domain: Technical Minecraft (Java). English-only (see SCHEMA.md).
 
 - [README](README.md) — repo overview, usage, sources
 - [SCHEMA](SCHEMA.md) — vault + OKF v0.2 contract (authoritative rules)

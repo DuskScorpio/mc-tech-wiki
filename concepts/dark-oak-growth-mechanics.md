@@ -11,9 +11,12 @@ confidence: high
 contested: False
 tags: [trees, dark-oak, source-bilibili, version-sensitive]
 sources:
+- id: bilibili-dark-oak-growth-en
+  resource: raw/articles/bilibili-dark-oak-growth-en.md
+  title: Bilibili Dark Oak Growth (English translation of CN original)
 - id: bilibili-dark-oak-growth
   resource: https://www.bilibili.com/opus/1031059770508836903
-  title: Bilibili Dark Oak Growth
+  title: Bilibili Dark Oak Growth (original Chinese)
 - id: gtmc-tree-farm-multi-species
   resource: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
   title: GTMC Tree Farm Multi Species

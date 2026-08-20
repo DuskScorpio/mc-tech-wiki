@@ -7,7 +7,7 @@ type: doc
 Personal Obsidian vault + LLM-compiled knowledge base for **Technical Minecraft (Java)**, structured as a **Google Open Knowledge Format (OKF) v0.1** bundle (agent-readable knowledge graph).
 
 - **Edition:** Java only (no Bedrock coverage, by design).
-- **Scope:** general Technical Minecraft — started with tree farms, expanding to other tech-MC topics (mechanics, farms, contraptions). Tree farms are just the first area ingested, not the whole subject.
+- **Scope:** general Technical Minecraft (mechanics, farms, contraptions, etc.). Java Edition unless a page says otherwise.
 - **Language:** English only. No Chinese / other-language translations in page bodies (see SCHEMA.md Language rule).
 - **Format:** OKF v0.1. Every concept is one `.md` file with required `type` + recommended `description`/`timestamp`/`resource` in frontmatter; concept-to-concept links are markdown path links that form the knowledge graph. `index.md` is the progressive-disclosure entry point; `log.md` is the changelog.
 - **Correctness model:** every mechanical claim carries a `^[raw/articles/file.md]` marker tracing it to an immutable, sha256-tracked source. Cross-source claims are corroborated (GTMC + TMWiki + Minecraft Wiki).
