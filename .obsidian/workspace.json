@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/dark-oak-growth-mechanics.md",
-                "mode": "source",
+                "file": "SCHEMA.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "dark-oak-growth-mechanics"
+              "title": "SCHEMA"
             }
           }
         ]
@@ -191,8 +191,8 @@
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
     "concepts/dark-oak-growth-mechanics.md",
-    "concepts/tree-species-requirements.md",
     "concepts/detection-methods.md",
+    "concepts/tree-species-requirements.md",
     "raw/articles/bilibili-dark-oak-growth.md",
     "^gtmc-micro-timing-intra-tick.md",
     "concepts/large-spruce-tree-farm.md",
