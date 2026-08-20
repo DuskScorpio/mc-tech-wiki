@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/GameMechanics/BlockUpdates.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: e2077fb1e12532afd027bf6335a541ec9d7c93406476724d9c2f5839f0b505de
+sha256: fbe2157ea69621d8a5092fe229622acbe976b969a024664fdc38344fb6b2818e
 ---
 
 # Block updates and update detectors (TMWiki)
@@ -39,4 +39,3 @@ A block in a state where it will react to block updates is "Budded." BUDs react 
 - Rails budded for direction/slope when moved.
 - Redstone dust direction change buds components (sends no block updates).
 
-Cross-check vs GTMC: TMWiki's "block update" = GTMC's NC; "state update" = GTMC's PP. Aligns.

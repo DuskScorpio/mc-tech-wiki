@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/GameTick/TileTicks.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: a994423b82437209a138a9f10137067be76b22b55744466bca0bcb91224bc5aa
+sha256: 6060fa4d316a5b4cc48584424c3e8c4de30287ab9bac39316b047ce8bab7b84f
 ---
 
 # Tile Ticks (TMWiki)
@@ -33,4 +33,3 @@ SCHEDULED TICK PRIORITIES:
 - Special: unpowered repeater not receiving power when ticked → -2.
 - "Facing another diode" means "facing a diode that is NOT facing it."
 
-Cross-check vs GTMC: confirms repeater 2/4/6/8gt and comparator 2gt ([[tick-micro-timing]]). Adds precise TTP and cap.

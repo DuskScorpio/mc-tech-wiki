@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/Blocks/MovingBlock36.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: 0a402cbe685d314c742f5747c9692a67fdf964a5b22b7cba09a8cad4f9d0067d
+sha256: 01cf7de0e121b1dbf674a67505641cfd56b90b6093fb5a637ce338888bbc9018
 ---
 
 # Moving Block (Block 36) — B36 (TMWiki)
@@ -31,4 +31,3 @@ Hard without it converting back. Tile-entity-less B36 possible pre-1.17 (data st
 - Progress: how far moved.
 - Source: 1/0 — true if represents the piston head itself.
 
-Cross-check vs GTMC: GTMC calls it "b36" and covers instant placement (finish) + normal 3gt arrival. TMWiki adds hitbox-offset + NBT + creation methods. Complementary.

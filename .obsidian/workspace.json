@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/block-nature.md",
-                "mode": "preview",
+                "file": "raw/articles/tmwiki-tile-ticks.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "block-nature"
+              "title": "tmwiki-tile-ticks"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/block-nature.md",
+                "file": "raw/articles/tmwiki-tile-ticks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +190,7 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "concepts/block-nature.md",
     "_fix_sha.py",
     "raw/articles/tmwiki-zero-tick-farms.md",
     "raw/articles/tmwiki-tile-ticks.md",
@@ -208,7 +209,6 @@
     "concepts/linkages.md",
     "concepts/piston-mechanics.md",
     "concepts/block-to-drop.md",
-    "concepts/block-nature.md",
     "concepts/4gt-tree-farm.md",
     "concepts/0-tick.md",
     "concepts/moving-block-b36.md",
@@ -224,7 +224,6 @@
     "okf-report.json",
     "raw/articles/gltmc-rail-budding.md.tmp",
     "raw/articles/gltmc-rails.md.tmp",
-    "_gloss.py",
-    "_build_glossary.py"
+    "_gloss.py"
   ]
 }

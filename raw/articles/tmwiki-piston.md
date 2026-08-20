@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/Blocks/Piston.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: 79c90c1fb2d1f4cfa04f96355ea6e6555d5d22db730af088d590c85192c01217
+sha256: 5d4c0231d99ec13cd9dbec78d2a44addb773f219e9b9a555c53fc463cb773610
 ---
 
 # Piston (TMWiki)
@@ -27,4 +27,3 @@ sha256: 79c90c1fb2d1f4cfa04f96355ea6e6555d5d22db730af088d590c85192c01217
 ## Block updates on push
 - Create B36 in front of each block to move; following update order, send state updates at each new block position; delete old blocks from hashmap (locational order); send block updates around all removed blocks + the moving piston head.
 
-Cross-check vs GTMC: TMWiki's "2 ticks to arrive + convert" matches GTMC's "3gt piston delay" (0gt AT start → 3gt AT placed). Block-event re-check at execution = why a pre-BE-off pulse doesn't extend. Aligns.

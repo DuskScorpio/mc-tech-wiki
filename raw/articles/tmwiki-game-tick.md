@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/GameTick.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: 334c800467261f87d5bd6c98bc1086a34e29347a51533b559928fc436a38955c
+sha256: e548678b0c44ffe7a134e5de34538e4d1f3130619536cab06f1a1b82f4a8400e
 ---
 
 # Game Tick (TMWiki)
@@ -31,4 +31,3 @@ Levers, buttons, place/break blocks.
 ## Recursive updators (instant updators)
 Rails and redstone dust are calculated recursively, independent of ticks, can happen in ALL phases. (This is GTMC's "instant" component behavior.)
 
-Cross-check vs GTMC intra-tick: TMWiki's phase list (tile ticks → ChunkManager → BlockEvent → entities → block entities → player inputs) aligns with GTMC's AT→...→BE→TE→EU ordering in substance; GTMC uses NU/TT/BE/TE/EU labels and adds NU. Both agree pistons act in BlockEvent/BE and B36 arrival in block entity/TE. Minor labeling difference, not a contradiction.
