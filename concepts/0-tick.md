@@ -35,5 +35,6 @@ A 0-tick action moves functionality from inter-tick into intra-tick timing — t
 - [piston-action-timing](/concepts/piston-action-timing.md) — the 3gt default vs 0-tick
 - [dustless-wiring](/concepts/dustless-wiring.md) — 0t generators without dust
 - [high-speed-tree-farms](/concepts/high-speed-tree-farms.md) — why 0-tick matters
+
 [^gtmc-tree-farm-high-speed]: https://www.techmc.wiki/en/articles/tree-farm/high-speed-intro
 [^gtmc-tree-farm-dustless-wiring]: https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring

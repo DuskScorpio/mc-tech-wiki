@@ -36,4 +36,5 @@ status: stable
 - [4gt-tree-farm](/concepts/4gt-tree-farm.md) — modular dustless 0t generators
 - [glossary](/concepts/glossary.md) — DL, 0t, HS, NC/PP term definitions
 - [rails](/concepts/rails.md) — rail NC-update order + directional connectivity (the instant component behind dustless wiring)
+
 [^gtmc-tree-farm-dustless-wiring]: https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring

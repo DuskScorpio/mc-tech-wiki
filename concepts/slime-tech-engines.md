@@ -40,5 +40,6 @@ To mobilize a functional structure: fill in those three components. **Prioritize
 - [Linkages](/concepts/linkages.md) — zero-delay piston-chain motion transfer
 - [Piston Mechanics](/concepts/piston-mechanics.md) — 12-block push limit, sticky-piston timing
 - [Glossary](/concepts/glossary.md) — slime/honey, observer, BUD definitions
+
 [^gtmc-engines]: https://www.techmc.wiki/en/articles/slime-tech/twisuki/engines
 [^gtmc-mobility]: https://www.techmc.wiki/en/articles/slime-tech/twisuki/mobility

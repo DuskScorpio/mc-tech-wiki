@@ -82,7 +82,8 @@ A Scheduled Tick carries only `triggerTick, subTickOrder, priority, pos, type` �
 - [moving-block-b36](/concepts/moving-block-b36.md) — B36 properties & NBT
 - [0-tick](/concepts/0-tick.md) — using depth for speed
 - [block-nature](/concepts/block-nature.md) — Block vs BlockState (pointer)
+
 [^gtmc-intra-tick-timing]: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
-[^tmwiki-game-tick]: TechMCDocs/pages (Technical Minecraft Wiki)
+[^tmwiki-game-tick]: https://github.com/TechMCDocs/pages/blob/master/GameTick.md
 [^gtmc-block-events]: https://www.techmc.wiki/en/articles/micro-timing/block-events
 [^gtmc-scheduled-ticks]: https://www.techmc.wiki/en/articles/micro-timing/scheduled-ticks

@@ -34,6 +34,7 @@ In 4gt farms the huge item volume means 3–4 droppers throw saplings to the pla
 
 - [leaf-processing](/concepts/leaf-processing.md) — where saplings come from
 - [bonemealing](/concepts/bonemealing.md) — paired in the farm "base"
+
 [^gtmc-tree-farm-basics]: https://www.techmc.wiki/en/articles/block-update
 [^gtmc-tree-farm-simple-design]: https://www.techmc.wiki/en/articles/tree-farm/simple-design
 [^gtmc-tree-farm-4gt]: https://www.techmc.wiki/en/articles/tree-farm/4gt-farms

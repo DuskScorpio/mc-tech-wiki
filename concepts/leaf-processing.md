@@ -36,4 +36,5 @@ Because jungle is so low (1/40), jungle-capable farms need extra leaf-processing
 
 - [sapling-recycling](/concepts/sapling-recycling.md) — what happens to the dropped saplings
 - [block-to-drop](/concepts/block-to-drop.md) — converting the rest to items
+
 [^gtmc-tree-farm-basics]: https://www.techmc.wiki/en/articles/block-update

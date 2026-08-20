@@ -43,4 +43,5 @@ Normal arrival = 3gt (GTMC "3-gt piston delay"); instant placement (`finish`) fo
 ## Related
 - [piston-mechanics](/concepts/piston-mechanics.md) — arrival timing, instant placement
 - [piston-action-timing](/concepts/piston-action-timing.md) — how arrival slots into the action budget
+
 [^tmwiki-moving-block36]: TechMCDocs/pages (Technical Minecraft Wiki)

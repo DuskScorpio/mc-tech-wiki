@@ -45,6 +45,7 @@ Trees can grow before the architecture resets, triggering detection prematurely 
 - [4gt-tree-farm](/concepts/4gt-tree-farm.md) — detection-based 4gt designs
 - [mc-timing-model](/concepts/mc-timing-model.md) — TT/BE phases involved
 - [glossary](/concepts/glossary.md) — BUD, QC, PLD term definitions
+
 [^gtmc-tree-farm-simple-design]: https://www.techmc.wiki/en/articles/tree-farm/simple-design
 [^gtmc-tree-farm-high-speed]: https://www.techmc.wiki/en/articles/tree-farm/high-speed-intro
 [^gtmc-tree-farm-multi-species]: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design

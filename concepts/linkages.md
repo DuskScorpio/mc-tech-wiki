@@ -41,4 +41,5 @@ A **linkage** passes "motion" along a chain of pistons (each pushes only 12 bloc
 - [Slime Tech Engines and Mobility](/concepts/slime-tech-engines.md) — engine/mobility framing
 - [Tick Micro Timing](/concepts/tick-micro-timing.md) — BE (piston extend) / TE (block placed) phases
 - [Glossary](/concepts/glossary.md) — b36, BUD, observer definitions
+
 [^gtmc-linkages]: https://www.techmc.wiki/en/articles/slime-tech/twisuki/linkages

@@ -48,4 +48,5 @@ Double recursion for the trunk, honey-slime walls for leaves. Vertical signal vi
 
 - [trunk-processing](/concepts/trunk-processing.md) · [sapling-recycling](/concepts/sapling-recycling.md) · [tree-species-requirements](/concepts/tree-species-requirements.md)
 - [high-speed-tree-farms](/concepts/high-speed-tree-farms.md) — base/suction concepts that carry over
+
 [^gtmc-tree-farm-large-spruce]: https://www.techmc.wiki/en/articles/tree-farm/large-spruce-farm

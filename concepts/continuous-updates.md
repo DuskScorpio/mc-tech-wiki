@@ -37,4 +37,5 @@ NC update direction order is **West, East, Down, Up, North, South**. Order of NC
 ## Related
 - [update-theory](/concepts/update-theory.md) — the update types this builds on
 - [special-update-behaviors](/concepts/special-update-behaviors.md) — dust 2nd-order changes the locational order
+
 [^gtmc-block-update-continuous]: https://www.techmc.wiki/en/articles/block-update/continuous-updates

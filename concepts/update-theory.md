@@ -56,5 +56,6 @@ Observer emits **PP-first-then-NC** on toggle (opposite of most blocks).[^gtmc-b
 - [continuous-updates](/concepts/continuous-updates.md) — DFS propagation & order analysis
 - [special-update-behaviors](/concepts/special-update-behaviors.md) — redstone dust 2nd-order, diagonal rails, lit-observer quirk
 - [mc-timing-model](/concepts/mc-timing-model.md) · [piston-mechanics](/concepts/piston-mechanics.md)
+
 [^gtmc-block-update-concepts]: https://www.techmc.wiki/en/articles/block-update/update-concepts
 [^tmwiki-block-updates]: TechMCDocs/pages (Technical Minecraft Wiki)

@@ -44,4 +44,5 @@ A regular Piston ("right foot") stays put while a sticky piston pulls the rear s
 - [Rails](/concepts/rails.md) — directional connectivity; flying-machine rails use similar update logic
 - [0-Tick](/concepts/0-tick.md) — intra-tick timing that flying-machine circuits rely on
 - [Glossary](/concepts/glossary.md) — slime/honey, observer term definitions
+
 [^gtmc-flying-machine-basics]: https://www.techmc.wiki/en/articles/slime-tech/twisuki/flying-machine-basics

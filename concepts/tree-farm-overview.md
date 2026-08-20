@@ -53,5 +53,6 @@ Most farms also include a **[detection](/concepts/detection-methods.md)** module
 - [large-spruce-tree-farm](/concepts/large-spruce-tree-farm.md) — 2x2 large spruce
 - [0-tick](/concepts/0-tick.md) and [dustless-wiring](/concepts/dustless-wiring.md) — speed/lag techniques
 - [tree-species-requirements](/concepts/tree-species-requirements.md) — per-species growth constraints
+
 [^gtmc-tree-farm-foreword]: https://www.techmc.wiki/en/articles/tree-farm
 [^gtmc-tree-farm-basics]: https://www.techmc.wiki/en/articles/block-update

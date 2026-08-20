@@ -27,4 +27,5 @@ status: stable
 ## Related
 - [0-tick](/concepts/0-tick.md) — the working redstone-generator technique used in tree farms
 - [tick-micro-timing](/concepts/tick-micro-timing.md) — tile tick phase, where the 1gt-later check lives
+
 [^tmwiki-zero-tick-farms]: TechMCDocs/pages (Technical Minecraft Wiki)

@@ -42,4 +42,5 @@ Multi-species output is irregular, so it must be **reorganized** before the expl
 
 - [tree-species-requirements](/concepts/tree-species-requirements.md) · [trunk-processing](/concepts/trunk-processing.md) · [block-to-drop](/concepts/block-to-drop.md)
 - [4gt-tree-farm](/concepts/4gt-tree-farm.md) — the clock-driven evolution of this design
+
 [^gtmc-tree-farm-multi-species]: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design

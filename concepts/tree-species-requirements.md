@@ -48,6 +48,7 @@ Large spruce (2x2): growth detection is **3x3 at the sapling layer (NW corner), 
 - [trunk-processing](/concepts/trunk-processing.md) — which method handles each constraint
 - [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — combining them
 - [large-spruce-tree-farm](/concepts/large-spruce-tree-farm.md) — 2x2 deep dive
+
 [^gtmc-tree-farm-multi-species]: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
 [^mcwiki-sapling]: Minecraft Wiki (minecraft.wiki)
 [^gtmc-tree-farm-large-spruce]: https://www.techmc.wiki/en/articles/tree-farm/large-spruce-farm

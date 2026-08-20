@@ -58,5 +58,6 @@ If a rail is updated but is already in the correct state, it sends **no further 
 - [update-theory](/concepts/update-theory.md) — NC updates emitted by rails
 - [special-update-behaviors](/concepts/special-update-behaviors.md) — rails in the "instant component" class
 - [glossary](/concepts/glossary.md) — rail-related term definitions
+
 [^gtmc-rails]: https://www.techmc.wiki/en/articles/redstone-components/rails
 [^tmwiki-rail-budding]: TechMCDocs/pages (Technical Minecraft Wiki)

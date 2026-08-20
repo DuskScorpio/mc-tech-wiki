@@ -52,6 +52,7 @@ Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands
 ## Related
 - [update-theory](/concepts/update-theory.md) · [piston-mechanics](/concepts/piston-mechanics.md) · [piston-action-timing](/concepts/piston-action-timing.md)
 - [0-tick](/concepts/0-tick.md) — depth within BE is what 0-tick exploits
+
 [^gtmc-micro-timing-ticks]: https://www.techmc.wiki/en/articles/micro-timing/tick-timing
 [^gtmc-micro-timing-intra-tick]: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
 [^gtmc-intra-tick-timing]: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
