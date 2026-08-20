@@ -20,6 +20,12 @@ sources:
 - id: gtmc-tree-farm-multi-species
   resource: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
   title: GTMC Tree Farm Multi Species
+- id: mcwiki-dark-oak
+  resource: https://minecraft.wiki/w/Dark_Oak
+  title: Minecraft Wiki — Dark Oak
+- id: mcwiki-tree-farming
+  resource: https://minecraft.wiki/w/Tutorial:Tree_farming
+  title: Minecraft Wiki — Tutorial:Tree_farming
 generated: { by: /, at: "2026-08-18T00:00:00Z" }
 status: stable
 ---
@@ -36,7 +42,7 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 - Centered on the **northwest-corner sapling**. Above it (not counting the sapling layer) needs a clear column **3×7×3 (min) to 3×10×3 (max)**, and below the final height at least **5×3×5** (X×Y×Z).[^bilibili-dark-oak-growth]
 - Allowed blocks inside that volume: air, water, leaves, logs, stripped logs, fungus stems, stripped stems, wood, stripped wood, mycelium, stripped mycelium.
 - Because of the above, dark oak can be **height-limited or height-boosted**.[^bilibili-dark-oak-growth]
-- Minecraft Wiki corroborates the 2×2 NW-corner rule and the 3×3 column ≥7 above the NW sapling + 5×5 top-3-layers requirement.[^ Sapling]
+- Minecraft Wiki corroborates the 2×2 NW-corner rule and the 3×3 column ≥7 above the NW sapling + 5×5 top-3-layers requirement.[^mcwiki-dark-oak]
 
 ## Trunk (log) mechanics
 
@@ -72,6 +78,6 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 - [leaf-processing](/concepts/leaf-processing.md) — 1/20 sapling drop
 
 [^bilibili-dark-oak-growth]: https://www.bilibili.com/opus/1031059770508836903
-[^ Sapling]:  Sapling
 [^gtmc-tree-farm-multi-species]: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
-[^minecraft.wiki Tutorial:Tree_farming]: minecraft.wiki Tutorial:Tree_farming
+[^mcwiki-dark-oak]: https://minecraft.wiki/w/Dark_Oak
+[^mcwiki-tree-farming]: https://minecraft.wiki/w/Tutorial:Tree_farming

@@ -15,7 +15,7 @@
               "state": {
                 "file": "concepts/dark-oak-growth-mechanics.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "dark-oak-growth-mechanics"
@@ -190,6 +190,9 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "concepts/dark-oak-growth-mechanics.md",
+    "concepts/tree-species-requirements.md",
+    "concepts/detection-methods.md",
     "raw/articles/bilibili-dark-oak-growth.md",
     "^gtmc-micro-timing-intra-tick.md",
     "concepts/large-spruce-tree-farm.md",
@@ -218,9 +221,6 @@
     "_okf_v02.py",
     "okf-report.json",
     "raw/articles/gtmc-engines.md",
-    "raw/articles/gtmc-mobility.md",
-    "raw/articles/gtmc-linkages.md",
-    "raw/articles/mcwiki-sapling.md",
     "raw/articles/gltmc-rail-budding.md.tmp",
     "raw/articles/gltmc-rails.md.tmp",
     "_gloss.py",
