@@ -36,5 +36,5 @@ A 0-tick action moves functionality from inter-tick into intra-tick timing — t
 - [dustless-wiring](/concepts/dustless-wiring.md) — 0t generators without dust
 - [high-speed-tree-farms](/concepts/high-speed-tree-farms.md) — why 0-tick matters
 
-[^gtmc-tree-farm-high-speed]: raw/articles/gtmc-tree-farm-high-speed.md
-[^gtmc-tree-farm-dustless-wiring]: raw/articles/gtmc-tree-farm-dustless-wiring.md
+[^gtmc-tree-farm-high-speed]: [gtmc-tree-farm-high-speed.md](raw/articles/gtmc-tree-farm-high-speed.md)
+[^gtmc-tree-farm-dustless-wiring]: [gtmc-tree-farm-dustless-wiring.md](raw/articles/gtmc-tree-farm-dustless-wiring.md)

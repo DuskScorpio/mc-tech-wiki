@@ -51,4 +51,4 @@ The only dustless zero-delay rising-edge 0t is **redstone dust redirection** —
 
 - [dustless-wiring](/concepts/dustless-wiring.md) · [0-tick](/concepts/0-tick.md) · [bonemealing](/concepts/bonemealing.md) · [tree-species-requirements](/concepts/tree-species-requirements.md)
 
-[^gtmc-tree-farm-4gt]: raw/articles/gtmc-tree-farm-4gt.md
+[^gtmc-tree-farm-4gt]: [gtmc-tree-farm-4gt.md](raw/articles/gtmc-tree-farm-4gt.md)

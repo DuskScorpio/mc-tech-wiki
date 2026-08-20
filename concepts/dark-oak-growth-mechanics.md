@@ -77,7 +77,7 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 - [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — why dark oak is a special case
 - [leaf-processing](/concepts/leaf-processing.md) — 1/20 sapling drop
 
-[^bilibili-dark-oak-growth]: raw/articles/bilibili-dark-oak-growth.md
-[^gtmc-tree-farm-multi-species]: raw/articles/gtmc-tree-farm-multi-species.md
-[^mcwiki-dark-oak]: raw/articles/mcwiki-dark-oak.md
-[^mcwiki-tree-farming]: raw/articles/mcwiki-tree-farming.md
+[^bilibili-dark-oak-growth]: [bilibili-dark-oak-growth.md](raw/articles/bilibili-dark-oak-growth.md)
+[^gtmc-tree-farm-multi-species]: [gtmc-tree-farm-multi-species.md](raw/articles/gtmc-tree-farm-multi-species.md)
+[^mcwiki-dark-oak]: [mcwiki-dark-oak.md](raw/articles/mcwiki-dark-oak.md)
+[^mcwiki-tree-farming]: [mcwiki-tree-farming.md](raw/articles/mcwiki-tree-farming.md)

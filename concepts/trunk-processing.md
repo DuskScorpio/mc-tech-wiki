@@ -47,5 +47,5 @@ Dark oak sometimes uses an **upward pull** variant.[^gtmc-tree-farm-basics] See 
 - [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — combining methods
 - [high-speed-tree-farms](/concepts/high-speed-tree-farms.md) — base design with downward/side suction
 
-[^gtmc-tree-farm-basics]: raw/articles/gtmc-tree-farm-basics.md
-[^gtmc-tree-farm-multi-species]: raw/articles/gtmc-tree-farm-multi-species.md
+[^gtmc-tree-farm-basics]: [gtmc-tree-farm-basics.md](raw/articles/gtmc-tree-farm-basics.md)
+[^gtmc-tree-farm-multi-species]: [gtmc-tree-farm-multi-species.md](raw/articles/gtmc-tree-farm-multi-species.md)

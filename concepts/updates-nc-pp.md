@@ -48,4 +48,4 @@ See [dustless-wiring](/concepts/dustless-wiring.md) for how these enable lag-fre
 - [mc-timing-model](/concepts/mc-timing-model.md) — updates drive the phase/depth model
 - [detection-methods](/concepts/detection-methods.md) — BUDs and observers as detectors
 
-[^gtmc-tree-farm-basics]: raw/articles/gtmc-tree-farm-basics.md
+[^gtmc-tree-farm-basics]: [gtmc-tree-farm-basics.md](raw/articles/gtmc-tree-farm-basics.md)

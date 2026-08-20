@@ -54,5 +54,5 @@ Most farms also include a **[detection](/concepts/detection-methods.md)** module
 - [0-tick](/concepts/0-tick.md) and [dustless-wiring](/concepts/dustless-wiring.md) — speed/lag techniques
 - [tree-species-requirements](/concepts/tree-species-requirements.md) — per-species growth constraints
 
-[^gtmc-tree-farm-foreword]: raw/articles/gtmc-tree-farm-foreword.md
-[^gtmc-tree-farm-basics]: raw/articles/gtmc-tree-farm-basics.md
+[^gtmc-tree-farm-foreword]: [gtmc-tree-farm-foreword.md](raw/articles/gtmc-tree-farm-foreword.md)
+[^gtmc-tree-farm-basics]: [gtmc-tree-farm-basics.md](raw/articles/gtmc-tree-farm-basics.md)

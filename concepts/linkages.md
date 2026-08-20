@@ -42,4 +42,4 @@ A **linkage** passes "motion" along a chain of pistons (each pushes only 12 bloc
 - [Tick Micro Timing](/concepts/tick-micro-timing.md) — BE (piston extend) / TE (block placed) phases
 - [Glossary](/concepts/glossary.md) — b36, BUD, observer definitions
 
-[^gtmc-linkages]: raw/articles/gtmc-linkages.md
+[^gtmc-linkages]: [gtmc-linkages.md](raw/articles/gtmc-linkages.md)

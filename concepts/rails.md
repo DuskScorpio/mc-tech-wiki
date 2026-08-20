@@ -59,5 +59,5 @@ If a rail is updated but is already in the correct state, it sends **no further 
 - [special-update-behaviors](/concepts/special-update-behaviors.md) — rails in the "instant component" class
 - [glossary](/concepts/glossary.md) — rail-related term definitions
 
-[^gtmc-rails]: raw/articles/gtmc-rails.md
-[^tmwiki-rail-budding]: raw/articles/tmwiki-rail-budding.md
+[^gtmc-rails]: [gtmc-rails.md](raw/articles/gtmc-rails.md)
+[^tmwiki-rail-budding]: [tmwiki-rail-budding.md](raw/articles/tmwiki-rail-budding.md)

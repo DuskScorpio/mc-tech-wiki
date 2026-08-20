@@ -83,7 +83,7 @@ A Scheduled Tick carries only `triggerTick, subTickOrder, priority, pos, type` �
 - [0-tick](/concepts/0-tick.md) — using depth for speed
 - [block-nature](/concepts/block-nature.md) — Block vs BlockState (pointer)
 
-[^gtmc-intra-tick-timing]: raw/articles/gtmc-intra-tick-timing.md
-[^tmwiki-game-tick]: raw/articles/tmwiki-game-tick.md
-[^gtmc-block-events]: raw/articles/gtmc-block-events.md
-[^gtmc-scheduled-ticks]: raw/articles/gtmc-scheduled-ticks.md
+[^gtmc-intra-tick-timing]: [gtmc-intra-tick-timing.md](raw/articles/gtmc-intra-tick-timing.md)
+[^tmwiki-game-tick]: [tmwiki-game-tick.md](raw/articles/tmwiki-game-tick.md)
+[^gtmc-block-events]: [gtmc-block-events.md](raw/articles/gtmc-block-events.md)
+[^gtmc-scheduled-ticks]: [gtmc-scheduled-ticks.md](raw/articles/gtmc-scheduled-ticks.md)

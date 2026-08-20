@@ -41,6 +41,6 @@ Because a clock-based 4gt farm has only one growth window every 4gt, it uses **s
 - [4gt-tree-farm](/concepts/4gt-tree-farm.md) — synchronized bonemealing on a 4gt clock
 - [sapling-recycling](/concepts/sapling-recycling.md) — the other half of the base
 
-[^gtmc-tree-farm-basics]: raw/articles/gtmc-tree-farm-basics.md
-[^gtmc-tree-farm-high-speed]: raw/articles/gtmc-tree-farm-high-speed.md
-[^gtmc-tree-farm-4gt]: raw/articles/gtmc-tree-farm-4gt.md
+[^gtmc-tree-farm-basics]: [gtmc-tree-farm-basics.md](raw/articles/gtmc-tree-farm-basics.md)
+[^gtmc-tree-farm-high-speed]: [gtmc-tree-farm-high-speed.md](raw/articles/gtmc-tree-farm-high-speed.md)
+[^gtmc-tree-farm-4gt]: [gtmc-tree-farm-4gt.md](raw/articles/gtmc-tree-farm-4gt.md)

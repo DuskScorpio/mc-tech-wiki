@@ -45,4 +45,4 @@ A regular Piston ("right foot") stays put while a sticky piston pulls the rear s
 - [0-Tick](/concepts/0-tick.md) — intra-tick timing that flying-machine circuits rely on
 - [Glossary](/concepts/glossary.md) — slime/honey, observer term definitions
 
-[^gtmc-flying-machine-basics]: raw/articles/gtmc-flying-machine-basics.md
+[^gtmc-flying-machine-basics]: [gtmc-flying-machine-basics.md](raw/articles/gtmc-flying-machine-basics.md)

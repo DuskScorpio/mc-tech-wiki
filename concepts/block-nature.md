@@ -59,5 +59,5 @@ In 1.20.1 nearly every block change flows through `World#setBlockState(pos, stat
 - [tick-micro-timing](/concepts/tick-micro-timing.md) — block changes trigger updates that propagate intra-tick
 - [moving-block-b36](/concepts/moving-block-b36.md) — b36 is a BlockState of moving_piston
 
-[^gtmc-blocks-and-states]: raw/articles/gtmc-blocks-and-states.md
-[^gtmc-block-changes]: raw/articles/gtmc-block-changes.md
+[^gtmc-blocks-and-states]: [gtmc-blocks-and-states.md](raw/articles/gtmc-blocks-and-states.md)
+[^gtmc-block-changes]: [gtmc-block-changes.md](raw/articles/gtmc-block-changes.md)

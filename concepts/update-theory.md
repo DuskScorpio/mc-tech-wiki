@@ -60,5 +60,5 @@ Observer emits **PP-first-then-NC** on toggle (opposite of most blocks).[^gtmc-b
 - [special-update-behaviors](/concepts/special-update-behaviors.md) — redstone dust 2nd-order, diagonal rails, lit-observer quirk
 - [mc-timing-model](/concepts/mc-timing-model.md) · [piston-mechanics](/concepts/piston-mechanics.md)
 
-[^gtmc-block-update-concepts]: raw/articles/gtmc-block-update-concepts.md
-[^tmwiki-block-updates]: raw/articles/tmwiki-block-updates.md
+[^gtmc-block-update-concepts]: [gtmc-block-update-concepts.md](raw/articles/gtmc-block-update-concepts.md)
+[^tmwiki-block-updates]: [tmwiki-block-updates.md](raw/articles/tmwiki-block-updates.md)

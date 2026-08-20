@@ -48,4 +48,4 @@ The architecture determines the minimum operating cycle. Faster architectures co
 - [0-tick](/concepts/0-tick.md) · [dustless-wiring](/concepts/dustless-wiring.md) · [bonemealing](/concepts/bonemealing.md) · [detection-methods](/concepts/detection-methods.md)
 - [4gt-tree-farm](/concepts/4gt-tree-farm.md) · [multi-species-tree-farm](/concepts/multi-species-tree-farm.md) — concrete high-speed designs
 
-[^gtmc-tree-farm-high-speed]: raw/articles/gtmc-tree-farm-high-speed.md
+[^gtmc-tree-farm-high-speed]: [gtmc-tree-farm-high-speed.md](raw/articles/gtmc-tree-farm-high-speed.md)

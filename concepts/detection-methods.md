@@ -46,6 +46,6 @@ Trees can grow before the architecture resets, triggering detection prematurely 
 - [mc-timing-model](/concepts/mc-timing-model.md) — TT/BE phases involved
 - [glossary](/concepts/glossary.md) — BUD, QC, PLD term definitions
 
-[^gtmc-tree-farm-simple-design]: raw/articles/gtmc-tree-farm-simple-design.md
-[^gtmc-tree-farm-high-speed]: raw/articles/gtmc-tree-farm-high-speed.md
-[^gtmc-tree-farm-multi-species]: raw/articles/gtmc-tree-farm-multi-species.md
+[^gtmc-tree-farm-simple-design]: [gtmc-tree-farm-simple-design.md](raw/articles/gtmc-tree-farm-simple-design.md)
+[^gtmc-tree-farm-high-speed]: [gtmc-tree-farm-high-speed.md](raw/articles/gtmc-tree-farm-high-speed.md)
+[^gtmc-tree-farm-multi-species]: [gtmc-tree-farm-multi-species.md](raw/articles/gtmc-tree-farm-multi-species.md)

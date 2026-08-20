@@ -41,5 +41,5 @@ To mobilize a functional structure: fill in those three components. **Prioritize
 - [Piston Mechanics](/concepts/piston-mechanics.md) — 12-block push limit, sticky-piston timing
 - [Glossary](/concepts/glossary.md) — slime/honey, observer, BUD definitions
 
-[^gtmc-engines]: raw/articles/gtmc-engines.md
-[^gtmc-mobility]: raw/articles/gtmc-mobility.md
+[^gtmc-engines]: [gtmc-engines.md](raw/articles/gtmc-engines.md)
+[^gtmc-mobility]: [gtmc-mobility.md](raw/articles/gtmc-mobility.md)
