@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/block-update/special-updates
 ingested: 2026-08-18
-sha256: 51541b9f115f1b2814f75edea081fd304808dac6abd7ad7c10d267d2268add6e
+sha256: 0460451b6b1a65b5e93a4d06aa404076f66234e505c1e43a4e729abbcc4717e3
 ---
 
 # 03 Special Update Behaviors (GTMC)

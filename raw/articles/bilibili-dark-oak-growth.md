@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.bilibili.com/opus/1031059770508836903
 ingested: 2026-08-18
-sha256: 82fecc2fb490f2f1484bb5bfb9c0410637c04702b2134d5722956aa72228c7b2
+sha256: 2951a33f8425a402a1fddced40788b38fa92e5b8cfea5bd1149fee19c0ce5c31
 ---
 
 # 深色橡木生长机制 (Dark Oak Growth Mechanics) — Bilibili opus

@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/block-mechanics
 ingested: 2026-08-18
-sha256: ebbf2ca3d208b1bbdb89ba7e2b3e20edfde1c092c0224c8cfa1cd51aa5629acd
+sha256: 4eac8c7bb24b72dc320389b5c783a231239bc7fdf33455828e00a010a54b4d41
 ---
 
 # 00 The Nature of Blocks (GTMC)

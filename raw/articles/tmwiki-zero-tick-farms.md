@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/BugsAndExploits/ZeroTickFarms.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: de323b4e5931167d231fa35ac4537716dc8a54c7bc8fd1fef11fcaf310d5d77b
+sha256: b6a724a872bea3ada3067b0d8365ed92e2b5c4159cb95fea2895565e970c3b72
 ---
 
 # Zero-Tick Farming (TMWiki)

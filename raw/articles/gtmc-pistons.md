@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/redstone-components/pistons
 ingested: 2026-08-18
-sha256: fbb66a2db19fcf96c45417d198ce5ce59ba93196d18f9df86434122340bd9fae
+sha256: fa4d833e6057b1334288374a8048f46b063c8ece74c5d7753868c1d789d2bbcc
 ---
 
 # 02 Pistons (GTMC)

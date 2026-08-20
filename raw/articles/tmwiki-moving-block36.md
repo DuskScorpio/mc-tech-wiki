@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/Blocks/MovingBlock36.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: 89ed2120d9ae439137bd37f2d99e017dfa04700c45dd07fb895327ada3e39431
+sha256: 0a402cbe685d314c742f5747c9692a67fdf964a5b22b7cba09a8cad4f9d0067d
 ---
 
 # Moving Block (Block 36) — B36 (TMWiki)

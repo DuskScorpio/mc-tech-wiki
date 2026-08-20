@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/GameMechanics/BlockUpdates.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: eb88a1e4d4639d311864e844bbf818416dcbc6bcbcf90b5462e3e2e676552aa0
+sha256: e2077fb1e12532afd027bf6335a541ec9d7c93406476724d9c2f5839f0b505de
 ---
 
 # Block updates and update detectors (TMWiki)

@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/Blocks/Piston.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: c611ece885be469c54f158e9daceb7efff801f02ab97c22ca19009772304b7e1
+sha256: 79c90c1fb2d1f4cfa04f96355ea6e6555d5d22db730af088d590c85192c01217
 ---
 
 # Piston (TMWiki)

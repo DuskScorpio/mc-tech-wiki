@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/dustless-wiring
 ingested: 2026-08-18
-sha256: 720d7a2728c3cd0c48a05136c569dc7dfbfc4a40eb6b38326468eb58af32698f
+sha256: 7687c99c6e290bd65faea452329236ae30c68e36eb202817da51b4be597fa3df
 ---
 
 # 05 Why Your Tree Farm Stalls — Introduction to Dustless Wiring (GTMC)

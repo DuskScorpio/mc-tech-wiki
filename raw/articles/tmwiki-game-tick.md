@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/GameTick.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: a10c2d9f8bafd683ec8083c51856e3d2a74b6ba4bf54c17c44b4406ce0bc655d
+sha256: 334c800467261f87d5bd6c98bc1086a34e29347a51533b559928fc436a38955c
 ---
 
 # Game Tick (TMWiki)

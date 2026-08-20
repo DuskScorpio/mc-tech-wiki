@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/micro-timing/scheduled-ticks
 ingested: 2026-08-18
-sha256: f0bcd957eb320f782817c63a6f4c7715673da0482a9eca0203f2461dceb05338
+sha256: 27349296214875daf823aa12418575ab08c090c38658ef36e697b26419c4523c
 ---
 
 # 03 Scheduled Ticks and Scheduled Tick Components (GTMC)

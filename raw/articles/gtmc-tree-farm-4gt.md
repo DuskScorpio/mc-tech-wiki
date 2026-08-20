@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/4gt-farms
 ingested: 2026-08-18
-sha256: 6a10ba95286e6bf3e0be0abecdfa169620852c507aa54e880bf171366800051f
+sha256: 5b3b9b750c668a1f6b761c7cd47d5d5cd8ffa318d3ee940b98391383e62be802
 ---
 
 # 07 Everything About 4gt Tree Farms (GTMC)

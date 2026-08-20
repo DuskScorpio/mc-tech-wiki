@@ -3,7 +3,7 @@ type: source
 source_url: https://github.com/TechMCDocs/pages/blob/master/GameTick/TileTicks.md
 source_repo: TechMCDocs/pages (Technical Minecraft Wiki)
 ingested: 2026-08-18
-sha256: 678732e05ab7e2d53483ff863ab31e2caf49e09836eb8e2d9caa836aaca26dab
+sha256: a994423b82437209a138a9f10137067be76b22b55744466bca0bcb91224bc5aa
 ---
 
 # Tile Ticks (TMWiki)

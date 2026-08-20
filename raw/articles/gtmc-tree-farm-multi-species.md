@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
 ingested: 2026-08-18
-sha256: 037b93d76028f6c789b22fab2a06f86bd31318e671abb63681c391da111e0954
+sha256: e40e40e50dc76969a08478fd7d137bd176db1ac5a724390f0a593607cdc6982c
 ---
 
 # 03 Attempting to Design a Multi-Species Tree Farm (GTMC)

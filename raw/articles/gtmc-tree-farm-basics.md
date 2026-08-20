@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/block-update
 ingested: 2026-08-18
-sha256: 6b2f1612fd660d51aa94b7987edde937f53114b777738b3e5fc77b9aacc491ad
+sha256: ea64fe968979b820e0f72bb1a1396cdf05c0e934440f80c648ef73f3012cdb11
 ---
 
 # 01 Prerequisites and the Basic Structure of Tree Farms (GTMC)

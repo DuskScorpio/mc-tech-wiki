@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/tree-farm/large-spruce-farm
 ingested: 2026-08-18
-sha256: 1d0f884b0819578ee7052ae68a77dc2ffbd8b1df84392479428b56b827d8ab56
+sha256: 05584e7024330f51d3bf675a6caa49ebcb7a55e6e7cf323e3fdb159cda08e01e
 ---
 
 # 08 Large Spruce Tree Farms (GTMC)

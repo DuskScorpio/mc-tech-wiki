@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/micro-timing/block-entities
 ingested: 2026-08-18
-sha256: 6368b0c845bdc03414dc7b3bfb9bcae3b04b5b00a1ee5a34d76b594cabd8f71d
+sha256: 1815bfe267aee8ae2b6185d51af43c8bc84f8d17c5c8d517b76aa375e88d3708
 ---
 
 # 04 Block Entities (GTMC)

@@ -2,7 +2,7 @@
 type: source
 source_url: https://www.techmc.wiki/en/articles/block-update/update-concepts
 ingested: 2026-08-18
-sha256: 9a9b54cfe78f8681b93a87e1aa83fcc323d20174bef558baea04b02c4ed575dc
+sha256: 72b6087008866547d967a62b0b7d36511adb3d4a84bfc710f02cdd540a4d847f
 ---
 
 # 01 Update Concepts and Update Types (GTMC)

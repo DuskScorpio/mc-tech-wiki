@@ -11,10 +11,14 @@
             "id": "b7bbdf8407a8926a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "concepts/block-nature.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "block-nature"
             }
           }
         ]
@@ -95,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/linkages.md",
+                "file": "concepts/block-nature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,8 +190,12 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
-    "_repair_citations.py",
+    "_fix_sha.py",
+    "raw/articles/tmwiki-zero-tick-farms.md",
+    "raw/articles/tmwiki-tile-ticks.md",
+    "raw/articles/tmwiki-rail-budding.md",
     "concepts/tick-micro-timing.md",
+    "_repair_citations.py",
     "concepts/mc-timing-model.md",
     "SCHEMA.md",
     "concepts/dark-oak-growth-mechanics.md",
@@ -207,20 +215,16 @@
     "_fix_fn_blank.py",
     "concepts/piston-action-timing.md",
     "concepts/slime-tech-engines.md",
-    "raw/articles/tmwiki-tile-ticks.md",
     "raw/articles/bilibili-dark-oak-growth-en.md",
     "_dedup_resource.py",
     "concepts/leaf-processing.md",
     "index.md",
     "_okf_migrate.py",
-    "README.md",
-    "concepts/glossary.md",
     "_okf_v02.py",
     "okf-report.json",
     "raw/articles/gltmc-rail-budding.md.tmp",
     "raw/articles/gltmc-rails.md.tmp",
     "_gloss.py",
-    "_build_glossary.py",
-    "raw/sources/techmc-glossary.csv"
+    "_build_glossary.py"
   ]
 }
