@@ -60,4 +60,4 @@ If a rail is updated but is already in the correct state, it sends **no further 
 - [glossary](/concepts/glossary.md) — rail-related term definitions
 
 [^gtmc-rails]: https://www.techmc.wiki/en/articles/redstone-components/rails
-[^tmwiki-rail-budding]: TechMCDocs/pages (Technical Minecraft Wiki)
+[^tmwiki-rail-budding]: https://github.com/TechMCDocs/pages/blob/master/GameMechanics/RailBudding.md

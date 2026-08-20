@@ -4,7 +4,7 @@ title: Large Spruce Tree Farm
 created: 2026-08-18
 updated: 2026-08-18
 
-description: The most log-efficient wood farm (2x2 large spruce).^[raw/articles/gtmc-tree-farm-large-spruce.md]
+description: The most log-efficient wood farm (2x2 large spruce).[^gtmc-tree-farm-large-spruce]
 edition: java
 version: 1.20.1
 confidence: high

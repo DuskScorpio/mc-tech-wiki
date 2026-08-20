@@ -4,7 +4,7 @@ title: Leaf Processing
 created: 2026-08-18
 updated: 2026-08-18
 
-description: Push away enough leaves (with pistons or honey-slime walls) to recover the saplings you need.^[raw/articles/gtmc-tree-farm-basics.md]
+description: Push away enough leaves (with pistons or honey-slime walls) to recover the saplings you need.[^gtmc-tree-farm-basics]
 edition: java
 version: 1.20.1
 confidence: high

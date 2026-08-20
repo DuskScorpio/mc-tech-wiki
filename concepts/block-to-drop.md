@@ -4,7 +4,7 @@ title: Block-to-Drop Conversion
 created: 2026-08-18
 updated: 2026-08-18
 
-description: "Two main ways to turn logs/leaves into items: **wither** and **TNT**.^[raw/articles/gtmc-tree-farm-basics.md]"
+description: "Two main ways to turn logs/leaves into items: **wither** and **TNT**.[^gtmc-tree-farm-basics]"
 edition: java
 version: 1.20.1
 confidence: high

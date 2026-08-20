@@ -13,6 +13,9 @@ sources:
 - id: gtmc-pistons
   resource: https://www.techmc.wiki/en/articles/redstone-components/pistons
   title: GTMC Pistons
+- id: tmwiki-piston
+  resource: https://github.com/TechMCDocs/pages/blob/master/Blocks/Pistons.md
+  title: TechMCDocs/pages (Technical Minecraft Wiki) — Pistons
 generated: { by: /, at: "2026-08-18T00:00:00Z" }
 status: stable
 ---
@@ -55,4 +58,4 @@ Piston = base + head; states retracted/extended. A **headless piston** (base onl
 - **Cross-source:** TMWiki `Blocks/Piston.md` confirms block-event creation-order execution + 2-tick arrival (→ "3gt delay") and pushed-block order `-y;+y;-z;+z;-x;+x`. Aligns with GTMC. See [^tmwiki-piston].
 
 [^gtmc-pistons]: https://www.techmc.wiki/en/articles/redstone-components/pistons
-[^tmwiki-piston]: TechMCDocs/pages (Technical Minecraft Wiki)
+[^tmwiki-piston]: https://github.com/TechMCDocs/pages/blob/master/Blocks/Pistons.md

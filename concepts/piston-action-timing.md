@@ -4,7 +4,7 @@ title: Piston Action Timing
 created: 2026-08-18
 updated: 2026-08-18
 
-description: In tree farms, a single piston action (push / pull / 0-tick) takes **3gt by default**.^[raw/articles/gtmc-tree-farm-basics.md]
+description: In tree farms, a single piston action (push / pull / 0-tick) takes **3gt by default**.[^gtmc-tree-farm-basics]
 edition: java
 version: 1.20.1
 confidence: high

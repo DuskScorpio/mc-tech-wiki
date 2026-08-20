@@ -11,14 +11,10 @@
             "id": "b7bbdf8407a8926a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/tick-micro-timing.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "tick-micro-timing"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -190,6 +186,9 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "_repair_citations.py",
+    "concepts/tick-micro-timing.md",
+    "concepts/mc-timing-model.md",
     "SCHEMA.md",
     "concepts/dark-oak-growth-mechanics.md",
     "concepts/detection-methods.md",
@@ -200,7 +199,6 @@
     "^gtmc-scheduled-ticks.md",
     "concepts/linkages.md",
     "concepts/piston-mechanics.md",
-    "concepts/mc-timing-model.md",
     "concepts/block-to-drop.md",
     "concepts/block-nature.md",
     "concepts/4gt-tree-farm.md",
@@ -209,7 +207,6 @@
     "_fix_fn_blank.py",
     "concepts/piston-action-timing.md",
     "concepts/slime-tech-engines.md",
-    "concepts/tick-micro-timing.md",
     "raw/articles/tmwiki-tile-ticks.md",
     "raw/articles/bilibili-dark-oak-growth-en.md",
     "_dedup_resource.py",
@@ -220,7 +217,6 @@
     "concepts/glossary.md",
     "_okf_v02.py",
     "okf-report.json",
-    "raw/articles/gtmc-engines.md",
     "raw/articles/gltmc-rail-budding.md.tmp",
     "raw/articles/gltmc-rails.md.tmp",
     "_gloss.py",

@@ -4,7 +4,7 @@ title: Tree Species Requirements
 created: 2026-08-18
 updated: 2026-08-18
 
-description: For a multi-species farm, take the **union** of every species' constraints — meet the most demanding one.^[raw/articles/gtmc-tree-farm-multi-species.md]
+description: For a multi-species farm, take the **union** of every species' constraints — meet the most demanding one.[^gtmc-tree-farm-multi-species]
 edition: java
 version: 1.20.1
 confidence: high
@@ -50,5 +50,5 @@ Large spruce (2x2): growth detection is **3x3 at the sapling layer (NW corner), 
 - [large-spruce-tree-farm](/concepts/large-spruce-tree-farm.md) — 2x2 deep dive
 
 [^gtmc-tree-farm-multi-species]: https://www.techmc.wiki/en/articles/tree-farm/multi-species-design
-[^mcwiki-sapling]: Minecraft Wiki (minecraft.wiki)
+[^mcwiki-sapling]: https://minecraft.wiki/w/Sapling
 [^gtmc-tree-farm-large-spruce]: https://www.techmc.wiki/en/articles/tree-farm/large-spruce-farm

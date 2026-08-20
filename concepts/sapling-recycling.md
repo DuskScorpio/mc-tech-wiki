@@ -4,7 +4,7 @@ title: Sapling Recycling
 created: 2026-08-18
 updated: 2026-08-18
 
-description: Saplings dropped by [[leaf-processing]] are collected back to the player using hoppers, water flow, or similar.^[raw/articles/gtmc-tree-farm-basics.md]
+description: Saplings dropped by [[leaf-processing]] are collected back to the player using hoppers, water flow, or similar.[^gtmc-tree-farm-basics]
 edition: java
 version: 1.20.1
 confidence: high

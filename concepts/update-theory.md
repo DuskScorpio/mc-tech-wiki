@@ -13,6 +13,9 @@ sources:
 - id: gtmc-block-update-concepts
   resource: https://www.techmc.wiki/en/articles/block-update/update-concepts
   title: GTMC Block Update Concepts
+- id: tmwiki-block-updates
+  resource: https://github.com/TechMCDocs/pages/blob/master/BlockUpdate.md
+  title: TechMCDocs/pages (Technical Minecraft Wiki) — BlockUpdate
 generated: { by: /, at: "2026-08-18T00:00:00Z" }
 status: stable
 ---
@@ -58,4 +61,4 @@ Observer emits **PP-first-then-NC** on toggle (opposite of most blocks).[^gtmc-b
 - [mc-timing-model](/concepts/mc-timing-model.md) · [piston-mechanics](/concepts/piston-mechanics.md)
 
 [^gtmc-block-update-concepts]: https://www.techmc.wiki/en/articles/block-update/update-concepts
-[^tmwiki-block-updates]: TechMCDocs/pages (Technical Minecraft Wiki)
+[^tmwiki-block-updates]: https://github.com/TechMCDocs/pages/blob/master/BlockUpdate.md

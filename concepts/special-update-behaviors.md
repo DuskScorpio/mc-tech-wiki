@@ -4,7 +4,7 @@ title: Special Update Behaviors
 created: 2026-08-18
 updated: 2026-08-18
 
-description: Several blocks break the simple 1st-order neighbor model.^[raw/articles/gtmc-block-update-special.md]
+description: Several blocks break the simple 1st-order neighbor model.[^gtmc-block-update-special]
 edition: java
 version: 1.20.1
 confidence: high

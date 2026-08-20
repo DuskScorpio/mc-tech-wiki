@@ -4,7 +4,7 @@ title: Updates — NC vs PP
 created: 2026-08-18
 updated: 2026-08-18
 
-description: "Minecraft has two update types: **NC updates** (neighbor/block changes) and **PP updates** (block/state placement changes).^[raw/articles/gtmc-tree-farm-basics.…"
+description: "Minecraft has two update types: **NC updates** (neighbor/block changes) and **PP updates** (block/state placement changes)."
 edition: java
 version: 1.20.1
 confidence: high

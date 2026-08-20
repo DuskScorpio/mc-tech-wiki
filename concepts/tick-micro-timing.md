@@ -4,7 +4,7 @@ title: Tick & Micro-Timing Model
 created: 2026-08-18
 updated: 2026-08-18
 
-description: "Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering within one gt).^[raw/articles/gtmc-micro-timing-ticks.md] [^[raw/articles/gtmc-m…"
+description: "Two timing scales: **inter-tick** (whole gt units) and **intra-tick** (ordering within one gt)."
 edition: java
 version: 1.20.1
 confidence: high
@@ -16,6 +16,12 @@ sources:
 - id: gtmc-micro-timing-intra-tick
   resource: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
   title: GTMC Micro Timing Intra Tick
+- id: tmwiki-game-tick
+  resource: https://github.com/TechMCDocs/pages/blob/master/GameTick.md
+  title: TechMCDocs/pages (Technical Minecraft Wiki) — GameTick
+- id: tmwiki-tile-ticks
+  resource: https://github.com/TechMCDocs/pages/blob/master/GameTick/TileTicks.md
+  title: TechMCDocs/pages (Technical Minecraft Wiki) — TileTicks
 generated: { by: /, at: "2026-08-18T00:00:00Z" }
 status: stable
 ---
@@ -58,5 +64,5 @@ Key component phases: pistons extend/retract = **BE**; b36 pushes entity / lands
 [^gtmc-intra-tick-timing]: https://www.techmc.wiki/en/articles/micro-timing/intra-tick-timing
 [^gtmc-scheduled-ticks]: https://www.techmc.wiki/en/articles/micro-timing/scheduled-ticks
 [^gtmc-block-entities]: https://www.techmc.wiki/en/articles/micro-timing/block-entities
-[^tmwiki-game-tick]: TechMCDocs/pages (Technical Minecraft Wiki)
-[^tmwiki-tile-ticks]: TechMCDocs/pages (Technical Minecraft Wiki)
+[^tmwiki-game-tick]: https://github.com/TechMCDocs/pages/blob/master/GameTick.md
+[^tmwiki-tile-ticks]: https://github.com/TechMCDocs/pages/blob/master/GameTick/TileTicks.md
