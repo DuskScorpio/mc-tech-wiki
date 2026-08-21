@@ -21,13 +21,24 @@ status: stable
 
 > **Goal:** reduce lag — not to be dustless for its own sake. Forcing dustless designs can *increase* lag, defeating the purpose.[^gtmc-tree-farm-dustless-wiring]
 
-## Signal-transmission methods
+The methods below split into two groups by **whether they introduce macro delay**. Delay comes from components that *schedule a TT tick* to recompute their state (Tree/Scaffolding/Wall power); methods that keep the signal propagating inside the **BE phase** avoid that tick and thus have no macro delay.
 
-- **Rails + Observers:** rails emit PP updates on state change, caught by observers; a vertical observer column activates a whole piston row at once. BUD rails give zero-delay transmission.[^gtmc-tree-farm-dustless-wiring]
-- **Tree / Scaffolding / Wall power:** wireless PP (±NC) updates. Tree power = leaves distance-to-log; scaffolding power = +1gt/scaffold; wall power = instant walls emitting PP on state change.[^gtmc-tree-farm-dustless-wiring]
-- **Slime sticks:** slime blocks delete pushed blocks in BE phase, changing another piston's state same gt (falling edge no macro delay; rising edge 3gt/piston — needs 3gt auto-reset).[^gtmc-tree-farm-dustless-wiring]
-- **Rails + BUD:** keep signal in BE phase.[^gtmc-tree-farm-dustless-wiring]
-- **Redstone redirection:** the *only* dustless method giving a **zero-delay rising edge**; redirection produces PP only, so NC must be supplied separately.[^gtmc-tree-farm-dustless-wiring]
+## Delay-bearing methods (schedule a TT tick)
+
+These change state via an update that runs in Tile Tick (1gt later, or immediately if already in TT), so they add macro delay:
+
+- **Tree / Scaffolding / Wall power:** wireless PP (±NC) updates. Tree power = leaves schedule a TT tick to recompute distance-to-log; scaffolding power adds **1gt delay per scaffold** (distance check scheduled in TT); wall power is an **instant component** (state change emits PP immediately, caught by observers).[^gtmc-tree-farm-dustless-wiring]
+
+## No macro delay (signal stays in the BE phase)
+
+These keep the change inside the Block-Event phase, so no TT tick is scheduled:
+
+- **Slime sticks:** slime blocks delete pushed blocks in the BE phase, changing another piston's state in the same gt. **Falling-edge** transmission has no macro delay; **rising edges** have **3gt delay per piston** — each stick gets a 3gt auto-reset.[^gtmc-tree-farm-dustless-wiring]
+- **Rails + BUD:** rails are instant components; updating a BUD via rails and having the BUD re-power a rail chain keeps the signal propagating within the BE phase (zero-delay transmission).[^gtmc-tree-farm-dustless-wiring]
+
+## Zero-delay rising edge (unique case)
+
+- **Redstone redirection:** the **only** dustless method that outputs a **zero-delay rising edge**. Redirection produces **PP only**, so NC must be supplied separately.[^gtmc-tree-farm-dustless-wiring] Variants: vertical columns, the standard **3gt generator** (3gt push / 3gt pull piston action), and the **0t generator** (redirection-based).
 
 ## Related
 
