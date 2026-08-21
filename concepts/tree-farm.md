@@ -72,7 +72,7 @@ Tree farms split on two independent axes:
 Regardless of tier, a tree farm moves a sapling through three stages:
 
 1. **Growth** — getting saplings to actually grow (species requirements, space, bone meal). See [Sapling](raw/articles/mcwiki-sapling.md) and growth mechanics.
-2. **Detection** *(optional)* — knowing the tree has grown so the farm can trigger its processing. Not all tree farms need it; simple designs with a short (≤4gt) cycle can run on a clock instead.[^gtmc-tree-farm-basics] When used, common methods are **comparator**, **QC**, **BUD**, and **push-limit** detection (push-limit is the dominant method in modern designs).[^gtmc-tree-farm-simple-design]
+2. **Detection** *(optional)* — knowing the tree has grown so the farm can trigger its processing. Not all tree farms need it; a farm can instead run on a **clock** (self-timed activation). Clocks are not limited to simple farms — 4gt designs (including complex ones) run on a 4gt clock, and 8gt/12gt mega-spruce are clock-based exceptions too.[^gtmc-tree-farm-4gt] The usual guideline is that designs whose processing cycle is **longer than 4gt** tend to switch to detection, since a clock that slow leaves the growth window underused; but clock periods themselves range widely (3gt–12gt) and the choice is a design tradeoff, not a fixed rule.[^gtmc-tree-farm-simple-design] When detection is used, common methods are **comparator**, **QC**, **BUD**, and **push-limit** (push-limit dominant in modern designs).[^gtmc-tree-farm-simple-design]
 3. **Harvesting** — chopping the tree and collecting logs + saplings (often automated with pistons/slime).
 
 ## Why this is the on-ramp
