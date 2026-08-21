@@ -166,7 +166,11 @@ def lint_concept(bag):
 
 def lint_graph(bag):
     """Every raw source must be reachable by a markdown link from >=1 concept body
-    (otherwise it is invisible/isolated in Obsidian's Graph View)."""
+    (otherwise it is invisible/isolated in Obsidian's Graph View).
+    Skipped when there are no concept files (e.g. a raw-only branch)."""
+    concept_files = glob.glob(os.path.join(CON, '*.md'))
+    if not concept_files:
+        return
     raw_ids = set(os.path.basename(x)[:-3] for x in glob.glob(os.path.join(RAW, '*.md')))
     inbound = {r: 0 for r in raw_ids}
     for p in glob.glob(os.path.join(CON, '*.md')):
