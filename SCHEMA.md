@@ -63,7 +63,7 @@ Add new tags HERE before using them.
 - structures: architecture, base, module, block-stream
 - methods: detection, bonemealing, trunk-processing, leaf-processing, sapling-recycling, block-to-drop
 - techniques: 0-tick, dustless, high-speed, clock, cross-bonemealing
-- trees: birch, oak, spruce, jungle, acacia, dark-oak, cherry, azalea
+- trees: birch, oak, spruce, jungle, acacia, dark-oak, cherry, azalea, mangrove
 - farms: tree-farm, 4gt, multi-species, large-spruce
 - meta: source-gtmc, version-sensitive
 

@@ -56,7 +56,7 @@ A **tree farm** plants many saplings, grows them into trees, and harvests logs (
 Tree farms split on two independent axes:
 
 **By trunk size** (the dominant design split):
-- **1×1 farms** — oak, birch, spruce, jungle, acacia, cherry. Grown from a single sapling.
+- **1×1 farms** — oak, birch, spruce, jungle, acacia, cherry, **mangrove**. Grown from a single sapling. Mangrove is unique: it can be planted **underwater** and creates mangrove roots (extra fuel); bone meal on its leaves yields a guaranteed propagule.[^mcwiki-tree-farming]
 - **2×2 farms** — dark oak (and large spruce, which uses a 2×2 spruce plant). Grown from a 2×2 sapling grid; can't grow individually.[^mcwiki-dark-oak]
 
 **By speed / technique tier:**
