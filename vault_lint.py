@@ -165,22 +165,38 @@ def lint_concept(bag):
 
 
 def lint_graph(bag):
-    """Every raw source must be reachable by a markdown link from >=1 concept body
-    (otherwise it is invisible/isolated in Obsidian's Graph View).
+    """Source->concept connectivity (Obsidian Graph View visibility).
+
+    Two tiers:
+      HIGH  - a source IS cited in some concept's `sources[]` but has NO inbound
+              markdown link. That is a genuine defect (we claimed to use it but
+              never connected it) -- the exact orphan class fixed during cleanup.
+      LOW   - a raw source not cited by ANY concept yet. During an incremental
+              rebuild this is expected ("not built yet"); only a warning so it
+              does not block legitimate step-by-step construction.
+
     Skipped when there are no concept files (e.g. a raw-only branch)."""
     concept_files = glob.glob(os.path.join(CON, '*.md'))
     if not concept_files:
         return
     raw_ids = set(os.path.basename(x)[:-3] for x in glob.glob(os.path.join(RAW, '*.md')))
     inbound = {r: 0 for r in raw_ids}
-    for p in glob.glob(os.path.join(CON, '*.md')):
+    cited = set()
+    for p in concept_files:
         t = open(p, encoding='utf-8').read()
+        for sid in SRC_ID.findall(t.split('---', 2)[1]):
+            if sid in raw_ids:
+                cited.add(sid)
         for r in raw_ids:
             if re.search(r'\]\(raw/articles/' + re.escape(r) + r'\.md\)', t):
                 inbound[r] += 1
     for r, c in inbound.items():
         if c == 0:
-            err('HIGH', r, 'source has NO inbound markdown link from any concept (isolated in Obsidian graph)', bag)
+            sev = 'HIGH' if r in cited else 'LOW'
+            msg = ('source cited in sources[] but has NO inbound markdown link '
+                   '(isolated in Obsidian graph)') if sev == 'HIGH' else \
+                  'raw source not yet linked by any concept (not built yet)'
+            err(sev, r, msg, bag)
 
 
 def main():

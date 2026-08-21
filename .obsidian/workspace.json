@@ -191,6 +191,8 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "concepts/tree-farm-overview.md",
+    "concepts",
     "concepts/dustless-wiring.md",
     "raw/articles/gtmc-tree-farm-dustless-wiring.md",
     "concepts/0-tick.md",
@@ -220,12 +222,10 @@
     "raw/articles/tmwiki-rail-budding.md",
     "raw/articles/tmwiki-tile-ticks.md",
     "_fix_sha.py",
-    "concepts/tick-micro-timing.md",
     "_repair_citations.py",
     "_fix_fn_blank.py",
     "_dedup_resource.py",
     "_okf_migrate.py",
-    "_okf_v02.py",
-    "okf-report.json"
+    "_okf_v02.py"
   ]
 }
