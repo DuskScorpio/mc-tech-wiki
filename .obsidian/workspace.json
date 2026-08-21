@@ -191,12 +191,14 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "concepts/tree-farm-detection.md",
+    "todo.md",
+    "concepts/tree-farm.md",
     "claim_audit.py",
     "raw/articles/gtmc-tree-farm-simple-design.md",
     "raw/articles/gtmc-slime-introduction.md",
     "raw/articles/gtmc-tree-farm-basics.md",
     "raw/articles/gtmc-tree-farm-foreword.md",
-    "concepts/tree-farm.md",
     "raw/articles/gtmc-tree-farm-dustless-wiring.md",
     "concepts/tree-farm-overview.md",
     "concepts",
@@ -219,13 +221,11 @@
     "concepts/continuous-updates.md",
     "concepts/block-to-drop.md",
     "concepts/block-nature.md",
-    "todo.md",
     "_repoint_fn.py",
     "_fix_sha.py",
     "_repair_citations.py",
     "_fix_fn_blank.py",
     "_dedup_resource.py",
-    "_okf_migrate.py",
-    "_okf_v02.py"
+    "_okf_migrate.py"
   ]
 }
