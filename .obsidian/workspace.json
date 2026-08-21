@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/gtmc-tree-farm-simple-design.md",
+                "file": "concepts/tree-farm.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gtmc-tree-farm-simple-design"
+              "title": "tree-farm"
             }
           }
         ]
@@ -191,6 +191,8 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "claim_audit.py",
+    "raw/articles/gtmc-tree-farm-simple-design.md",
     "raw/articles/gtmc-slime-introduction.md",
     "raw/articles/gtmc-tree-farm-basics.md",
     "raw/articles/gtmc-tree-farm-foreword.md",
@@ -219,8 +221,6 @@
     "concepts/block-nature.md",
     "todo.md",
     "_repoint_fn.py",
-    "raw/articles/mcwiki-tree-farming.md",
-    "raw/articles/mcwiki-dark-oak.md",
     "_fix_sha.py",
     "_repair_citations.py",
     "_fix_fn_blank.py",
