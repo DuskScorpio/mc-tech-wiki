@@ -129,8 +129,11 @@ def lint_concept(bag):
         refs = set(FN_REF.findall(t))
         defs = set(m.group(1) for m in FN_DEF.finditer(t))
         for r in refs:
-            if r not in defs and r not in sids:
-                err('HIGH', fn, f'inline footnote [^{r}] has no def and no sources[] id', bag)
+            # An inline ref MUST resolve to an actual [^id]: def block in the
+            # body -- Obsidian renders it as literal text if only a sources[]
+            # id exists (no def). sources[] is provenance, NOT a footnote def.
+            if r not in defs:
+                err('HIGH', fn, f'inline footnote [^{r}] has no matching [^{r}]: def block (Obsidian shows it as literal text)', bag)
             if not FN_ID_SAFE.match(r):
                 err('HIGH', fn, f'footnote id "{r}" not [a-z0-9_-] safe (spaces/dots break Obsidian)', bag)
         for d in defs:

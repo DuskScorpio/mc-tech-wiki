@@ -107,4 +107,4 @@ These GTMC / Minecraft-Wiki articles back the pages above; each will become its 
 [^gtmc-tree-farm-dustless-wiring]: [gtmc-tree-farm-dustless-wiring.md](raw/articles/gtmc-tree-farm-dustless-wiring.md)
 [^mcwiki-tree-farming]: [mcwiki-tree-farming.md](raw/articles/mcwiki-tree-farming.md)
 [^mcwiki-sapling]: [mcwiki-sapling.md](raw/articles/mcwiki-sapling.md)
-[^mcwiki-dark-oak-growth]: [mcwiki-dark-oak.md](raw/articles/mcwiki-dark-oak.md)
+[^mcwiki-dark-oak]: [mcwiki-dark-oak.md](raw/articles/mcwiki-dark-oak.md)
