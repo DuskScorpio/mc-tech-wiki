@@ -115,3 +115,4 @@ Contract (derived from SPEC.md, not from the validator's tolerance):
 - GTMC is **Java 1.20.1**. Never generalize a Java mechanic to Bedrock without a Bedrock source.
 - "Basics section" in GTMC may use generalized (slightly imprecise) statements marked with superscripts — the precise version is in the Advanced section. Prefer the precise statement.
 - 1.14-and-below behavior (jungle/acacia height increase, spruce retractable wall) is explicitly out of scope for the 1.15+ pages — do not mix them.
+- **Per-tree-type page structure:** every tree type gets a dedicated `<type>-growth` page (growth mechanics differ per type: space/light, 2×2 grid logic, bone-meal behavior, special cases). A shared `tree-growth-mechanics` page holds COMMON rules and LINKS OUT to each per-type page; it must not duplicate per-type specifics. Per-type pages are growth-only — farm design belongs on the design/farm pages, not the growth page.

@@ -11,17 +11,25 @@ Workflow rule: build concept pages one at a time, faithful to sources (SCHEMA Cl
 
 Done so far: tree-farm.md (hub), tree-farm-detection.md.
 
-PRINCIPLE — we do NOT copy GTMC's structure: GTMC owns the *facts* (it is a raw
-source we cite), but WE own the *organization*. We are NOT building one concept
-per GTMC article in GTMC's teaching order, and we are NOT bound to GTMC's scope.
-Concretely, when building from the raw sources we may: merge several GTMC articles
-into one concept; split one GTMC article across several concepts (already done:
-tree-farm-detection was extracted from basics/simple-design/4gt); rename pages to
-our taxonomy (e.g. per-species pages instead of GTMC's design-framing); and ADD
-pages GTMC lacks (mangrove, clock-vs-detection tradeoff, timing/NC-PP primer).
-Non-GTMC sources (Minecraft Wiki, Bilibili) are pulled in where better or to fill
-gaps. The Claim-to-source rule still applies: every assertion traces to a raw
-mirror, regardless of which source it came from.
+PRINCIPLE — PER-TREE-TYPE PAGES: every tree type gets at least one dedicated
+growth-mechanics page, because growth mechanics differ substantially (space/light
+rules, 2x2 grid logic, bone-meal behavior, special cases). A shared
+`tree-growth-mechanics` page holds the COMMON mechanics (growth probability,
+bone-meal, light/space checks) and LINKS OUT to each per-type page — it does
+not repeat per-type specifics. Per-type pages are GROWTH-ONLY (space/light/
+bone-meal/special-case); farm design lives on the design/farm pages.
+
+Per-type page set (naming: <type>-growth):
+- 1x1: oak-growth, birch-growth, spruce-growth (1x1), jungle-growth (pre-1.14
+  height-increase detection), acacia-growth (pre-1.14), cherry-growth,
+  azalea-growth, mangrove-growth (underwater + propagule-from-leaves, Minecraft Wiki)
+- 2x2: dark-oak-growth (2x2 grid, can't grow alone, Fortune sapling economy),
+  large-spruce-growth (3x3->5x5 detection range, retractable wall, double recursion)
+- shared: tree-growth-mechanics (common rules; links to all per-type pages)
+
+Source mapping per type: GTMC basics + Minecraft Wiki Sapling for general;
+gtmc-tree-farm-large-spruce for large spruce; bilibili-dark-oak-growth(+en) for
+dark oak; mcwiki-tree-farming for mangrove; mcwiki-dark-oak for 2x2 grid rule.
 
 Source material available to draw from (NOT a 1:1 page list — regroup as above):
 - GTMC tree-farm series: basics, simple-design, high-speed, 4gt, multi-species, large-spruce, dustless-wiring
