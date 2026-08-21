@@ -32,7 +32,7 @@ status: stable
 
 # Dark Oak Growth Mechanics
 
-Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)'s Bilibili post (edited 2025-02-09, ~Java 1.21.x), which draws on Sine_Chen's dark oak work and code review by 1uu1, Wormbo, Dreaming_Galaxy, 幽帘幽梦.[^bilibili-dark-oak-growth]
+Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)'s Bilibili post (edited 2025-02-09, ~Java 1.21.x), which draws on Sine_Chen's dark oak work and code review by 1uu1, Wormbo, Dreaming_Galaxy, 幽帘幽梦.[^bilibili-dark-oak-growth-en][^bilibili-dark-oak-growth]
 
 > **Version note:** this page describes Java ~1.21.x; the wiki's GTMC baseline is 1.20.1. One behavior changed in 1.21.4 (leaf centering on bent trunks, MC-237375) — treat that detail as version-sensitive.[^bilibili-dark-oak-growth]
 
@@ -69,7 +69,7 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 ## Farming implications
 
 - Dark oak's 2×2 trunk + irregular branches make it a special case in multi-species farms (GTMC notes it can't be handled by some "center consolidation" methods and retains 1.14-style growth detection in 1.20.1).[^gtmc-tree-farm-multi-species]
-- Sapling economy is tight: Minecraft Wiki notes only ~1 in 5 dark oak trees yield saplings plentifully; Fortune on leaves helps sustainability. The leaf sapling drop is still the standard 1/20 per leaf.[^minecraft.wiki Tutorial:Tree_farming]
+- Sapling economy is tight: Minecraft Wiki notes only ~1 in 5 dark oak trees yield saplings plentifully; Fortune on leaves helps sustainability. The leaf sapling drop is still the standard 1/20 per leaf.[^mcwiki-tree-farming]
 
 ## Related
 
@@ -78,6 +78,7 @@ Code-level growth mechanics for 2×2 dark oak, compiled from Scorpio (天蝎君)
 - [leaf-processing](/concepts/leaf-processing.md) — 1/20 sapling drop
 
 [^bilibili-dark-oak-growth]: [bilibili-dark-oak-growth.md](raw/articles/bilibili-dark-oak-growth.md)
+[^bilibili-dark-oak-growth-en]: [bilibili-dark-oak-growth-en.md](raw/articles/bilibili-dark-oak-growth-en.md)
 [^gtmc-tree-farm-multi-species]: [gtmc-tree-farm-multi-species.md](raw/articles/gtmc-tree-farm-multi-species.md)
 [^mcwiki-dark-oak]: [mcwiki-dark-oak.md](raw/articles/mcwiki-dark-oak.md)
 [^mcwiki-tree-farming]: [mcwiki-tree-farming.md](raw/articles/mcwiki-tree-farming.md)

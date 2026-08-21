@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/block-to-drop.md",
-                "mode": "preview",
-                "source": true
+                "file": "concepts/updates-nc-pp.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "block-to-drop"
+              "title": "updates-nc-pp"
             }
           }
         ]
@@ -191,6 +191,12 @@
   },
   "active": "b7bbdf8407a8926a",
   "lastOpenFiles": [
+    "concepts/zero-tick-farming-crops.md",
+    "concepts/update-theory.md",
+    "concepts/tree-species-requirements.md",
+    "concepts/linkages.md",
+    "concepts/continuous-updates.md",
+    "concepts/block-to-drop.md",
     "raw/articles/techmc-glossary.md",
     "concepts/block-nature.md",
     "concepts/0-tick.md",
@@ -210,16 +216,10 @@
     "SCHEMA.md",
     "concepts/dark-oak-growth-mechanics.md",
     "concepts/detection-methods.md",
-    "concepts/tree-species-requirements.md",
     "raw/articles/bilibili-dark-oak-growth.md",
     "^gtmc-micro-timing-intra-tick.md",
     "concepts/large-spruce-tree-farm.md",
     "^gtmc-scheduled-ticks.md",
-    "concepts/linkages.md",
-    "concepts/piston-mechanics.md",
-    "concepts/block-to-drop.md",
-    "concepts/4gt-tree-farm.md",
-    "concepts/moving-block-b36.md",
     "_fix_fn_blank.py",
     "_dedup_resource.py",
     "_okf_migrate.py",

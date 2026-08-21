@@ -22,7 +22,7 @@ status: stable
 
 # Flying Machines (Slime Tech)
 
-A flying machine is a self-propelling structure built from pistons, Observers, and Slime/Honey blocks. Because Minecraft blocks have no momentum, a structure can be "walked" forward one block at a time by alternating piston pushes and pulls.[^gtmc-flying-machine-basics]
+A flying machine is a self-propelling structure built from pistons, Observers, and Slime/Honey blocks. Because Minecraft blocks have no momentum, a structure can be "walked" forward one block at a time by alternating piston pushes and pulls.[^gtmc-flying-machine-basics][^gtmc-slime-introduction]
 
 ## Principle
 A regular Piston ("right foot") stays put while a sticky piston pulls the rear section; then the rear regular Piston pushes the front section into place; an Observer fires and the sticky piston pulls the rear again. Inserting a sequentially activating circuit turns this into a continuous mover.[^gtmc-flying-machine-basics]
@@ -46,3 +46,4 @@ A regular Piston ("right foot") stays put while a sticky piston pulls the rear s
 - [Glossary](/concepts/glossary.md) — slime/honey, observer term definitions
 
 [^gtmc-flying-machine-basics]: [gtmc-flying-machine-basics.md](raw/articles/gtmc-flying-machine-basics.md)
+[^gtmc-slime-introduction]: [gtmc-slime-introduction.md](raw/articles/gtmc-slime-introduction.md)

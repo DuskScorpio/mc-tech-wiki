@@ -51,7 +51,7 @@ In 1.20.1 nearly every block change flows through `World#setBlockState(pos, stat
 
 **Breaking** (`ServerPlayerInteractionManager#tryBreakBlock`): `onBreak → removeBlock → onBroken → tool damage → drops`. `removeBlock` replaces the position with the **fluid state**, not air — so a waterlogged block leaves water behind (the water was never a separate block placed after). `breakBlock` (commands/updates) additionally drops items *before* replacing the state.[^gtmc-block-changes]
 
-> **Confidence note:** upgraded from `medium` to `high` after ingesting GTMC's two `block-mechanics` sub-articles (blocks-and-states, block-changes), which fully specify the Block/BlockState model and the `setBlockState` write path for 1.20.1.
+> **Confidence note:** upgraded from `medium` to `high` after ingesting GTMC's two `block-mechanics` sub-articles (blocks-and-states, block-changes), which fully specify the Block/BlockState model and the `setBlockState` write path for 1.20.1.[^gtmc-block-mechanics]
 
 ## Related
 - [piston-mechanics](/concepts/piston-mechanics.md) — piston uses BlockState EXTENDED + getPlacementState; FORCE_STATE skips PP (QC)
@@ -61,3 +61,4 @@ In 1.20.1 nearly every block change flows through `World#setBlockState(pos, stat
 
 [^gtmc-blocks-and-states]: [gtmc-blocks-and-states.md](raw/articles/gtmc-blocks-and-states.md)
 [^gtmc-block-changes]: [gtmc-block-changes.md](raw/articles/gtmc-block-changes.md)
+[^gtmc-block-mechanics]: [gtmc-block-mechanics.md](raw/articles/gtmc-block-mechanics.md)

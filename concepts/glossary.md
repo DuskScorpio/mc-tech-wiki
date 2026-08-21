@@ -20,7 +20,7 @@ status: stable
 # Glossary
 
 English term + definition reference for Technical Minecraft (Java).
-Terms sourced from the TechMC-Glossary project (community-standard definitions).
+Terms sourced from the TechMC-Glossary project (community-standard definitions).[^techmc-glossary]
 
 > This wiki is English-only. Term definitions here are for disambiguation within the vault;
 > for in-game item/block names, Mojang official naming applies.
@@ -105,3 +105,5 @@ Terms sourced from the TechMC-Glossary project (community-standard definitions).
 ## Related
 - [tree-farm-overview](/concepts/tree-farm-overview.md) — terms used across the farm pages
 - [mc-timing-model](/concepts/mc-timing-model.md) — gt, tile tick, micro-timing
+
+[^techmc-glossary]: [techmc-glossary.md](raw/articles/techmc-glossary.md)
