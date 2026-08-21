@@ -67,12 +67,12 @@ Tree farms split on two independent axes:
 - **Large spruce** — 8gt large-spruce specialist.[^gtmc-tree-farm-large-spruce]
 - **Dustless** — wiring technique (cross-cuts all tiers) aimed at lag reduction, not dustlessness for its own sake.[^gtmc-tree-farm-dustless-wiring]
 
-## The three subsystems every farm needs
+## The three stages (growth → detection → harvesting)
 
-Regardless of tier, a tree farm is the composition of three subsystems:
+Regardless of tier, a tree farm moves a sapling through three stages:
 
 1. **Growth** — getting saplings to actually grow (species requirements, space, bone meal). See [Sapling](raw/articles/mcwiki-sapling.md) and growth mechanics.
-2. **Detection** — knowing a tree has grown, typically via a Tile-Tick-scheduled leaf distance check (BUD) or other update.[^gtmc-tree-farm-basics]
+2. **Detection** *(optional)* — knowing the tree has grown so the farm can trigger its processing. Not all tree farms need it; simple designs with a short (≤4gt) cycle can run on a clock instead.[^gtmc-tree-farm-basics] When used, common methods are **comparator**, **QC**, **BUD**, and **push-limit** detection (push-limit is the dominant method in modern designs).[^gtmc-tree-farm-simple-design]
 3. **Harvesting** — chopping the tree and collecting logs + saplings (often automated with pistons/slime).
 
 ## Why this is the on-ramp
